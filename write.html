@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Write a Blog | Bharatiya Mazdoor Sangh</title>
+<meta name="description" content="Write a blog post for Bharatiya Mazdoor Sangh">
+<meta name="theme-color" content="#7A1F0B">
+<meta property="og:title" content="Who's Who — National Office Bearers | Bharatiya Mazdoor Sangh"><meta property="og:description" content="Names, phone, email and photographs of the National Office Bearers of Bharatiya Mazdoor Sangh."><meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bharatiya Mazdoor Sangh","url":"https://bharatiyamazdoorsangh.com","sameAs":["https://www.facebook.com/BMSkendra","https://twitter.com/BMSkendra"]}</script>
+</head><body data-page="write">
+<a class="skip" href="#main">Skip to content</a>
+<div id="hdr"></div>
+<div class="pagehead"><div class="wrap"><div class="crumb"><a href="index.html">Home</a> / Write a Blog</div><h1>Write a Blog</h1><p>Draft your article, preview it, then send it for publishing.</p></div></div><main id="main" class="wrap" style="padding:30px 18px 60px"><form id="wf" class="wform" onsubmit="return false">
+<div class="grid g2"><label>Title<input name="title" required></label><label>Author<input name="author"></label>
+<label>Date<input name="date" type="date"></label><label>Category<input name="category" placeholder="e.g. Labour Law, Field Report"></label>
+<label>Language<select name="lang"><option value="en">English</option><option value="hi">हिन्दी</option><option value="bn">বাংলা</option><option value="mr">मराठी</option><option value="other">Other</option></select></label><label>Cover image URL (optional)<input name="cover" type="url"></label>
+<label>URL name (optional, letters-digits-hyphens)<input name="slug"></label><label>Short summary<input name="summary" maxlength="220"></label></div>
+<label>Article (simple formatting: # heading, **bold**, *italic*, - list, [link](https://…))<textarea name="body" rows="12"></textarea></label>
+<label class="chk"><input type="checkbox" name="fb"> Also share this post on the BMS Facebook page when published</label></form>
+<div class="grid g2" style="margin-top:20px"><div class="box"><h3>Preview</h3><div class="md" id="wp"></div></div><div class="box"><h3>Post file</h3><pre id="wj" class="wj"></pre><p><button class="btn sm" id="wc" type="button">Copy</button> <button class="btn sm ghost dk" id="wd" type="button">Download .json</button> <button class="btn sm ghost dk" id="wg" type="button" hidden>Publish on GitHub</button> <span id="wmsg" class="note"></span></p>
+<p class="note">To publish: put the downloaded file in <code>data/blogs/</code> of the website repository. The site rebuilds its blog list automatically. Only people with access to the repository (or the admin portal later) can publish; this page only prepares the file.</p></div></div></main>
+<div id="ftr"></div><div id="gt"></div>
+<script src="assets/js/app.js" defer></script>
+</body></html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bharatiyamazdoorsangh.com/sitemap.xml
