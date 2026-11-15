@@ -1,0 +1,149 @@
+{
+ "updated": "2026-11-15",
+ "items": [
+  {
+   "group": "Brand kit",
+   "title": "Complete BMS Brand Kit (ZIP)",
+   "desc": "Emblem, banner, slogan (SVG + PNG), programme banner, stage backdrop and brand guide.",
+   "file": "assets/downloads/bms-brand-kit.zip",
+   "type": "ZIP",
+   "size": "3.5 MB",
+   "featured": true
+  },
+  {
+   "group": "Logo",
+   "title": "BMS emblem — vector (SVG)",
+   "desc": "Scales to any size; use for print, flex and signage.",
+   "file": "assets/brand/bms-emblem.svg",
+   "type": "SVG",
+   "size": "53 KB",
+   "featured": false
+  },
+  {
+   "group": "Logo",
+   "title": "BMS emblem — 3000 px PNG",
+   "desc": "Transparent background.",
+   "file": "assets/brand/bms-emblem-3000px.png",
+   "type": "PNG",
+   "size": "979 KB",
+   "featured": false
+  },
+  {
+   "group": "Logo",
+   "title": "BMS emblem — 3000 px, white background",
+   "desc": "For documents and slides.",
+   "file": "assets/brand/bms-emblem-3000px-white.png",
+   "type": "PNG",
+   "size": "892 KB",
+   "featured": false
+  },
+  {
+   "group": "Banner",
+   "title": "BMS banner (emblem + Hindi/English name) — SVG",
+   "desc": "The standard letterhead banner.",
+   "file": "assets/brand/bms-banner.svg",
+   "type": "SVG",
+   "size": "114 KB",
+   "featured": false
+  },
+  {
+   "group": "Banner",
+   "title": "BMS banner — 6000 px PNG",
+   "desc": "Transparent background.",
+   "file": "assets/brand/bms-banner-6000px.png",
+   "type": "PNG",
+   "size": "731 KB",
+   "featured": false
+  },
+  {
+   "group": "Banner",
+   "title": "BMS banner — 3000 px, white background",
+   "desc": "For Word/PowerPoint.",
+   "file": "assets/brand/bms-banner-3000px-white.png",
+   "type": "PNG",
+   "size": "298 KB",
+   "featured": false
+  },
+  {
+   "group": "Slogan",
+   "title": "Slogan राष्ट्रहित · उद्योगहित · मजदूरहित — SVG",
+   "desc": "Vector.",
+   "file": "assets/brand/bms-slogan.svg",
+   "type": "SVG",
+   "size": "34 KB",
+   "featured": false
+  },
+  {
+   "group": "Slogan",
+   "title": "Slogan — 6000 px PNG",
+   "desc": "Transparent background.",
+   "file": "assets/brand/bms-slogan-6000px.png",
+   "type": "PNG",
+   "size": "172 KB",
+   "featured": false
+  },
+  {
+   "group": "Programme banner",
+   "title": "Common programme banner — editable SVG (32:12)",
+   "desc": "Emblem, name, slogan, title box and address strip. Edit the title and venue in Inkscape, Canva or any text editor.",
+   "file": "assets/brand/bms-programme-banner.svg",
+   "type": "SVG",
+   "size": "149 KB",
+   "featured": true
+  },
+  {
+   "group": "Programme banner",
+   "title": "Common programme banner — 3200 px PNG",
+   "desc": "Ready for flex printing.",
+   "file": "assets/brand/bms-programme-banner-3200px.png",
+   "type": "PNG",
+   "size": "258 KB",
+   "featured": false
+  },
+  {
+   "group": "Programme banner",
+   "title": "Stage backdrop 16:9 — editable SVG",
+   "desc": "For projector screens and live-stream overlays.",
+   "file": "assets/brand/bms-stage-backdrop-16x9.svg",
+   "type": "SVG",
+   "size": "149 KB",
+   "featured": false
+  },
+  {
+   "group": "Programme banner",
+   "title": "Stage backdrop 16:9 — 1920 px PNG",
+   "desc": "Full-HD.",
+   "file": "assets/brand/bms-stage-backdrop-1920px.png",
+   "type": "PNG",
+   "size": "180 KB",
+   "featured": false
+  },
+  {
+   "group": "Guidelines",
+   "title": "Quick brand guide (colours, fonts, usage)",
+   "desc": "One-page text guide.",
+   "file": "assets/brand/BMS-brand-guidelines.txt",
+   "type": "TXT",
+   "size": "1 KB",
+   "featured": false
+  }
+ ],
+ "links": [
+  {
+   "title": "Photo gallery (latest from BMS Facebook)",
+   "url": "gallery.html"
+  },
+  {
+   "title": "Press releases",
+   "url": "press.html"
+  },
+  {
+   "title": "Dattopant Thengadi Ji — story",
+   "url": "story.html"
+  },
+  {
+   "title": "Labour notice board",
+   "url": "notices.html"
+  }
+ ]
+}

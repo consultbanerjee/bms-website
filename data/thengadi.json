@@ -1,0 +1,575 @@
+{
+ "name": "Dattopant Thengadi",
+ "name_hi": "दत्तोपंत ठेंगड़ी",
+ "years": "10 November 1920 – 14 October 2004",
+ "photo": "assets/img/thengadi.jpg",
+ "epoch": "2026-01-05",
+ "cycle_weeks": 26,
+ "slogan_en": [
+  "Nationalise the Labour",
+  "Labourise the Industry",
+  "Industrialise the Nation"
+ ],
+ "slogan_hi": "राष्ट्रहित · उद्योगहित · मजदूरहित",
+ "note": "One story per week (Monday 00:00 IST). 26 stories = 6 months; the cycle then repeats from week 1. Edit or add stories here and set cycle_weeks to the number of stories.",
+ "links": [
+  {
+   "label": "dbthengadi.in — Dattopant Thengadi archive",
+   "url": "https://dbthengadi.in/"
+  },
+  {
+   "label": "Wikipedia: Dattopant Thengadi",
+   "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+  },
+  {
+   "label": "Tribute & life profile (V.V. Giri National Labour Institute, PDF)",
+   "url": "https://www.vvgnli.gov.in/sites/default/files/A%20Tribute%20to%20the%20Legend%20-%20Shri%20Dattopant%20Bapurao%20Thengadi.pdf"
+  },
+  {
+   "label": "Bharatiya Mazdoor Sangh",
+   "url": "https://www.bms.org.in"
+  }
+ ],
+ "stories": [
+  {
+   "id": "w01",
+   "week": 1,
+   "title": "A Deepawali birth in Arvi",
+   "summary": "Dattopant Thengadi was born in Arvi, Wardha, Maharashtra, on Deepawali day, 10 November 1920.",
+   "body": "Dattatreya Bapurao Thengadi — remembered by the world as Dattopant Thengadi — was born in the village of Arvi in the Wardha district of Maharashtra on the day of Deepawali, 10 November 1920.\n\nHe was born into a middle-class family. His father was Bapurao Dajiba Thengadi and his mother was Janaki Devi.\n\nThe boy from a small Maharashtra town would grow into one of the foremost organisation builders of modern India — a man who, over some six decades of public life, nurtured workers and institutions that still carry his thought forward.",
+   "tag": "Life",
+   "links": [
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    },
+    {
+     "label": "News Bharati: 10 facts about Thengadi Ji",
+     "url": "https://www.newsbharati.com/Encyc/2021/10/14/Dattopant-Thengadi.html"
+    }
+   ]
+  },
+  {
+   "id": "w02",
+   "week": 2,
+   "title": "A leader at fifteen",
+   "summary": "At just fifteen, he was already leading the Vanar Sena and the student union of his high school in Arvi.",
+   "body": "Leadership showed early in Thengadi Ji's life. At the age of fifteen he led the Vanar Sena, the children's wing associated with the freedom movement, and headed the student union of his municipal high school in Arvi.\n\nThese were small beginnings, but they point to a pattern that marked his whole career: a quiet capacity to gather people, give them a purpose and keep them organised.",
+   "tag": "Life",
+   "links": [
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "dbthengadi.in — Dattopant Thengadi archive",
+     "url": "https://dbthengadi.in/"
+    }
+   ]
+  },
+  {
+   "id": "w03",
+   "week": 3,
+   "title": "From Morris College to the law",
+   "summary": "He studied at Morris College and took an LLB at the Law College in Nagpur.",
+   "body": "Thengadi Ji pursued higher studies at Morris College, Nagpur, and then took his law degree (LLB) from the Law College in Nagpur.\n\nHis legal training and his command of ideas — he was equally at home with Marxist theory and with the Indian tradition — later helped him argue for an indigenous labour movement on firm intellectual ground.",
+   "tag": "Life",
+   "links": [
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "The Organiser: A Visionary Architect",
+     "url": "https://www.organiser.org/Encyc/2018/11/10/Dattopant-Thengadi-A-Visionary-Architect.html"
+    }
+   ]
+  },
+  {
+   "id": "w04",
+   "week": 4,
+   "title": "1942: a life given to the nation",
+   "summary": "In 1942 he became a full-time RSS pracharak, a commitment he kept until his death in 2004.",
+   "body": "Impressed by the life and vision of Dr Keshav Baliram Hedgewar, the founder of the Rashtriya Swayamsevak Sangh, Thengadi Ji decided to dedicate his life to the nation by becoming a Sangh pracharak in 1942.\n\nHe remained a full-time pracharak until his last day on 14 October 2004.\n\nHis early assignments took him across the country: Kerala from 1942 to 1944, Bengal from 1945 to 1947 and Assam in 1948–49 — a grounding in the diversity of Bharat that shaped his later organising work.",
+   "tag": "Life",
+   "links": [
+    {
+     "label": "The builder of ‘Himalayas’ (Pawan Kumar)",
+     "url": "https://dbthengadi.in/the-builder-of-himalayaspawan-kumar/"
+    },
+    {
+     "label": "An efficient organisation builder",
+     "url": "https://dbthengadi.in/an-efficient-organisation-builder/"
+    },
+    {
+     "label": "News Bharati: 10 facts about Thengadi Ji",
+     "url": "https://www.newsbharati.com/Encyc/2021/10/14/Dattopant-Thengadi.html"
+    }
+   ]
+  },
+  {
+   "id": "w05",
+   "week": 5,
+   "title": "Learning the tools of the trade",
+   "summary": "Before founding BMS he worked inside the existing labour organisations to learn how trade unions actually function.",
+   "body": "When he turned to the labour field, Thengadi Ji did not begin by criticising from the outside. He worked within the existing labour organisations — among them INTUC, where he served as an organising secretary in 1950–51 — and was associated with unions of postal and railway workers.\n\nHe studied how trade unions function, what they achieved and where they fell short. Prof. Rakesh Sinha notes that he did this to learn the tools of trade unionism before building something new.\n\nEntrusted with building a labour organisation, Thengadi Ji humbly admitted that he had no experience of it — and set about learning.",
+   "tag": "Labour",
+   "links": [
+    {
+     "label": "He changed the paradigm of the trade union movement — Prof. Rakesh Sinha",
+     "url": "https://dbthengadi.in/he-changed-the-paradigm-of-the-trade-union-movement-prof-rakesh-sinha"
+    },
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    }
+   ]
+  },
+  {
+   "id": "w06",
+   "week": 6,
+   "title": "Jana Sangh years and the Rajya Sabha",
+   "summary": "He served the Bharatiya Jana Sangh as an organiser and sat in the Rajya Sabha for two terms between 1964 and 1976.",
+   "body": "In the early 1950s Thengadi Ji worked as organising secretary of the Bharatiya Jana Sangh in Madhya Pradesh, and later in South India.\n\nHe was elected to the Rajya Sabha from the Jana Sangh for two terms between 1964 and 1976, and served as its vice-chairman in 1968–70.\n\nEven in Parliament he stayed what he had always been — a worker among workers, who used the platform to speak for labour, farmers and the common citizen.",
+   "tag": "Public life",
+   "links": [
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "An efficient organisation builder",
+     "url": "https://dbthengadi.in/an-efficient-organisation-builder/"
+    },
+    {
+     "label": "Tribute & life profile (V.V. Giri National Labour Institute, PDF)",
+     "url": "https://www.vvgnli.gov.in/sites/default/files/A%20Tribute%20to%20the%20Legend%20-%20Shri%20Dattopant%20Bapurao%20Thengadi.pdf"
+    }
+   ]
+  },
+  {
+   "id": "w07",
+   "week": 7,
+   "title": "23 July 1955: BMS is born",
+   "summary": "The Bharatiya Mazdoor Sangh was founded on 23 July 1955 at Bhopal.",
+   "body": "On 23 July 1955 Dattopant Thengadi founded the Bharatiya Mazdoor Sangh at Bhopal. The labour movement of the time was dominated by Left philosophy, and BMS began as a deliberate alternative rooted in national thought.\n\nDuring discussions on what to call the new organisation, Thengadi Ji himself had suggested the name Shramjivi Sangathan. In the end the name Bharatiya Mazdoor Sangh was chosen because it was simple and meaningful.\n\nBMS started from scratch, and he spent decades patiently building it — a journey that made it, in time, the largest central trade union organisation in the country.",
+   "tag": "BMS",
+   "links": [
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    },
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "A visionary of indigenous modernity",
+     "url": "https://dbthengadi.in/a-visionary-of-indigenous-modernitykrishna-chandra-mishra/"
+    }
+   ]
+  },
+  {
+   "id": "w08",
+   "week": 8,
+   "title": "The three-line motto",
+   "summary": "Nationalise the Labour, Labourise the Industry, Industrialise the Nation — the slogan that defines BMS.",
+   "body": "When socialism and communism were the buzzwords of the day, Thengadi Ji's three-line motto was a bold and unconventional idea: **Nationalise the Labour, Labourise the Industry, Industrialise the Nation.**\n\n*Nationalise the Labour* means to instil national feeling and pride in the worker. *Labourise the Industry* means that workers are co-owners of the industry once labour is fairly valued as capital. *Industrialise the Nation* means that the country's growth must come through sustainable industry.\n\nSeven decades later, the motto is still printed on every BMS banner and publication.",
+   "tag": "Motto",
+   "links": [
+    {
+     "label": "The Organiser: BMS at 70",
+     "url": "https://organiser.org/2025/07/21/303771/bharat/bms-at-70-laborious-resetting-of-labour-agenda/"
+    },
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    },
+    {
+     "label": "Bharatiya Mazdoor Sangh",
+     "url": "https://www.bms.org.in"
+    }
+   ]
+  },
+  {
+   "id": "w09",
+   "week": 9,
+   "title": "Workers unite the world",
+   "summary": "In 1955 the popular slogan was ‘Workers of the world, unite’. BMS answered with ‘Workers unite the world’.",
+   "body": "In the 1950s the slogan raised by the dominant labour groups was ‘Workers of the world, unite!’. BMS saw in it a call for disruption and class hatred.\n\nThe answer was a slogan that turned the sentence around: **Workers unite the world.** The worker is not a destroyer but a builder, and labour is a force that can bring the divided world together.\n\nThe older cry of ‘Inquilab Zindabad’ at labour gatherings gradually made way for ‘Bharat Mata ki Jai’ — a change that tells the story of how Indian labour found its own voice.",
+   "tag": "Motto",
+   "links": [
+    {
+     "label": "The Organiser: BMS at 70",
+     "url": "https://organiser.org/2025/07/21/303771/bharat/bms-at-70-laborious-resetting-of-labour-agenda/"
+    },
+    {
+     "label": "The Organiser: Dignity with Responsibility",
+     "url": "https://organiser.org/2025/11/10/324861/international/intl-opinion/birth-anniversary-of-dattopant-thengadi-redefining-labour-movement-dignity-with-responsibility/"
+    },
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    }
+   ]
+  },
+  {
+   "id": "w10",
+   "week": 10,
+   "title": "Rashtra hit, Udyog hit, Mazdoor hit",
+   "summary": "राष्ट्रहित · उद्योगहित · मजदूरहित: the interests of the nation, the industry and the worker must be protected together.",
+   "body": "Thengadi Ji gave BMS a cyclic, holistic philosophy summed up in three words: **Rashtra Hita, Udyoga Hita, Mazdoor Hita** — the interest of the nation, of the industry and of the worker.\n\nNone of the three is to be sacrificed for another. A worker's welfare depends on a healthy industry, a healthy industry serves the nation, and the nation's strength rests on the dignity of its workers.\n\nThis is why BMS treats strikes as a last resort after talks, negotiation and arbitration: it does not oppose workers' demands, but insists they are pursued with the national interest in mind.",
+   "tag": "Motto",
+   "links": [
+    {
+     "label": "The Organiser: Dignity with Responsibility",
+     "url": "https://organiser.org/2025/11/10/324861/international/intl-opinion/birth-anniversary-of-dattopant-thengadi-redefining-labour-movement-dignity-with-responsibility/"
+    },
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    },
+    {
+     "label": "Bharatiya Mazdoor Sangh",
+     "url": "https://www.bms.org.in"
+    }
+   ]
+  },
+  {
+   "id": "w11",
+   "week": 11,
+   "title": "Class cooperation, not class conflict",
+   "summary": "BMS replaced the idea of class struggle with cooperation among the stakeholders of production.",
+   "body": "Thengadi Ji organised large-scale labour movements on the idea that class cooperation should take the place of class conflict.\n\nThe Marxist model sees capital and labour as eternal enemies. Thengadi Ji, drawing on the Indian tradition, saw them as partners in a common national task, whose differences are to be settled through dialogue.\n\nSeventy years on, the BMS style — firm in demands, constructive in method — is a recognised part of India's labour relations.",
+   "tag": "BMS",
+   "links": [
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    },
+    {
+     "label": "The Organiser: Dignity with Responsibility",
+     "url": "https://organiser.org/2025/11/10/324861/international/intl-opinion/birth-anniversary-of-dattopant-thengadi-redefining-labour-movement-dignity-with-responsibility/"
+    },
+    {
+     "label": "He changed the paradigm of the trade union movement — Prof. Rakesh Sinha",
+     "url": "https://dbthengadi.in/he-changed-the-paradigm-of-the-trade-union-movement-prof-rakesh-sinha"
+    }
+   ]
+  },
+  {
+   "id": "w12",
+   "week": 12,
+   "title": "Labourisation: labour is also capital",
+   "summary": "Workers are co-owners of the industry once their labour is fairly valued as capital.",
+   "body": "BMS promotes the idea of ‘labourisation’, founded on the theory that workers are co-owners of the industry if their labour capital is fairly valued.\n\nThis thinking echoes M. S. Golwalkar ‘Guruji’, who said at the 1973 Thane meeting that in every industry labour is also one form of capital.\n\nFollowing from this, BMS calls for a national commission on industrial ownership, which should recommend a pattern of ownership for each industry according to its specific features and the needs of the national economy.",
+   "tag": "Ideas",
+   "links": [
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    },
+    {
+     "label": "The Organiser: Dignity with Responsibility",
+     "url": "https://organiser.org/2025/11/10/324861/international/intl-opinion/birth-anniversary-of-dattopant-thengadi-redefining-labour-movement-dignity-with-responsibility/"
+    }
+   ]
+  },
+  {
+   "id": "w13",
+   "week": 13,
+   "title": "Vishwakarma Jayanti: India's own Labour Day",
+   "summary": "BMS made Vishwakarma Jayanti, 17 September, the National Labour Day, in place of the imported May Day tradition.",
+   "body": "BMS has argued that India's labour festival should come from India's own tradition. It established Vishwakarma Jayanti — 17 September — as National Labour Day, honouring Lord Vishwakarma, the divine craftsman, as the patron of all who work with their hands and skills.\n\nBMS also coined the term ‘Vishwakarma sector’ for the vast self-employed, skilled workforce of artisans and craftspeople, who never fitted the Marxist category of employer and employee.\n\nThe BMS view-points section carries an article titled ‘Vishwakarma Jayanti versus May Day’ for those who want to read the argument.",
+   "tag": "Ideas",
+   "links": [
+    {
+     "label": "The Organiser: BMS at 70",
+     "url": "https://organiser.org/2025/07/21/303771/bharat/bms-at-70-laborious-resetting-of-labour-agenda/"
+    },
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    },
+    {
+     "label": "BMS view points (bms.org.in)",
+     "url": "https://www.bms.org.in/category/bms-view-points/page/2"
+    }
+   ]
+  },
+  {
+   "id": "w14",
+   "week": 14,
+   "title": "Overtaking the biggest union",
+   "summary": "Formed in 1955, BMS overtook INTUC to become the largest trade union in India in about three decades.",
+   "body": "BMS began as the smallest of unions. Yet S. Gurumurthy recalls that within about three decades it overtook INTUC, then the largest trade union. By 1989 its strength was over 31 lakh.\n\nProf. Krishna Chandra Mishra writes that Thengadi Ji worked for 49 years to make it the world's largest trade union, proof that he was among the best organisers.\n\nToday BMS represents India at the International Labour Organisation and other international forums.",
+   "tag": "BMS",
+   "links": [
+    {
+     "label": "A great void difficult to fill",
+     "url": "https://dbthengadi.in/a-great-void-difficult-to-fill-2"
+    },
+    {
+     "label": "A visionary of indigenous modernity",
+     "url": "https://dbthengadi.in/a-visionary-of-indigenous-modernitykrishna-chandra-mishra/"
+    },
+    {
+     "label": "The Organiser: BMS Foundation Day",
+     "url": "https://organiser.org/2025/07/23/304073/bharat/foundation-day-of-bharatiya-mazdoor-sangh-the-preeminent-organisation-dedicated-to-nation-building/"
+    }
+   ]
+  },
+  {
+   "id": "w15",
+   "week": 15,
+   "title": "Standing against the Emergency",
+   "summary": "In 1975 he organised protests as part of the anti-Emergency movement.",
+   "body": "When the Emergency was declared in 1975, Thengadi Ji organised protests as part of the anti-Emergency movement.\n\nHe was not a man to keep silent on matters that affected the life of the nation. He used his organisational network, and his years in public life, to help the movement for the restoration of democracy.",
+   "tag": "Public life",
+   "links": [
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "Remembering Dattopant Thengadi",
+     "url": "https://dbthengadi.in/remembering-shradheya-dattopant-thengadi/"
+    }
+   ]
+  },
+  {
+   "id": "w16",
+   "week": 16,
+   "title": "A founder of the student movement",
+   "summary": "He helped set up the Akhil Bharatiya Vidyarthi Parishad in 1949.",
+   "body": "Thengadi Ji was a founder-member of the Akhil Bharatiya Vidyarthi Parishad (ABVP), set up in 1949, the student organisation that went on to become one of the largest in the country.\n\nIt was typical of him: he planted the seeds of institutions in many fields, and then stepped back to let others lead them.",
+   "tag": "Organisations",
+   "links": [
+    {
+     "label": "The Organiser: A man neither after power nor post",
+     "url": "https://organiser.org/2015/10/05/61387/general/rfec2ba31/"
+    },
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    }
+   ]
+  },
+  {
+   "id": "w17",
+   "week": 17,
+   "title": "Bharatiya Kisan Sangh, 1979",
+   "summary": "He founded the Bharatiya Kisan Sangh on 4 March 1979, building the largest union of agriculturists.",
+   "body": "After labour, Thengadi Ji turned to the farmer. He formed the Bharatiya Kisan Sangh on 4 March 1979.\n\nHe was a trade union leader, but not an ‘urbanite’; and not a ‘village versus town’ man. S. Gurumurthy notes that he built the country's largest union of farmers while seeing agriculture and industry as partners.",
+   "tag": "Organisations",
+   "links": [
+    {
+     "label": "Bharatiya Kisan Sangh",
+     "url": "https://bharatiyakisansangh.org"
+    },
+    {
+     "label": "A great void difficult to fill",
+     "url": "https://dbthengadi.in/a-great-void-difficult-to-fill-2"
+    },
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    }
+   ]
+  },
+  {
+   "id": "w18",
+   "week": 18,
+   "title": "Ambedkar and the Samajik Samarasata Manch",
+   "summary": "He was close to Dr B. R. Ambedkar and founded the Samajik Samarasata Manch on 14 April 1983.",
+   "body": "Thengadi Ji could speak about Babasaheb Ambedkar with authority, because he was closely with him during the last years of Ambedkar's life.\n\nOn 14 April 1983, Ambedkar Jayanti, he formed the Samajik Samarasata Manch, a platform for social harmony.\n\nHe also wrote about Ambedkar — a book on Dr Babasaheb Ambedkar by him was released in Bhopal in October 2005 by RSS Sarsanghachalak K. S. Sudarshan.",
+   "tag": "Organisations",
+   "links": [
+    {
+     "label": "A great void difficult to fill",
+     "url": "https://dbthengadi.in/a-great-void-difficult-to-fill-2"
+    },
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    },
+    {
+     "label": "Remembering Dattopant Thengadi",
+     "url": "https://dbthengadi.in/remembering-shradheya-dattopant-thengadi/"
+    }
+   ]
+  },
+  {
+   "id": "w19",
+   "week": 19,
+   "title": "Swadeshi Jagaran Manch, 1991",
+   "summary": "On 22 November 1991 he formed the Swadeshi Jagaran Manch to articulate an indigenous economic model.",
+   "body": "With liberalisation and the emergence of the WTO, Thengadi Ji saw the need to raise the awareness of the people of developing countries about multinational corporations and Western economic interests.\n\nHe formed the Swadeshi Jagaran Manch on 22 November 1991. As S. Gurumurthy puts it, it articulated an alternative indigenous economic model, not just opposition to globalisation.",
+   "tag": "Organisations",
+   "links": [
+    {
+     "label": "Swadeshi Jagaran Manch",
+     "url": "https://swadeshionline.in"
+    },
+    {
+     "label": "He changed the paradigm of the trade union movement — Prof. Rakesh Sinha",
+     "url": "https://dbthengadi.in/he-changed-the-paradigm-of-the-trade-union-movement-prof-rakesh-sinha"
+    },
+    {
+     "label": "A Tapasvi dies, unnoticed — S. Gurumurthy",
+     "url": "https://dbthengadi.in/dattopant-thengadi-a-tapasvi-dies-unnoticed/"
+    }
+   ]
+  },
+  {
+   "id": "w20",
+   "week": 20,
+   "title": "Paryavaran, Sarva Panth Samadar and more",
+   "summary": "He also founded the Paryavaran Manch and the Sarva Panth Samadar Manch.",
+   "body": "Alongside the larger bodies, Thengadi Ji founded or nurtured the Paryavaran Manch (environment) and the Sarva Panth Samadar Manch, which works for equal respect among all faiths.\n\nHe was also associated with Sanskar Bharati, the Swadeshi Science Movement, the Bharatiya Vichar Kendra and the Akhil Bharatiya Grahak Panchayat for consumers.",
+   "tag": "Organisations",
+   "links": [
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    },
+    {
+     "label": "The Organiser: A Visionary Architect",
+     "url": "https://www.organiser.org/Encyc/2018/11/10/Dattopant-Thengadi-A-Visionary-Architect.html"
+    }
+   ]
+  },
+  {
+   "id": "w21",
+   "week": 21,
+   "title": "A lawyers' forum and a consumer voice",
+   "summary": "He co-founded the Akhil Bharatiya Adhivakta Parishad and the Akhil Bharatiya Grahak Panchayat.",
+   "body": "Thengadi Ji, a law graduate himself, was closely associated with the Akhil Bharatiya Adhivakta Parishad, the national lawyers' council, and the Akhil Bharatiya Grahak Panchayat, which speaks for consumers.\n\nHis book *Consumer: A Sovereign without Sovereignty* captures his concern for the ordinary buyer in the market.",
+   "tag": "Organisations",
+   "links": [
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "The builder of ‘Himalayas’ (Pawan Kumar)",
+     "url": "https://dbthengadi.in/the-builder-of-himalayaspawan-kumar/"
+    }
+   ]
+  },
+  {
+   "id": "w22",
+   "week": 22,
+   "title": "The books he wrote",
+   "summary": "Third Way, Modernization without Westernization, Why Bharatiya Mazdoor Sangh?, Our National Renaissance and more.",
+   "body": "Thengadi Ji was a prolific thinker. Among his books are *The Third Way*, *Modernization without Westernization*, *Why Bharatiya Mazdoor Sangh?*, *Consumer: A Sovereign without Sovereignty*, *Spectrum*, *Our National Renaissance*, *The Perspective*, *Global Economic System: A Hindu View* and *Marx and Deen Dayal: Two Approaches*.\n\nTogether they set out a Bharatiya alternative to both capitalism and communism, and a vision of modernisation without Westernisation.",
+   "tag": "Ideas",
+   "links": [
+    {
+     "label": "The builder of ‘Himalayas’ (Pawan Kumar)",
+     "url": "https://dbthengadi.in/the-builder-of-himalayaspawan-kumar/"
+    },
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    },
+    {
+     "label": "The Organiser: The Builder of ‘Himalayas’",
+     "url": "https://www.organiser.org/Encyc/2019/11/13/The-Builder-of-Himalayas-.html"
+    }
+   ]
+  },
+  {
+   "id": "w23",
+   "week": 23,
+   "title": "Swadeshi economics and the ‘third way’",
+   "summary": "He argued for an indigenous economic path that is neither capitalist nor communist.",
+   "body": "Thengadi Ji is regarded as one of the foremost ideologues of Swadeshi economics. In his writing he presented the Hindu way of economics, technology, environment and legal systems as a coherent alternative.\n\nHis ‘third way’ rejects the exploitative nature of capitalism and the class struggle of communism. In recent years many have seen in it the early roots of the idea of Atmanirbhar Bharat.",
+   "tag": "Ideas",
+   "links": [
+    {
+     "label": "The Organiser: A man neither after power nor post",
+     "url": "https://organiser.org/2015/10/05/61387/general/rfec2ba31/"
+    },
+    {
+     "label": "A visionary of indigenous modernity",
+     "url": "https://dbthengadi.in/a-visionary-of-indigenous-modernitykrishna-chandra-mishra/"
+    },
+    {
+     "label": "Swadeshi Jagaran Manch",
+     "url": "https://swadeshionline.in"
+    }
+   ]
+  },
+  {
+   "id": "w24",
+   "week": 24,
+   "title": "A voice beyond India's borders",
+   "summary": "As founder-president of BMS he travelled to many countries to present the Indian view on labour.",
+   "body": "As the founder-president of the Bharatiya Mazdoor Sangh, Thengadi Ji travelled abroad on labour and organisational work — to Russia, Hungary, Geneva, the USA, Canada and other countries.\n\nThe life profile published by the V.V. Giri National Labour Institute also notes a message of his that was broadcast by Beijing Radio on 28 April 1985.\n\nEverywhere he carried the same message: that the Indian worker has a distinct national vision and a voice of his own.",
+   "tag": "BMS",
+   "links": [
+    {
+     "label": "An efficient organisation builder",
+     "url": "https://dbthengadi.in/an-efficient-organisation-builder/"
+    },
+    {
+     "label": "Tribute & life profile (V.V. Giri National Labour Institute, PDF)",
+     "url": "https://www.vvgnli.gov.in/sites/default/files/A%20Tribute%20to%20the%20Legend%20-%20Shri%20Dattopant%20Bapurao%20Thengadi.pdf"
+    }
+   ]
+  },
+  {
+   "id": "w25",
+   "week": 25,
+   "title": "A man neither after power nor post",
+   "summary": "He turned down the Padma Bhushan and never sought office for himself.",
+   "body": "Those who knew him describe a man who never looked for recognition. He was awarded the Padma Bhushan, but he declined to accept it.\n\nS. Gurumurthy wrote that the creator of the BMS, the Kisan Sangh and the SJM was himself not widely known — a *tapasvi* who worked for the nation and stayed in the background.",
+   "tag": "Life",
+   "links": [
+    {
+     "label": "A Tapasvi dies, unnoticed — S. Gurumurthy",
+     "url": "https://dbthengadi.in/dattopant-thengadi-a-tapasvi-dies-unnoticed/"
+    },
+    {
+     "label": "The Organiser: A man neither after power nor post",
+     "url": "https://organiser.org/2015/10/05/61387/general/rfec2ba31/"
+    },
+    {
+     "label": "Wikipedia: Dattopant Thengadi",
+     "url": "https://en.wikipedia.org/wiki/Dattopant_Thengadi"
+    }
+   ]
+  },
+  {
+   "id": "w26",
+   "week": 26,
+   "title": "14 October 2004 — and his legacy",
+   "summary": "He passed away at Pune on 14 October 2004. His work and name live on.",
+   "body": "Dattopant Thengadi passed away on 14 October 2004 at Pune, at the age of 83.\n\nHis legacy is the organisations he built, the thinkers he mentored and the workers who carry the saffron flag with the cry of ‘Bharat Mata ki Jai’. The BMS head office in New Delhi is named Dattopant Thengadi Bhawan, and the Central Board for Workers' Education under the Labour Ministry now carries his name as the Dattopant Thengadi National Board of Workers' Education and Development.\n\nThis was the last of the weekly stories. After it, the series begins again from the first.",
+   "tag": "Legacy",
+   "links": [
+    {
+     "label": "Remembering Dattopant Thengadi",
+     "url": "https://dbthengadi.in/remembering-shradheya-dattopant-thengadi/"
+    },
+    {
+     "label": "Tribute & life profile (V.V. Giri National Labour Institute, PDF)",
+     "url": "https://www.vvgnli.gov.in/sites/default/files/A%20Tribute%20to%20the%20Legend%20-%20Shri%20Dattopant%20Bapurao%20Thengadi.pdf"
+    },
+    {
+     "label": "dbthengadi.in — Dattopant Thengadi archive",
+     "url": "https://dbthengadi.in/"
+    }
+   ]
+  }
+ ]
+}

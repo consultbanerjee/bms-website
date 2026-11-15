@@ -1,0 +1,132 @@
+{
+ "updated": "2026-11-15",
+ "note": "Reels/videos from Facebook (needs FB_PAGE_TOKEN) and the BMS YouTube channel are added by the daily sync. type: video|reel; source: youtube|facebook; ref: YouTube id or full Facebook video URL.",
+ "items": [
+  {
+   "id": "yt-83dy5ms_4lM",
+   "type": "video",
+   "source": "youtube",
+   "ref": "83dy5ms_4lM",
+   "title": "13 मई, 2021 ….हम जीतेंगे – Positivity Unlimited",
+   "date": "2021-05-13",
+   "thumb": "https://i.ytimg.com/vi/83dy5ms_4lM/hqdefault.jpg"
+  },
+  {
+   "id": "yt-73k-yYBywGw",
+   "type": "video",
+   "source": "youtube",
+   "ref": "73k-yYBywGw",
+   "title": "12 मई, 2021 ….हम जीतेंगे – Positivity Unlimited",
+   "date": "2021-05-12",
+   "thumb": "https://i.ytimg.com/vi/73k-yYBywGw/hqdefault.jpg"
+  },
+  {
+   "id": "yt-nzkPPJdcr8U",
+   "type": "video",
+   "source": "youtube",
+   "ref": "nzkPPJdcr8U",
+   "title": "हम जीतेंगे – Positivity Unlimited",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/nzkPPJdcr8U/hqdefault.jpg"
+  },
+  {
+   "id": "yt-_0-uO0bHNOM",
+   "type": "video",
+   "source": "youtube",
+   "ref": "_0-uO0bHNOM",
+   "title": "Online Felicitation of Senior Activists",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/_0-uO0bHNOM/hqdefault.jpg"
+  },
+  {
+   "id": "yt-Y-xkQ_mhOF0",
+   "type": "video",
+   "source": "youtube",
+   "ref": "Y-xkQ_mhOF0",
+   "title": "Speech Of Sri Bhagaiah V (VC BHU)",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/Y-xkQ_mhOF0/hqdefault.jpg"
+  },
+  {
+   "id": "yt-hSg6Ft-WZY8",
+   "type": "video",
+   "source": "youtube",
+   "ref": "hSg6Ft-WZY8",
+   "title": "Day 1 Skill Developement Comprehensive Approach",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/hSg6Ft-WZY8/hqdefault.jpg"
+  },
+  {
+   "id": "yt-_uKc-bCJEWA",
+   "type": "video",
+   "source": "youtube",
+   "ref": "_uKc-bCJEWA",
+   "title": "Day 2 Changes in Labour laws what's Reality",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/_uKc-bCJEWA/hqdefault.jpg"
+  },
+  {
+   "id": "yt-uLMIyN6QwUA",
+   "type": "video",
+   "source": "youtube",
+   "ref": "uLMIyN6QwUA",
+   "title": "Day 3 Future Labour Economics & Industrial relations",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/uLMIyN6QwUA/hqdefault.jpg"
+  },
+  {
+   "id": "yt-Dsu8GIT2FYY",
+   "type": "video",
+   "source": "youtube",
+   "ref": "Dsu8GIT2FYY",
+   "title": "Day 4 Cadre based mass Organization",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/Dsu8GIT2FYY/hqdefault.jpg"
+  },
+  {
+   "id": "yt-3WL9PjxhWQc",
+   "type": "video",
+   "source": "youtube",
+   "ref": "3WL9PjxhWQc",
+   "title": "Day 5 Changing Situations after COVID 19",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/3WL9PjxhWQc/hqdefault.jpg"
+  },
+  {
+   "id": "yt-hIcM4oZ0SGY",
+   "type": "video",
+   "source": "youtube",
+   "ref": "hIcM4oZ0SGY",
+   "title": "Day 6 Developement as Envisaged by Shri Thengadi Ji",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/hIcM4oZ0SGY/hqdefault.jpg"
+  },
+  {
+   "id": "yt-MGqLIQHrISw",
+   "type": "video",
+   "source": "youtube",
+   "ref": "MGqLIQHrISw",
+   "title": "Day 7 Shri Thengadi Ji Vision on Globalization a retrospection",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/MGqLIQHrISw/hqdefault.jpg"
+  },
+  {
+   "id": "yt-GasXMXIHlIg",
+   "type": "video",
+   "source": "youtube",
+   "ref": "GasXMXIHlIg",
+   "title": "Dattopant Thengadi: The Activist Parliamentarian (पुस्तक लोकार्पण समारोह)",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/GasXMXIHlIg/hqdefault.jpg"
+  },
+  {
+   "id": "yt-4pW5QfLN6JA",
+   "type": "video",
+   "source": "youtube",
+   "ref": "4pW5QfLN6JA",
+   "title": "स्वदेशी भागीरथ दत्तोपंत जी ठेंगड़ी – डॉक्यूमेंट्री",
+   "date": "",
+   "thumb": "https://i.ytimg.com/vi/4pW5QfLN6JA/hqdefault.jpg"
+  }
+ ]
+}

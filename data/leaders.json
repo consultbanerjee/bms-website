@@ -1,0 +1,265 @@
+{
+ "note": "National Office Bearers only. Source: bms.org.in/leadership (phones not published there; fill 'phone'). photo_locked=true stops the daily sync overwriting a photo.",
+ "people": [
+  {
+   "id": "mallesam",
+   "name": "Shri S. Mallesam",
+   "role": "President",
+   "group": "President",
+   "phone": "",
+   "email": "mallesham_sunkari@yahoo.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "S. Mallesam"
+   ]
+  },
+  {
+   "id": "shri-surendra-kumar-pandey",
+   "name": "Shri Surendra Kumar Pandey",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "surendra_abkms@yahoo.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Surendra Kumar Pandey"
+   ]
+  },
+  {
+   "id": "shri-sukhminder-singh-dikky",
+   "name": "Shri Sukhminder Singh Dikky",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "sukhwinderdicky59@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Sukhminder Singh Dikky"
+   ]
+  },
+  {
+   "id": "smt-neeta-chobey",
+   "name": "Smt. Neeta Chobey",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "nvchobe@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Neeta Chobey"
+   ]
+  },
+  {
+   "id": "shri-ashok-kumar-shukla",
+   "name": "Shri Ashok Kumar Shukla",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "ashokshuklabms@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Ashok Kumar Shukla"
+   ]
+  },
+  {
+   "id": "shri-unnikrishnan-unnithan",
+   "name": "Shri UnniKrishnan Unnithan",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "unnithanastro@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "UnniKrishnan Unnithan"
+   ]
+  },
+  {
+   "id": "shri-rajendra-sharma",
+   "name": "Shri Rajendra Sharma",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "rks4y3@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Rajendra Sharma"
+   ]
+  },
+  {
+   "id": "shri-pawan-kumar",
+   "name": "Shri Pawan Kumar",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "pawankumarbms@rediffmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Pawan Kumar"
+   ]
+  },
+  {
+   "id": "shri-jignesh-majumudar",
+   "name": "Shri Jignesh Majumudar",
+   "role": "General Secretary",
+   "group": "General Secretaries",
+   "phone": "",
+   "email": "",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Jignesh Majumudar"
+   ]
+  },
+  {
+   "id": "shri-ram-nath-ganeshe",
+   "name": "Shri Ram Nath Ganeshe",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "gsntpcms@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Ram Nath Ganeshe"
+   ]
+  },
+  {
+   "id": "miss-anjali-patel",
+   "name": "Miss Anjali Patel",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "anjalipatelbms@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Anjali Patel"
+   ]
+  },
+  {
+   "id": "shri-radheshyam-jaiswal",
+   "name": "Shri Radheshyam Jaiswal",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "rsjl2211@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Radheshyam Jaiswal"
+   ]
+  },
+  {
+   "id": "shri-arvind-mishra",
+   "name": "Shri Arvind Mishra",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "arvindmishragwl@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Arvind Mishra"
+   ]
+  },
+  {
+   "id": "shri-ashok-kumar",
+   "name": "Shri Ashok Kumar",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "ashokbms566@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Ashok Kumar"
+   ]
+  },
+  {
+   "id": "shri-anil-dhumane",
+   "name": "Shri Anil Dhumane",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "dhumaneanil@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Anil Dhumane"
+   ]
+  },
+  {
+   "id": "shri-sanjay-kumar-sinha",
+   "name": "Shri Sanjay Kumar Sinha",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "phone": "",
+   "email": "sanjaysinhags@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Sanjay Kumar Sinha"
+   ]
+  },
+  {
+   "id": "shri-b-surendran",
+   "name": "Shri B. Surendran",
+   "role": "Organising Secretary",
+   "group": "National Office Posts",
+   "phone": "",
+   "email": "surendran.bms@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "B. Surendran"
+   ]
+  },
+  {
+   "id": "shri-ganesh-mishra",
+   "name": "Shri Ganesh Mishra",
+   "role": "Deputy Organising Secretary",
+   "group": "National Office Posts",
+   "phone": "",
+   "email": "ganesh.mishra68@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Ganesh Mishra"
+   ]
+  },
+  {
+   "id": "shri-anish-mishra",
+   "name": "Shri Anish Mishra",
+   "role": "Finance Secretary",
+   "group": "National Office Posts",
+   "phone": "",
+   "email": "",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Anish Mishra"
+   ]
+  },
+  {
+   "id": "shri-valjibhai-p-parmar",
+   "name": "Shri Valjibhai P. Parmar",
+   "role": "Central Office Secretary",
+   "group": "National Office Posts",
+   "phone": "",
+   "email": "vpp26vparmar@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Valjibhai P. Parmar"
+   ]
+  }
+ ]
+}

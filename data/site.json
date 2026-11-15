@@ -1,0 +1,56 @@
+{
+ "name": "Bharatiya Mazdoor Sangh",
+ "domain": "bharatiyamazdoorsangh.com",
+ "address": "Dattopant Thengadi Bhawan, 27, Deendayal Upadhyay Marg, New Delhi-110002",
+ "phone": "011-23222654",
+ "fax": "011-23212648",
+ "whatsapp": "9421062200",
+ "email": "bmsdtb@gmail.com",
+ "facebook": "https://www.facebook.com/BMSkendra",
+ "twitter": "https://twitter.com/BMSkendra",
+ "youtube": "https://www.youtube.com/@bmskendra23755",
+ "app": "https://play.google.com/store/apps/details?id=in.prisma.bms",
+ "logins": {
+  "_note": "Set each url when its subdomain is ready (e.g. https://mail.bharatiyamazdoorsangh.com). Empty url shows 'Coming soon'.",
+  "digital": {
+   "label": "Digital",
+   "title": "Digital Library",
+   "desc": "Organisation literature, circulars and training material for members.",
+   "url": "https://repository.bharatiyamazdoorsangh.org"
+  },
+  "email": {
+   "label": "Email",
+   "title": "Email Login",
+   "desc": "Staff and office-bearer organisation email.",
+   "url": ""
+  },
+  "admin": {
+   "label": "Admin",
+   "title": "Admin Login",
+   "desc": "Staff and administrators: manage portal content and members.",
+   "url": ""
+  }
+ },
+ "repo": "",
+ "repo_note": "Optional 'owner/name' of the GitHub repo; enables the 'Publish on GitHub' button on write.html",
+ "inspirations": [
+  {
+   "name": "Bhagwan Vishwakarma",
+   "name_hi": "भगवान विश्वकर्मा",
+   "img": "assets/img/vishwakarma.jpg",
+   "note": "Patron of all who work with their hands — Vishwakarma Jayanti is National Labour Day"
+  },
+  {
+   "name": "Bharat Mata",
+   "name_hi": "भारत माता",
+   "img": "assets/img/bharatmata.jpg",
+   "note": "Rashtra first — ‘Bharat Mata ki Jai’"
+  },
+  {
+   "name": "Dattopant Thengadi",
+   "name_hi": "दत्तोपंत ठेंगड़ी",
+   "img": "assets/img/thengadi.jpg",
+   "note": "Founder of Bharatiya Mazdoor Sangh"
+  }
+ ]
+}

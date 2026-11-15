@@ -1,0 +1,125 @@
+{
+ "tiers": [
+  {
+   "level": 1,
+   "title": "President",
+   "count": 1,
+   "desc": "Presides over the National Executive and represents BMS nationally."
+  },
+  {
+   "level": 2,
+   "title": "General Secretaries",
+   "count": 8,
+   "desc": "Share the national responsibilities of the organisation."
+  },
+  {
+   "level": 3,
+   "title": "Secretaries",
+   "count": 7,
+   "desc": "National secretaries assisting the General Secretaries."
+  },
+  {
+   "level": 4,
+   "title": "National Office Posts",
+   "count": 4,
+   "items": [
+    "Organising Secretary",
+    "Deputy Organising Secretary",
+    "Finance Secretary",
+    "Central Office Secretary"
+   ],
+   "desc": "Organisation, finance and head-office administration."
+  },
+  {
+   "level": 5,
+   "title": "Zonal Organising Secretaries",
+   "count": 7,
+   "items": [
+    "Northern Zone",
+    "North Central Zone",
+    "North Eastern & Eastern Zone",
+    "South & South Central Zone",
+    "Western, North West & Central Zone",
+    "East Central Zone",
+    "South Zone"
+   ],
+   "desc": "One organiser for each of seven zones."
+  },
+  {
+   "level": 6,
+   "title": "Assistant Organising Secretaries",
+   "count": 4,
+   "items": [
+    "North West Zone",
+    "West Zone",
+    "North Zone",
+    "East Zone"
+   ],
+   "desc": "Support zonal organisation."
+  },
+  {
+   "level": 7,
+   "title": "Udyog Prabhari (Sector in-charges)",
+   "count": 5,
+   "desc": "Sector-wise in-charges and deputies for every industry group.",
+   "sectors": [
+    {
+     "name": "Unorganised Sector",
+     "areas": [
+      "Railway & Metro",
+      "Scheme Workers",
+      "Urban UOS",
+      "Rural UOS",
+      "Migrant Labourers",
+      "Gig & Platform Workers",
+      "Contract Workers"
+     ]
+    },
+    {
+     "name": "Private Sector",
+     "areas": [
+      "Textile, Jute, Handloom, Garments, NTC Mills",
+      "Pharmaceuticals, Fertilisers & Chemicals",
+      "Electricity & Educational Institutions",
+      "Transport, Automobile, Rubber, Tyre",
+      "Cement & Engineering",
+      "Private Security, Hospital & Temple",
+      "Sugar, Distillery, Paper & Pulp",
+      "IT Industry",
+      "Port & Dock"
+     ]
+    },
+    {
+     "name": "Public Sector",
+     "areas": [
+      "Coal",
+      "Space, Rare Earth & Health",
+      "Steel, Non-Coal & Defence PSU",
+      "Engineering & Telecom",
+      "Power",
+      "Oil",
+      "Civil Aviation & Rajya Sarkari Karmachari",
+      "Finance: Bank Officers, Coin & Currency, Co-operative Banks",
+      "Bank Workers & Gramin Banks",
+      "Insurance"
+     ]
+    },
+    {
+     "name": "Government Sector",
+     "areas": [
+      "Defence & Central Government Establishments",
+      "Railway, Metro & Central Secretariat",
+      "Atomic Energy",
+      "State Autonomous Bodies"
+     ]
+    },
+    {
+     "name": "Social Security Sector",
+     "areas": [
+      "All Retiree Pensioners"
+     ]
+    }
+   ]
+  }
+ ]
+}

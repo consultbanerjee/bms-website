@@ -1,0 +1,435 @@
+{
+ "updated": "2026-11-15",
+ "last_check": "2026-11-15T14:25:00Z",
+ "checks": 1,
+ "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
+ "items": [
+  {
+   "id": "n001",
+   "date": "2026-11-07",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Shram Suvidha Form I update deadline under OSH (Central) Rules, 2026",
+   "summary": "Ministry of Labour gazette notification dated 7 Nov 2026, effective 8 Nov: establishments must update Form I on the Shram Suvidha portal.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "OSH",
+    "Gazette"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n002",
+   "date": "2026-11-03",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC circular: higher funeral and confinement benefits",
+   "summary": "Funeral expenses raised to ₹20,000, confinement to ₹15,000, medical-benefit contribution ₹50 a month, for cases on or after 8 May 2026.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.esic.gov.in",
+   "pdf": "",
+   "tags": [
+    "ESIC",
+    "Benefits"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n003",
+   "date": "2026-11-01",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Members"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n005",
+   "date": "2026-09-30",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Minimum Wages",
+   "title": "Central sphere VDA revised from 1 October 2026 (File No. 6/1/2026-VDA)",
+   "summary": "Unskilled construction/cleaning/loading wage is ₹840 a day in Area A (₹704 B, ₹565 C) after CPI-IW rose from 424.80 to 431.42. Valid till 31 Mar 2027.",
+   "source": "https://www.indianpaycalculator.in/govt-news/central-sphere-minimum-wages-840-construction-october-2026",
+   "official": "https://clc.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages",
+    "VDA"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n006",
+   "date": "2026-09-17",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Social Security",
+   "title": "Notification S.O. 5109(E): EPF wage ceiling raised from ₹15,000 to ₹25,000",
+   "summary": "Statutory wage ceiling for provident-fund coverage under Chapter III of the Code on Social Security, 2020 is now ₹25,000 a month.",
+   "source": "https://www.legal500.com/intelligence/india/employment-and-hr/employment-law-update-sep-oct-2026",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Wage ceiling"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n007",
+   "date": "2026-08-25",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Wages / Bonus",
+   "title": "Bonus under the Code on Wages: ₹21,000 limit (Gazette Nos. 4525 and 4526)",
+   "summary": "Statutory bonus applies to employees earning up to ₹21,000 a month, calculated on ₹7,000 or the Central minimum wage, whichever is higher.",
+   "source": "https://labourlawindia.com/bonus-under-the-code-on-wages/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Bonus",
+    "Wages Code"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n008",
+   "date": "2026-06-29",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Social Security",
+   "title": "New EPF, pension and DLI schemes notified under the Code on Social Security",
+   "summary": "Ministry of Labour notified three new schemes (provident fund, pension, deposit-linked insurance) plus three special schemes to clear legacy problems.",
+   "source": "https://www.incorpx.io/blog/epf-scheme-2026-changes-employers",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Schemes"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n009",
+   "date": "2026-05-09",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Codes & Rules",
+   "title": "Central Rules under all four Labour Codes notified (8–9 May 2026)",
+   "summary": "Wages Rules (G.S.R. 343(E)), IR Rules (G.S.R. 342(E)), Social Security Rules (G.S.R. 344(E)) and OSH Rules, plus Model Standing Orders, 2026.",
+   "source": "https://www.cyrilshroff.com/wp-content/uploads/2026/05/Client-Alert-Labour-Codes-Implementation-of-Rules.pdf",
+   "official": "https://egazette.gov.in",
+   "pdf": "https://www.cyrilshroff.com/wp-content/uploads/2026/05/Client-Alert-Labour-Codes-Implementation-of-Rules.pdf",
+   "tags": [
+    "Labour Codes",
+    "Rules"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n010",
+   "date": "2025-11-21",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Codes & Rules",
+   "title": "All four Labour Codes brought into force (21 November 2025)",
+   "summary": "Gazette notifications put the Wages, Industrial Relations, Social Security and OSH Codes into force, replacing 29 central labour laws.",
+   "source": "https://www.legal500.com/intelligence/india/employment-and-hr/ministry-of-labour-and-employment-notifies-and-enforces-four-new-labour-codes",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Labour Codes",
+    "Landmark"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "pdf": "",
+   "tags": [
+    "CGIT",
+    "EPF appeals"
+   ],
+   "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n012",
+   "date": "2026-08-31",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO VISHWAS 2026: settle old Section 14B damages at concessional rates",
+   "summary": "For defaults before 14 June 2024; flat 0.25%–1% a month if full Section 7Q interest is paid. The window is understood to close on 28 December 2026.",
+   "source": "https://www.corplawupdates.in/category/labour",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n014",
+   "date": "2026-10-08",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Odisha",
+   "category": "Minimum Wages",
+   "title": "Odisha, Chhattisgarh and Meghalaya: October 2026 minimum wage notifications",
+   "summary": "State notices of 8 Oct 2026 revise minimum wages/VDA for the April–October cycle.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n015",
+   "date": "2026-10-05",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Gujarat",
+   "category": "Minimum Wages",
+   "title": "Gujarat: special allowance under the CLRA Act from 1 October 2026",
+   "summary": "Special allowance of up to ₹72.50 a day (₹1,885 a month) for contract labour from 1 Oct 2026; shops rules also amended on 3 Oct.",
+   "source": "https://hrtailor.com/minimum-wage-revision-october-2026/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Contract labour",
+    "Minimum wages"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n016",
+   "date": "2026-10-01",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Madhya Pradesh",
+   "category": "Minimum Wages",
+   "title": "Madhya Pradesh: VDA up ₹150 to ₹3,000 a month from 1 October 2026",
+   "summary": "Part of the October 2026 revision wave; Andhra Pradesh notified its VDA on 28 Sept (valid 1 Oct 2026 – 31 Mar 2027).",
+   "source": "https://hrtailor.com/minimum-wage-revision-october-2026/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "VDA"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n017",
+   "date": "2026-08-05",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Maharashtra",
+   "category": "Minimum Wages",
+   "title": "Maharashtra: special allowance order for 1 July 2026 (Order No. 7997, 5 Aug 2026)",
+   "summary": "Notified late and retrospectively; employers owe arrears from 1 July 2026. Further orders followed on 7 and 11 Aug.",
+   "source": "https://www.indianhrm.com/guides/minimum-wage-revisions-2026",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages",
+    "Arrears"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n018",
+   "date": "2026-07-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "West Bengal",
+   "category": "Codes & Rules",
+   "title": "West Bengal pre-publishes draft rules under the Labour Codes (Kolkata Gazette, 13 July 2026)",
+   "summary": "Draft West Bengal Code on Wages Rules, 2026 (No. Labr/103/Law) invites objections; some trackers still show no final state rules — check the Kolkata Gazette.",
+   "source": "https://www.dcpsol.com/draft-west-bengal-code-on-wages-rules-2026",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules",
+    "West Bengal"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n019",
+   "date": "2026-06-22",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "West Bengal",
+   "category": "Minimum Wages",
+   "title": "West Bengal: revised minimum wages 1 July – 31 December 2026",
+   "summary": "Labour Commissionerate circular of 22 June 2026; Zone A unskilled about ₹10,558 a month (₹406 a day). Next revision due 1 January 2027.",
+   "source": "https://labourcodesadvisor.com/minimum-wages/west-bengal/",
+   "official": "https://shramajivi.wb.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages",
+    "West Bengal"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n020",
+   "date": "2026-05-30",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Telangana",
+   "category": "Minimum Wages",
+   "title": "Telangana: new minimum wage rates under the Code on Wages (30 May 2026)",
+   "summary": "New basic rates from 1 June 2026; the VDA round for 1 October is due but was not notified at last check.",
+   "source": "https://www.sgcms.com/regulatory-updates/tag/minimum-rate-of-wages/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n021",
+   "date": "2026-05-22",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Karnataka",
+   "category": "Minimum Wages",
+   "title": "Karnataka: minimum wages and VDA notification KA 411 LWA 2023 (22 May 2026)",
+   "summary": "Revised scheduled-employment rates for 2026-27 (Karnataka revises each 1 April).",
+   "source": "https://comply4hr.com/minimum-wages",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages"
+   ],
+   "urgent": false,
+   "curated": true
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-11-15",
+   "label": "EPFO ECR + PF remittance for October 2026 wages",
+   "jur": "Central"
+  },
+  {
+   "date": "2026-11-16",
+   "end": "2026-11-27",
+   "label": "CGIT special campaign for EPF appeals",
+   "jur": "Central"
+  },
+  {
+   "date": "2026-12-15",
+   "label": "EPFO ECR + PF remittance for November 2026 wages",
+   "jur": "Central"
+  },
+  {
+   "date": "2026-12-28",
+   "label": "EPFO VISHWAS 2026 window understood to close",
+   "jur": "Central"
+  },
+  {
+   "date": "2026-12-31",
+   "label": "West Bengal and Maharashtra minimum-wage period ends; revision due 1 Jan 2027",
+   "jur": "State"
+  },
+  {
+   "date": "2027-04-01",
+   "label": "Next central-sphere VDA revision (1 April cycle)",
+   "jur": "Central"
+  }
+ ]
+}
