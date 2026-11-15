@@ -187,6 +187,15 @@
     return "<h3>Important dates</h3><ul>" + (up.map(function (x) { var s = Date.parse(x.date), n = Math.ceil((s - d) / 864e5), when = s <= d && Date.parse(x.end || x.date) + 864e5 > d ? "Ongoing" : n <= 0 ? "Today" : n === 1 ? "Tomorrow" : "in " + n + " days"; return "<li><b>" + esc(fmtDate(x.date, true)) + (x.end ? " – " + esc(fmtDate(x.end, true)) : "") + '</b> <em class="' + (n <= 7 ? "soon" : "") + '">' + when + "</em><span>" + esc(x.label) + "</span></li>"; }).join("") || "<li>No upcoming dates.</li>") + "</ul>";
   }
   function ntNext() { var n = new Date(Date.now() + 19800000); n.setUTCHours(0, 0, 0, 0); n = new Date(n.getTime() + 864e5 - 19800000); return n.toLocaleString("en-IN", { timeZone: "Asia/Kolkata", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }); }
+  var MEMH = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918";
+  function memOn() { try { return sessionStorage.getItem("bms-mem") === "1"; } catch (e) { return false; } }
+  function sha(t) { return crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ("0" + x.toString(16)).slice(-2); }).join(""); }); }
+  function gate(box, render) {
+    if (!box) return;
+    if (memOn()) { render(); return; }
+    box.innerHTML = '<form id="memF" class="ntf" style="max-width:380px;display:grid;gap:10px"><p style="margin:0"><b>Members only.</b> Sign in to view this section.</p><label>User ID<input id="mu" autocomplete="username" required></label><label>Password<input id="mp" type="password" autocomplete="current-password" required></label><button class="btn" type="submit">Sign in</button><p id="me" style="color:#a5281a;margin:0" role="alert"></p><p style="font-size:13px;color:#777;margin:0">Demo sign-in.</p></form>';
+    $("#memF").onsubmit = function (e) { e.preventDefault(); Promise.all([sha($("#mu").value.trim()), sha($("#mp").value)]).then(function (h) { if (h[0] === MEMH && h[1] === MEMH) { try { sessionStorage.setItem("bms-mem", "1"); } catch (x) {} box.innerHTML = ""; render(); } else $("#me").textContent = "Incorrect user ID or password."; }); };
+  }
   var pages = {
     home: function () {
       var press = sorted((data.press || {}).items), f = press[0];
@@ -225,7 +234,8 @@
       $("#kkChips").innerHTML = st.map(function (s) { return '<span class="chip">' + esc(s.title) + ' <b>' + s.count + "</b></span>"; }).join("");
       $("#fedChips").innerHTML = feds.slice(0, 14).map(function (f) { return '<span class="chip n">' + esc(f.name) + "</span>"; }).join("") + '<a class="chip" href="federations.html">+ ' + Math.max(0, feds.length - 14) + " more</a>";
       var nt = data.notices, nbl = $("#nbList");
-      if (nbl && nt) {
+      if (!memOn() && $("#noticeboard")) $("#noticeboard").remove();
+      if (nbl && nt && memOn()) {
         var nd = Date.now(), its = sorted(nt.items);
         nbl.innerHTML = its.slice(0, 6).map(function (x) { return ntCard(x, nd, false); }).join("");
         $("#nbDates").innerHTML = '<p class="chk">Checked daily at 00:00 IST · next check ' + ntNext() + ' IST</p><a class="btn sm" href="notices.html">All notices →</a>';
@@ -323,21 +333,16 @@
       if (site.repo) { var g = $("#wg"); g.hidden = false; g.onclick = function () { var o = obj(); window.open("https://github.com/" + site.repo + "/new/main/data/blogs?filename=" + encodeURIComponent(o.slug + ".json") + "&value=" + encodeURIComponent(JSON.stringify(o, null, 1)), "_blank", "noopener"); }; }
     },
     members: function () {
-      var box = $("#memArea"), ok = false; try { ok = sessionStorage.getItem("bms-mem") === "1"; } catch (e) {}
-      function sha(t) { return crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ("0" + x.toString(16)).slice(-2); }).join(""); }); }
-      function show() {
-        box.innerHTML = '<p style="text-align:right"><button class="btn ghost sm" id="memOut" type="button">Sign out</button></p><aside class="nbr" id="memDates">Loading…</aside>';
-        $("#memOut").onclick = function () { try { sessionStorage.removeItem("bms-mem"); } catch (e) {} form(); };
+      var box = $("#memArea");
+      gate(box, function () {
+        box.innerHTML = '<p style="text-align:right"><button class="btn ghost sm" id="memOut" type="button">Sign out</button></p><p><a class="btn sm" href="notices.html">Labour Notice Board →</a></p><aside class="nbr" id="memDates">Loading…</aside>';
+        $("#memOut").onclick = function () { try { sessionStorage.removeItem("bms-mem"); } catch (e) {} location.reload(); };
         fetch("data/member-deadlines.json").then(function (r) { return r.json(); }).then(function (d) { $("#memDates").innerHTML = ntDeadlines(d, Date.now()); }).catch(function () { $("#memDates").textContent = "Could not load."; });
-      }
-      function form() {
-        box.innerHTML = '<form id="memF" class="ntf" style="max-width:380px;display:grid;gap:10px"><label>User ID<input id="mu" autocomplete="username" required></label><label>Password<input id="mp" type="password" autocomplete="current-password" required></label><button class="btn" type="submit">Sign in</button><p id="me" style="color:#a5281a;margin:0" role="alert"></p><p style="font-size:13px;color:#777;margin:0">Demo sign-in.</p></form>';
-        $("#memF").onsubmit = function (e) { e.preventDefault(); Promise.all([sha($("#mu").value.trim()), sha($("#mp").value)]).then(function (h) { if (h[0] === "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918" && h[1] === "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918") { try { sessionStorage.setItem("bms-mem", "1"); } catch (x) {} show(); } else $("#me").textContent = "Incorrect user ID or password."; }); };
-      }
-      ok ? show() : form();
+      });
     },
     login: function () { $("#loginPage").innerHTML = loginLinks("lcard"); },
-    notices: function () {
+    notices: function () { gate($("#ntRoot"), pages._notices); },
+    _notices: function () {
       var nt = data.notices || {}, items = sorted(nt.items), root = $("#ntRoot"), d = Date.now();
       var states = []; items.forEach(function (x) { if (x.state && states.indexOf(x.state) < 0) states.push(x.state); }); states.sort();
       var cats = []; items.forEach(function (x) { if (cats.indexOf(x.category) < 0) cats.push(x.category); });
