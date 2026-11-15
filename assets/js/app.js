@@ -6,10 +6,10 @@
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 
   var I18N = {
-    en: { home: "Home", about: "About", whos: "Who's Who", kk: "Karya Karini", fed: "Federations", press: "Press", blog: "Blog", videos: "Videos", gallery: "Gallery", contact: "Contact",
+    en: { home: "Home", about: "About", whos: "Who's Who", kk: "Karya Karini", fed: "Federations", press: "Press", blog: "Blog", videos: "Videos", gallery: "Gallery", dl: "Downloads", contact: "Contact",
       heroEyebrow: "India's largest trade union", heroH: "Industrialise the Nation. Labourise the Industry. Nationalise the Labour.", heroP: "Bharatiya Mazdoor Sangh — the organised voice of Indian workers since 1955, with federations in every major industry and affiliated unions across the country.",
       ctaA: "Latest Press Notifications", ctaB: "Know Our Leadership", latest: "Latest Press Notifications", all: "View all →", whosH: "Who's Who — National Office Bearers", kkH: "National Karya Karini — Structure", fedH: "Federations", galH: "From Our Gallery", minH: "With Union Ministers", contactH: "Contact Us", aboutH: "About BMS", blogH: "From the Blog", vidH: "Videos & Reels", quickH: "Quick Links", dirH: "Directories", connH: "Connect with BMS", newsH: "News & Spotlight", search: "Search BMS…" },
-    hi: { home: "मुख्य पृष्ठ", about: "परिचय", whos: "हू'ज़ हू", kk: "राष्ट्रीय कार्यकारिणी", fed: "महासंघ", press: "प्रेस", blog: "ब्लॉग", videos: "वीडियो", gallery: "गैलरी", contact: "संपर्क",
+    hi: { home: "मुख्य पृष्ठ", about: "परिचय", whos: "हू'ज़ हू", kk: "राष्ट्रीय कार्यकारिणी", fed: "महासंघ", press: "प्रेस", blog: "ब्लॉग", videos: "वीडियो", gallery: "गैलरी", dl: "डाउनलोड", contact: "संपर्क",
       heroEyebrow: "भारत का सबसे बड़ा श्रमिक संगठन", heroH: "राष्ट्र का औद्योगीकरण। उद्योगों का श्रमिकीकरण। श्रमिकों का राष्ट्रीयकरण।", heroP: "भारतीय मज़दूर संघ — 1955 से भारतीय श्रमिकों की संगठित आवाज़; प्रत्येक प्रमुख उद्योग में महासंघ और देशभर में सम्बद्ध यूनियनें।",
       ctaA: "ताज़ा प्रेस विज्ञप्तियाँ", ctaB: "हमारा नेतृत्व", latest: "ताज़ा प्रेस विज्ञप्तियाँ", all: "सभी देखें →", whosH: "हू'ज़ हू — राष्ट्रीय पदाधिकारी", kkH: "राष्ट्रीय कार्यकारिणी — संरचना", fedH: "महासंघ", galH: "हमारी गैलरी", minH: "केंद्रीय मंत्रियों के साथ", contactH: "संपर्क करें", aboutH: "भारतीय मज़दूर संघ के बारे में", blogH: "ब्लॉग से", vidH: "वीडियो एवं रील्स", quickH: "त्वरित लिंक", dirH: "निर्देशिकाएँ", connH: "हमसे जुड़ें", newsH: "समाचार एवं विशेष", search: "खोजें…" }
   };
@@ -50,7 +50,7 @@
   }
 
   /* ---------- shell ---------- */
-  var NAV = [["index.html", "home"], ["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "videos"], ["gallery.html", "gallery"], ["index.html#contact", "contact"]];
+  var NAV = [["index.html", "home"], ["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"], ["index.html#contact", "contact"]];
   function shell() {
     var cur = (location.pathname.split("/").pop() || "index.html");
     var site = data.site || {};
@@ -218,8 +218,18 @@
       $("#stats").innerHTML = [["1955", "Founded 23 July 1955"], ["~1 crore", "members (as stated by BMS)"], ["5,000+", "affiliated unions (as stated)"], [feds.length, "industry federations"]].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>"; }).join("");
       $("#quick").innerHTML = [["👥", "Who's Who", "whos-who.html"], ["🏛", "Karya Karini", "karya-karini.html"], ["🏭", "Federations", "federations.html"], ["📰", "Press Notifications", "press.html"], ["📢", "Notice Board", "notices.html"], ["⬇", "Downloads", "downloads.html"], ["🖼", "Gallery", "gallery.html"], ["⚖", "Labour Codes", "https://www.bms.org.in/labour-codes/"], ["📖", "Vishwakarma Sanket", "https://www.bms.org.in/read-vishwakarma-sanket/"], ["📚", "Digital Library", "https://repository.bharatiyamazdoorsangh.org"], ["✅", "eShram Registration", "https://register.eshram.gov.in/#/user/self"], ["☎", "Contact", "#contact"]].map(function (q) { return '<a class="tile" href="' + esc(q[2]) + '"' + (q[2].indexOf("http") === 0 ? ' rel="noopener"' : "") + "><i>" + q[0] + "</i><span>" + esc(q[1]) + "</span></a>"; }).join("");
       var sp = press[0], rest = press.slice(1, 7);
-      if (sp) $("#spot").innerHTML = '<a class="spf" href="' + esc(sp.url) + '" rel="noopener">' + (sp.image ? '<img loading="lazy" src="' + esc(sp.image) + '" alt="" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(sp.date, sp.approx) + "</time><h3>" + esc(sp.title) + "</h3><p>" + esc(sp.summary || "") + '</p></div></a><ul class="splist">' + rest.map(function (p) { return '<li><time>' + fmtDate(p.date, true) + '</time><a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a></li>"; }).join("") + "</ul>";
-      $("#loginTiles").innerHTML = loginLinks("lcard");
+      if (sp) {
+        var ss = press.filter(function (x) { return x.image; }).slice(0, 8); if (!ss.length) ss = [sp];
+        $("#spot").innerHTML = '<div class="spsl"><div class="sptrk">' + ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img loading="lazy" src="' + esc(x.image) + '" alt="" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }).join("") + '</div><div class="sdots">' + ss.map(function (x, i) { return '<button type="button" aria-label="Slide ' + (i + 1) + '" data-i="' + i + '"></button>'; }).join("") + '</div></div><ul class="splist">' + rest.map(function (p) { return '<li><time>' + fmtDate(p.date, true) + '</time><a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a></li>"; }).join("") + "</ul>";
+        var sw = $("#spot .spsl"), st = sw.querySelector(".sptrk"), sd = sw.querySelectorAll(".sdots button"), si2 = 0, stm;
+        var sgo = function (n) { si2 = (n + ss.length) % ss.length; st.style.transform = "translateX(-" + si2 * 100 + "%)"; sd.forEach(function (d, i) { d.classList.toggle("on", i === si2); }); };
+        var spl = function () { clearInterval(stm); if (ss.length > 1) stm = setInterval(function () { sgo(si2 + 1); }, 5500); };
+        sd.forEach(function (d) { d.addEventListener("click", function () { sgo(+d.dataset.i); spl(); }); });
+        sw.addEventListener("mouseenter", function () { clearInterval(stm); }); sw.addEventListener("mouseleave", spl);
+        var sx = 0; sw.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; clearInterval(stm); }, { passive: true });
+        sw.addEventListener("touchend", function (e) { var dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) sgo(si2 + (dx < 0 ? 1 : -1)); spl(); });
+        sgo(0); spl();
+      }
       var vi = sorted((data.videos || {}).items).slice(0, 6);
       $("#vidGrid").innerHTML = vi.map(vidCard).join(""); $("#vmHost").innerHTML = vmHtml(); wireVideos($("#vidGrid"), vi);
       var bl = ((data.blogs || {}).items || []).slice(0, 3);
