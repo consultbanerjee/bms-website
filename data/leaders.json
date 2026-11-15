@@ -18,7 +18,7 @@
    "id": "shri-surendra-kumar-pandey",
    "name": "Shri Surendra Kumar Pandey",
    "role": "General Secretary",
-   "group": "General Secretaries",
+   "group": "General Secretary",
    "phone": "",
    "email": "surendra_abkms@yahoo.com",
    "photo": "",
@@ -30,8 +30,8 @@
   {
    "id": "shri-sukhminder-singh-dikky",
    "name": "Shri Sukhminder Singh Dikky",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "sukhwinderdicky59@gmail.com",
    "photo": "",
@@ -43,8 +43,8 @@
   {
    "id": "smt-neeta-chobey",
    "name": "Smt. Neeta Chobey",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "nvchobe@gmail.com",
    "photo": "",
@@ -56,8 +56,8 @@
   {
    "id": "shri-ashok-kumar-shukla",
    "name": "Shri Ashok Kumar Shukla",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "ashokshuklabms@gmail.com",
    "photo": "",
@@ -69,8 +69,8 @@
   {
    "id": "shri-unnikrishnan-unnithan",
    "name": "Shri UnniKrishnan Unnithan",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "unnithanastro@gmail.com",
    "photo": "",
@@ -82,8 +82,8 @@
   {
    "id": "shri-rajendra-sharma",
    "name": "Shri Rajendra Sharma",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "rks4y3@gmail.com",
    "photo": "",
@@ -95,8 +95,8 @@
   {
    "id": "shri-pawan-kumar",
    "name": "Shri Pawan Kumar",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "pawankumarbms@rediffmail.com",
    "photo": "",
@@ -108,8 +108,8 @@
   {
    "id": "shri-jignesh-majumudar",
    "name": "Shri Jignesh Majumudar",
-   "role": "General Secretary",
-   "group": "General Secretaries",
+   "role": "Vice President",
+   "group": "Vice Presidents",
    "phone": "",
    "email": "",
    "photo": "",
@@ -197,23 +197,10 @@
    ]
   },
   {
-   "id": "shri-sanjay-kumar-sinha",
-   "name": "Shri Sanjay Kumar Sinha",
-   "role": "Secretary",
-   "group": "Secretaries",
-   "phone": "",
-   "email": "sanjaysinhags@gmail.com",
-   "photo": "",
-   "photo_locked": false,
-   "aliases": [
-    "Sanjay Kumar Sinha"
-   ]
-  },
-  {
    "id": "shri-b-surendran",
    "name": "Shri B. Surendran",
    "role": "Organising Secretary",
-   "group": "National Office Posts",
+   "group": "Organising Secretary",
    "phone": "",
    "email": "surendran.bms@gmail.com",
    "photo": "",
@@ -226,7 +213,7 @@
    "id": "shri-ganesh-mishra",
    "name": "Shri Ganesh Mishra",
    "role": "Deputy Organising Secretary",
-   "group": "National Office Posts",
+   "group": "Organising Secretary",
    "phone": "",
    "email": "ganesh.mishra68@gmail.com",
    "photo": "",
@@ -239,7 +226,7 @@
    "id": "shri-anish-mishra",
    "name": "Shri Anish Mishra",
    "role": "Finance Secretary",
-   "group": "National Office Posts",
+   "group": "Finance Secretary",
    "phone": "",
    "email": "",
    "photo": "",
@@ -251,14 +238,28 @@
   {
    "id": "shri-valjibhai-p-parmar",
    "name": "Shri Valjibhai P. Parmar",
-   "role": "Central Office Secretary",
-   "group": "National Office Posts",
+   "role": "Office Secretary",
+   "group": "Office Secretary",
    "phone": "",
    "email": "vpp26vparmar@gmail.com",
    "photo": "",
    "photo_locked": false,
    "aliases": [
     "Valjibhai P. Parmar"
+   ]
+  },
+  {
+   "id": "shri-d-k-pandey",
+   "name": "Shri D. K. Pandey",
+   "role": "Karyalay Pramukh",
+   "group": "Karyalay Pramukh",
+   "phone": "",
+   "email": "",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "D. K. Pandey",
+    "DK Pandey"
    ]
   }
  ]
