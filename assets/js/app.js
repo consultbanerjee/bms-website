@@ -94,7 +94,7 @@
       var x = L[k]; if (!x) return "";
       return x.url ? '<a class="' + cls + '" href="' + esc(x.url) + '" rel="noopener"><i>' + ic[k] + "</i><span><b>" + esc(x.label) + "</b><small>" + esc(x.title) + "</small></span></a>"
         : '<span class="' + cls + ' off" aria-disabled="true"><i>' + ic[k] + "</i><span><b>" + esc(x.label) + "</b><small>" + esc(x.title) + " · Coming soon</small></span></span>";
-    }).join("");
+    }).join("") + (cls === "lcard" ? '<a class="lcard" href="members.html"><i>👤</i><span><b>Member area</b><small>Important dates and members-only information</small></span></a>' : "");
   }
   var FBI = '<svg class="soi" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.88v2.26h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07"/></svg>', YTI = '<svg class="soi" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8M9.6 15.6V8.4l6.2 3.6z"/></svg>';
   var WA = '<svg class="wai" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>';
@@ -321,6 +321,20 @@
       $("#wc").onclick = function () { var t = $("#wj").textContent; (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { $("#wmsg").textContent = "Copied."; }, function () { $("#wmsg").textContent = "Select the text and copy it manually."; }); };
       $("#wd").onclick = function () { var o = obj(), b = new Blob([JSON.stringify(o, null, 1)], { type: "application/json" }), a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = o.slug + ".json"; a.click(); };
       if (site.repo) { var g = $("#wg"); g.hidden = false; g.onclick = function () { var o = obj(); window.open("https://github.com/" + site.repo + "/new/main/data/blogs?filename=" + encodeURIComponent(o.slug + ".json") + "&value=" + encodeURIComponent(JSON.stringify(o, null, 1)), "_blank", "noopener"); }; }
+    },
+    members: function () {
+      var box = $("#memArea"), ok = false; try { ok = sessionStorage.getItem("bms-mem") === "1"; } catch (e) {}
+      function sha(t) { return crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)).then(function (b) { return Array.prototype.map.call(new Uint8Array(b), function (x) { return ("0" + x.toString(16)).slice(-2); }).join(""); }); }
+      function show() {
+        box.innerHTML = '<p style="text-align:right"><button class="btn ghost sm" id="memOut" type="button">Sign out</button></p><aside class="nbr" id="memDates">Loading…</aside>';
+        $("#memOut").onclick = function () { try { sessionStorage.removeItem("bms-mem"); } catch (e) {} form(); };
+        fetch("data/member-deadlines.json").then(function (r) { return r.json(); }).then(function (d) { $("#memDates").innerHTML = ntDeadlines(d, Date.now()); }).catch(function () { $("#memDates").textContent = "Could not load."; });
+      }
+      function form() {
+        box.innerHTML = '<form id="memF" class="ntf" style="max-width:380px;display:grid;gap:10px"><label>User ID<input id="mu" autocomplete="username" required></label><label>Password<input id="mp" type="password" autocomplete="current-password" required></label><button class="btn" type="submit">Sign in</button><p id="me" style="color:#a5281a;margin:0" role="alert"></p><p style="font-size:13px;color:#777;margin:0">Demo sign-in.</p></form>';
+        $("#memF").onsubmit = function (e) { e.preventDefault(); Promise.all([sha($("#mu").value.trim()), sha($("#mp").value)]).then(function (h) { if (h[0] === "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918" && h[1] === "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918") { try { sessionStorage.setItem("bms-mem", "1"); } catch (x) {} show(); } else $("#me").textContent = "Incorrect user ID or password."; }); };
+      }
+      ok ? show() : form();
     },
     login: function () { $("#loginPage").innerHTML = loginLinks("lcard"); },
     notices: function () {
