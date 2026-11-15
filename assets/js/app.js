@@ -196,23 +196,49 @@
     box.innerHTML = '<form id="memF" class="ntf" style="max-width:380px;display:grid;gap:10px"><p style="margin:0"><b>Members only.</b> Sign in to view this section.</p><label>User ID<input id="mu" autocomplete="username" required></label><label>Password<input id="mp" type="password" autocomplete="current-password" required></label><button class="btn" type="submit">Sign in</button><p id="me" style="color:#a5281a;margin:0" role="alert"></p><p style="font-size:13px;color:#777;margin:0">Demo sign-in.</p></form>';
     $("#memF").onsubmit = function (e) { e.preventDefault(); Promise.all([sha($("#mu").value.trim()), sha($("#mp").value)]).then(function (h) { if (h[0] === MEMH && h[1] === MEMH) { try { sessionStorage.setItem("bms-mem", "1"); } catch (x) {} box.innerHTML = ""; render(); } else $("#me").textContent = "Incorrect user ID or password."; }); };
   }
+  function gallery(host, slides, ms, onchange) {
+    var n = slides.length, i = 0, tm, raf, red = window.matchMedia && matchMedia("(prefers-reduced-motion:reduce)").matches;
+    host.classList.add("gl");
+    host.innerHTML = '<div class="gt" tabindex="0" aria-roledescription="carousel">' + slides.map(function (h, k) { return '<div class="gs" aria-label="' + (k + 1) + " / " + n + '">' + h + "</div>"; }).join("") + "</div>" +
+      (n > 1 ? '<button type="button" class="gb gp" aria-label="Previous">&#8249;</button><button type="button" class="gb gn" aria-label="Next">&#8250;</button><div class="gd">' + slides.map(function (_, k) { return '<button type="button" aria-label="Go to ' + (k + 1) + '" data-i="' + k + '"></button>'; }).join("") + "</div>" : "");
+    var t = host.querySelector(".gt"), dots = host.querySelectorAll(".gd button");
+    function mark() { dots.forEach(function (d, k) { d.classList.toggle("on", k === i); }); if (onchange) onchange(i); }
+    function go(k) { i = (k + n) % n; t.scrollTo({ left: i * t.clientWidth, behavior: red ? "auto" : "smooth" }); mark(); }
+    t.addEventListener("scroll", function () { cancelAnimationFrame(raf); raf = requestAnimationFrame(function () { var k = Math.round(t.scrollLeft / (t.clientWidth || 1)); if (k !== i && k >= 0 && k < n) { i = k; mark(); } }); }, { passive: true });
+    function play() { clearInterval(tm); if (n > 1 && !red) tm = setInterval(function () { if (!document.hidden) go(i + 1); }, ms); }
+    function stop() { clearInterval(tm); }
+    if (n > 1) {
+      host.querySelector(".gp").addEventListener("click", function () { go(i - 1); play(); });
+      host.querySelector(".gn").addEventListener("click", function () { go(i + 1); play(); });
+      dots.forEach(function (d) { d.addEventListener("click", function () { go(+d.dataset.i); play(); }); });
+      t.addEventListener("keydown", function (e) { if (e.key === "ArrowRight") { go(i + 1); play(); } if (e.key === "ArrowLeft") { go(i - 1); play(); } });
+      host.addEventListener("mouseenter", stop); host.addEventListener("mouseleave", play);
+      host.addEventListener("touchstart", stop, { passive: true }); host.addEventListener("touchend", play, { passive: true });
+      window.addEventListener("resize", function () { t.scrollLeft = i * t.clientWidth; });
+    }
+    mark(); play();
+  }
+  function appShell() {
+    var h = document.head, add = function (tag, at) { var e = document.createElement(tag); for (var k in at) e.setAttribute(k, at[k]); h.appendChild(e); };
+    if (!document.querySelector('link[rel="manifest"]')) add("link", { rel: "manifest", href: "manifest.webmanifest" });
+    add("link", { rel: "apple-touch-icon", href: "assets/img/icon-192.png" });
+    add("meta", { name: "apple-mobile-web-app-capable", content: "yes" }); add("meta", { name: "mobile-web-app-capable", content: "yes" });
+    add("meta", { name: "apple-mobile-web-app-title", content: "BMS" }); add("meta", { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" });
+    if (!document.querySelector('meta[name="theme-color"]')) add("meta", { name: "theme-color", content: "#7A1F0B" });
+    var cur = (location.pathname.split("/").pop() || "index.html"), items = [["index.html", "🏠", "Home"], ["press.html", "📰", "Press"], ["notices.html", "📢", "Notices"], ["downloads.html", "⬇", "Downloads"], ["index.html#contact", "☎", "Contact"]];
+    var bar = document.createElement("nav"); bar.id = "abar"; bar.setAttribute("aria-label", "App navigation");
+    bar.innerHTML = items.map(function (x) { var on = x[0] === cur || (cur === "" && x[0] === "index.html"); return '<a href="' + x[0] + '"' + (on ? ' class="on" aria-current="page"' : "") + "><i>" + x[1] + "</i><span>" + x[2] + "</span></a>"; }).join("");
+    document.body.appendChild(bar);
+    if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
   var pages = {
     home: function () {
       var press = sorted((data.press || {}).items), f = press[0];
       $("#ticker").innerHTML = press.slice(0, 8).map(function (p) { return '<a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a>"; }).join("");
       var hs = press.filter(function (x) { return x.image; }).slice(0, 8); if (!hs.length) hs = press.slice(0, 8);
       if (hs.length) {
-        var hc = $("#heroCard"), hi = 0, ht;
-        hc.classList.add("slider");
-        hc.innerHTML = '<div class="strk">' + hs.map(function (x) { return '<div class="sl">' + (x.image ? '<img src="' + esc(x.image) + '" alt="" onerror="this.remove()">' : "") + '<div><small>Latest · ' + fmtDate(x.date, x.approx) + '</small><a href="' + esc(x.url) + '" rel="noopener">' + esc(x.title) + "</a></div></div>"; }).join("") + '</div><div class="sdots">' + hs.map(function (x, i) { return '<button type="button" aria-label="Slide ' + (i + 1) + '" data-i="' + i + '"></button>'; }).join("") + "</div>";
-        var trk = hc.querySelector(".strk"), dots = hc.querySelectorAll(".sdots button");
-        var go = function (n) { hi = (n + hs.length) % hs.length; trk.style.transform = "translateX(-" + hi * 100 + "%)"; dots.forEach(function (d, i) { d.classList.toggle("on", i === hi); }); if (hs[hi].image) $("#heroBg").style.backgroundImage = "url('" + hs[hi].image + "')"; };
-        var play = function () { clearInterval(ht); if (hs.length > 1) ht = setInterval(function () { go(hi + 1); }, 5000); };
-        dots.forEach(function (d) { d.addEventListener("click", function () { go(+d.dataset.i); play(); }); });
-        hc.addEventListener("mouseenter", function () { clearInterval(ht); }); hc.addEventListener("mouseleave", play);
-        var tx = 0; hc.addEventListener("touchstart", function (e) { tx = e.touches[0].clientX; clearInterval(ht); }, { passive: true });
-        hc.addEventListener("touchend", function (e) { var dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 40) go(hi + (dx < 0 ? 1 : -1)); play(); });
-        go(0); play();
+        var hc = $("#heroCard");
+        gallery(hc, hs.map(function (x) { return '<a class="gsl" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'noimg\');this.remove()">' : "") + '<span class="gcap"><small>Latest · ' + fmtDate(x.date, x.approx) + "</small><b>" + esc(x.title) + "</b></span></a>"; }), 5000, function (i) { if (hs[i].image) $("#heroBg").style.backgroundImage = "url('" + hs[i].image + "')"; });
       }
       var feds = (data.federations || {}).federations || [];
       $("#stats").innerHTML = [["1955", "Founded 23 July 1955"], ["~1 crore", "members (as stated by BMS)"], ["5,000+", "affiliated unions (as stated)"], [feds.length, "industry federations"]].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>"; }).join("");
@@ -220,15 +246,8 @@
       var sp = press[0], rest = press.slice(1, 7);
       if (sp) {
         var ss = press.filter(function (x) { return x.image; }).slice(0, 8); if (!ss.length) ss = [sp];
-        $("#spot").innerHTML = '<div class="spsl"><div class="sptrk">' + ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img loading="lazy" src="' + esc(x.image) + '" alt="" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }).join("") + '</div><div class="sdots">' + ss.map(function (x, i) { return '<button type="button" aria-label="Slide ' + (i + 1) + '" data-i="' + i + '"></button>'; }).join("") + '</div></div><ul class="splist">' + rest.map(function (p) { return '<li><time>' + fmtDate(p.date, true) + '</time><a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a></li>"; }).join("") + "</ul>";
-        var sw = $("#spot .spsl"), st = sw.querySelector(".sptrk"), sd = sw.querySelectorAll(".sdots button"), si2 = 0, stm;
-        var sgo = function (n) { si2 = (n + ss.length) % ss.length; st.style.transform = "translateX(-" + si2 * 100 + "%)"; sd.forEach(function (d, i) { d.classList.toggle("on", i === si2); }); };
-        var spl = function () { clearInterval(stm); if (ss.length > 1) stm = setInterval(function () { sgo(si2 + 1); }, 5500); };
-        sd.forEach(function (d) { d.addEventListener("click", function () { sgo(+d.dataset.i); spl(); }); });
-        sw.addEventListener("mouseenter", function () { clearInterval(stm); }); sw.addEventListener("mouseleave", spl);
-        var sx = 0; sw.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; clearInterval(stm); }, { passive: true });
-        sw.addEventListener("touchend", function (e) { var dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) sgo(si2 + (dx < 0 ? 1 : -1)); spl(); });
-        sgo(0); spl();
+        $("#spot").innerHTML = '<div class="spsl"></div><ul class="splist">' + rest.map(function (p) { return '<li><time>' + fmtDate(p.date, true) + '</time><a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a></li>"; }).join("") + "</ul>";
+        gallery($("#spot .spsl"), ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img loading="lazy" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }), 5500);
       }
       var vi = sorted((data.videos || {}).items).slice(0, 6);
       $("#vidGrid").innerHTML = vi.map(vidCard).join(""); $("#vmHost").innerHTML = vmHtml(); wireVideos($("#vidGrid"), vi);
@@ -399,6 +418,6 @@
 
   var page = document.body.getAttribute("data-page");
   load(["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "thengadi", "notices", "downloads"]).then(function () {
-    shell(); if (pages[page]) pages[page](); applyTranslate();
+    shell(); appShell(); if (pages[page]) pages[page](); applyTranslate();
   });
 })();
