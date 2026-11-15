@@ -268,5 +268,5 @@ nav.main a,.brand b,.brand small{white-space:nowrap}.brand small{letter-spacing:
 .dlhome{display:grid;grid-template-columns:1.4fr 1fr;gap:22px;align-items:center}.dlhome div{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
 @media(max-width:800px){.dlhome{grid-template-columns:1fr}}
 
-.brand .bslog{display:block;font-style:normal;font-size:11.5px;font-weight:600;color:#702716;letter-spacing:.3px;margin-top:2px;white-space:nowrap}
-@media(max-width:560px){.brand .bslog{font-size:10px}}
+.brand .bslog{display:block;font-style:normal;font-size:15px;font-weight:700;color:#702716;letter-spacing:.4px;white-space:nowrap;margin-left:6px;padding-left:14px;border-left:2px solid #de7032}
+@media(max-width:1280px){.brand .bslog{display:none}}
