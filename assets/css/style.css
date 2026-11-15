@@ -272,3 +272,9 @@ nav.main a,.brand b,.brand small{white-space:nowrap}.brand small{letter-spacing:
 @media(max-width:1280px){.brand .bslog{display:none}}
 .topbar .skiplink{position:absolute;left:-999px;top:0}.topbar .skiplink:focus{left:8px;top:4px;z-index:99;background:#702716;padding:4px 8px}.topbar .wrap{justify-content:flex-end}
 @media(max-width:820px){.topbar .l{display:none}}
+.hero .card-f.slider{position:relative}.hero .slider .strk{display:flex;transition:transform .6s ease}.hero .slider .sl{flex:0 0 100%;min-width:0}
+.hero .sdots{position:absolute;left:0;right:0;top:10px;display:flex;gap:6px;justify-content:center}.hero .sdots button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.6);cursor:pointer;box-shadow:0 0 3px rgba(0,0,0,.4)}.hero .sdots button.on{background:#fff;width:22px;border-radius:5px}
+@media(prefers-reduced-motion:reduce){.hero .slider .strk{transition:none}}
+.spsl{position:relative;overflow:hidden;border-radius:var(--r);align-self:start}.spsl .sptrk{display:flex;transition:transform .6s ease}.spsl .spf{flex:0 0 100%;min-width:0;height:100%}
+.spsl .sdots{position:absolute;left:0;right:0;top:12px;display:flex;gap:6px;justify-content:center}.spsl .sdots button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.65);cursor:pointer;box-shadow:0 0 3px rgba(0,0,0,.45)}.spsl .sdots button.on{background:#fff;width:22px;border-radius:5px}
+@media(prefers-reduced-motion:reduce){.spsl .sptrk{transition:none}}
