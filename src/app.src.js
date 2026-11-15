@@ -46,22 +46,26 @@
     return dt.toLocaleDateString(lang === "hi" ? "hi-IN" : "en-IN", o);
   }
   function logo() {
-    return '<span class="plate"><img class="logo" src="assets/brand/emblem-96.webp" alt="Bharatiya Mazdoor Sangh logo" onerror="this.outerHTML=\'<svg width=42 height=42 viewBox=&quot;0 0 48 48&quot;><circle cx=24 cy=24 r=22 fill=&quot;#E8650A&quot;/><circle cx=24 cy=24 r=14 fill=none stroke=#fff stroke-width=3 stroke-dasharray=&quot;4 3&quot;/><circle cx=24 cy=24 r=6 fill=&quot;#7A1F0B&quot;/></svg>\'"></span>';
+    return '<span class="plate"><img class="logo" src="assets/brand/bms-logo.webp" width="220" height="55" alt="Bharatiya Mazdoor Sangh" onerror="this.outerHTML=\'<b>भारतीय मजदूर संघ</b>\'"></span>';
   }
 
   /* ---------- shell ---------- */
-  var NAV = [["index.html", "home"], ["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"], ["index.html#contact", "contact"]];
+  var NAV = [["index.html", "home"], ["whos-who.html", "whos", [["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"]]], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"], ["index.html#contact", "contact"]];
   function shell() {
     var cur = (location.pathname.split("/").pop() || "index.html");
     var site = data.site || {};
-    var nav = NAV.map(function (n) { var on = n[0] === cur ? ' aria-current="page"' : ""; return '<li><a href="' + n[0] + '"' + on + ">" + t(n[1]) + "</a></li>"; }).join("");
+    var nav = NAV.map(function (n) {
+      var kids = n[2], on = n[0] === cur || (kids && kids.some(function (k) { return k[0] === cur; })) ? ' aria-current="page"' : "";
+      if (!kids) return '<li><a href="' + n[0] + '"' + on + ">" + t(n[1]) + "</a></li>";
+      return '<li class="dd"><a href="' + n[0] + '"' + on + ' aria-haspopup="true">' + t(n[1]) + ' <i class="cv" aria-hidden="true">▾</i></a><ul class="sub">' + kids.map(function (k) { return '<li><a href="' + k[0] + '"' + (k[0] === cur ? ' aria-current="page"' : "") + ">" + t(k[1]) + "</a></li>"; }).join("") + "</ul></li>";
+    }).join("");
     var langOpts = LANGS.map(function (l) { return '<option value="' + l[0] + '"' + (l[0] === cur ? " selected" : "") + ">" + l[1] + "</option>"; }).join("");
     $("#hdr").innerHTML =
       '<div class="topbar"><div class="wrap"><a href="#main" class="skiplink">Skip to main content</a><span class="l"></span><span class="r">' +
       '<span class="a11y" role="group" aria-label="Accessibility tools"><button id="fm" aria-label="Decrease text size">A−</button><button id="fz" aria-label="Reset text size">A</button><button id="fp" aria-label="Increase text size">A+</button><button id="hc" aria-label="High contrast" aria-pressed="false">◐</button></span>' +
       '<label class="langsel notranslate" translate="no"><span class="vh">Language</span><select id="langSel" aria-label="Select language">' + langOpts + "</select></label>" +
       '<span class="soc"><a class="fb" href="' + esc(site.facebook) + '" rel="noopener" target="_blank" aria-label="BMS on Facebook" title="Facebook">' + FBI + '</a><a class="yt" href="' + esc(site.youtube) + '" rel="noopener" target="_blank" aria-label="BMS on YouTube" title="YouTube">' + YTI + '</a></span>' + '<a class="hide-sm" href="tel:' + esc((site.phone || "").replace(/[^0-9+]/g, "")) + '">☎ ' + esc(site.phone) + '</a><a class="hide-sm" href="https://wa.me/91' + esc(site.whatsapp) + '" rel="noopener" aria-label="Chat on WhatsApp">' + WA + 'WhatsApp</a><span class="lgn"><button id="lgnB" aria-haspopup="true" aria-expanded="false">🔒 Login ▾</button><div class="lgm" id="lgnM" hidden>' + loginLinks("lgi") + '</div></span></span></div></div>' +
-      '<header class="site"><div class="wrap"><a class="brand notranslate" translate="no" href="index.html">' + logo() + '<span class="wm"><b>भारतीय मजदूर संघ</b><small>Bharatiya Mazdoor Sangh</small></span><em class="bslog">राष्ट्रहित · उद्योगहित · मजदूरहित</em></a>' +
+      '<header class="site"><div class="wrap"><a class="brand notranslate" translate="no" href="index.html">' + logo() + '<em class="bslog">राष्ट्रहित <u>•</u> उद्योगहित <u>•</u> मजदूरहित</em></a>' +
       '<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main" id="nav" aria-label="Primary"><ul>' + nav + "</ul></nav></div></header>" +
       '<div class="searchstrip"><div class="wrap"><form id="sf" role="search" autocomplete="off"><input id="sq" type="search" placeholder="' + t("search") + '" aria-label="Search the site"><button class="btn sm" type="submit">Search</button><div id="sr" class="sres" hidden></div></form>' +
       '<div class="trend"><b>Trending:</b> <a href="press.html">Press notifications</a><a href="whos-who.html">Who\'s Who</a><a href="federations.html">Federations</a><a href="https://www.bms.org.in/labour-codes/" rel="noopener">Labour Codes</a><a href="gallery.html">Gallery</a></div></div></div>';
@@ -250,13 +254,13 @@
         gallery(hc, hs.map(function (x, k) { return '<a class="gsl" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img ' + (k ? 'loading="lazy" ' : 'fetchpriority="high" ') + 'decoding="async" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'noimg\');this.remove()">' : "") + '<span class="gcap"><small>Latest · ' + fmtDate(x.date, x.approx) + "</small><b>" + esc(x.title) + "</b></span></a>"; }), 5000);
       }
       var feds = (data.federations || {}).federations || [];
-      $("#stats").innerHTML = [["1955", "Founded 23 July 1955"], ["~1 crore", "members (as stated by BMS)"], ["5,000+", "affiliated unions (as stated)"], [feds.length, "industry federations"]].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>"; }).join("");
+      $("#stats").innerHTML = [["1955", "Founded 23 July 1955"], ["~4 crore", "Membership"], ["5,000+", "Affiliate Unions"], [feds.length, "Federation"]].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>"; }).join("");
       $("#quick").innerHTML = [["👥", "Who's Who", "whos-who.html"], ["🏛", "Karya Karini", "karya-karini.html"], ["🏭", "Federations", "federations.html"], ["📰", "Press Notifications", "press.html"], ["📢", "Notice Board", "notices.html"], ["⬇", "Downloads", "downloads.html"], ["🖼", "Gallery", "gallery.html"], ["⚖", "Labour Codes", "https://www.bms.org.in/labour-codes/"], ["📖", "Vishwakarma Sanket", "https://www.bms.org.in/read-vishwakarma-sanket/"], ["📚", "Digital Library", "https://repository.bharatiyamazdoorsangh.org"], ["✅", "eShram Registration", "https://register.eshram.gov.in/#/user/self"], ["☎", "Contact", "#contact"]].map(function (q) { return '<a class="tile" href="' + esc(q[2]) + '"' + (q[2].indexOf("http") === 0 ? ' rel="noopener"' : "") + "><i>" + q[0] + "</i><span>" + esc(q[1]) + "</span></a>"; }).join("");
       var sp = press[0], rest = press.slice(1, 7);
       if (sp) {
         var ss = press.filter(function (x) { return x.image; }).slice(0, 8); if (!ss.length) ss = [sp];
         $("#spot").innerHTML = '<div class="spsl"></div><ul class="splist">' + rest.map(function (p) { return '<li><time>' + fmtDate(p.date, true) + '</time><a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a></li>"; }).join("") + "</ul>";
-        gallery($("#spot .spsl"), ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img loading="lazy" decoding="async" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }), 5500);
+        gallery($("#spot .spsl"), ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + '<span class="spi">' + (x.image ? '<img loading="lazy" decoding="async" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : "") + '</span><div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }), 5500);
       }
       var vi = sorted((data.videos || {}).items).slice(0, 6);
       $("#vidGrid").innerHTML = vi.map(vidCard).join(""); $("#vmHost").innerHTML = vmHtml(); wireVideos($("#vidGrid"), vi);
@@ -264,9 +268,8 @@
       $("#blogGrid").innerHTML = bl.map(blogCard).join("") || '<p class="empty">No posts yet.</p>';
       var SL = ["Tyag, Tapasya aur Balidan", "Workers Unite the World", "Bharat Mata Ki Jai"], si = 0; $("#slogan").textContent = SL[0];
       setInterval(function () { si = (si + 1) % SL.length; $("#slogan").textContent = SL[si]; }, 4000);
-      $("#dirs").innerHTML = [["Who's Who", "Name, phone, email and photo of National Office Bearers", "whos-who.html"], ["Karya Karini", "Structure of the national organisation", "karya-karini.html"], ["Federation Directory", feds.length + " all-India federations", "federations.html"], ["Contact Directory", "Head office phone, WhatsApp and email", "#contact"]].map(function (d) { return '<a class="card dir" href="' + d[2] + '"><h3>' + esc(d[0]) + "</h3><p>" + esc(d[1]) + "</p></a>"; }).join("");
       var people = (data.leaders || {}).people || [];
-      var top = people.filter(function (p) { return p.group === "President" || p.group === "General Secretaries"; });
+      var top = people.filter(function (p) { return p.group === "President" || p.group === "General Secretary" || p.group === "Vice Presidents"; });
       $("#whoGrid").innerHTML = top.slice(0, 4).map(function (p, i) { return personCard(p, i === 0); }).join("");
       var st = (data.structure || {}).tiers || [];
       $("#kkChips").innerHTML = st.map(function (s) { return '<span class="chip">' + esc(s.title) + ' <b>' + s.count + "</b></span>"; }).join("");
@@ -303,10 +306,10 @@
       $("#contactBox").innerHTML = "<h3>Head Office, New Delhi</h3><p>" + esc(s.address) + '</p><p>☎ <a href="tel:' + esc((s.phone || "").replace(/[^0-9+]/g, "")) + '">' + esc(s.phone) + "</a> · Fax " + esc(s.fax) + '<br>✉ <a href="mailto:' + esc(s.email) + '">' + esc(s.email) + '</a></p><p><a class="btn" href="https://wa.me/91' + esc(s.whatsapp) + '" rel="noopener" aria-label="Chat on WhatsApp">' + WA + 'WhatsApp ' + esc(s.whatsapp) + "</a></p>" + mapHtml(s);
     },
     whos: function () {
-      var people = (data.leaders || {}).people || [], order = ["President", "General Secretaries", "Secretaries", "National Office Posts"], h = "";
+      var people = (data.leaders || {}).people || [], order = ["President", "Vice Presidents", "General Secretary", "Secretaries", "Finance Secretary", "Organising Secretary", "Office Secretary", "Karyalay Pramukh"], h = "";
       order.forEach(function (g) {
         var l = people.filter(function (p) { return p.group === g; }); if (!l.length) return;
-        h += '<h2 class="grp">' + esc(g) + '</h2><div class="grid g4 pp">' + l.map(function (p) { return personCard(p, g === "President"); }).join("") + "</div>";
+        h += '<h2 class="grp">' + esc(g) + '</h2><div class="grid g4 pp">' + l.map(function (p) { return personCard(p, g === "President" || g === "General Secretary"); }).join("") + "</div>";
       });
       $("#people").innerHTML = h || '<p class="empty">No data.</p>';
     },
