@@ -126,6 +126,33 @@
    "type": "TXT",
    "size": "1 KB",
    "featured": false
+  },
+  {
+   "group": "Photographs",
+   "title": "Dattopant Thengadi Ji — photograph (high resolution)",
+   "desc": "Founder of Bharatiya Mazdoor Sangh. 1404 × 1770 px, 300 dpi.",
+   "file": "assets/downloads/thengadi-high-res.jpg",
+   "type": "JPG",
+   "size": "451 KB",
+   "featured": false
+  },
+  {
+   "group": "Photographs",
+   "title": "Bharat Mata — image (high resolution)",
+   "desc": "Frame and caption removed. 2046 × 2790 px, 300 dpi.",
+   "file": "assets/downloads/bharatmata-high-res.jpg",
+   "type": "JPG",
+   "size": "1.6 MB",
+   "featured": false
+  },
+  {
+   "group": "Photographs",
+   "title": "Bhagwan Vishwakarma — image (high resolution)",
+   "desc": "Frame removed. 2484 × 3498 px, 300 dpi.",
+   "file": "assets/downloads/vishwakarma-high-res.jpg",
+   "type": "JPG",
+   "size": "3.4 MB",
+   "featured": false
   }
  ],
  "links": [
