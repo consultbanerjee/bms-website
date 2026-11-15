@@ -1,7 +1,7 @@
 {
  "updated": "2026-11-15",
- "last_check": "2026-11-15T17:19:09.260Z",
- "checks": 2,
+ "last_check": "2026-11-15T18:12:31.585Z",
+ "checks": 3,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
   {
@@ -34,6 +34,22 @@
    "title": "New EPF rules: Government can temporarily cut PF contributions during pandemics and national disasters - People Matters",
    "summary": "Reported by People Matters - HR News. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPN1czTEVzZ29vSFBDVDFGMUZGbHVKaVlqbVRwanhJc1hCWEcxTjVzZDdKX3B2dXczNEtFNXB0cHZVVV9sMEJERHgtYXNGZ0x5dWtlQncwNUJxWUwzdXd1b08yTGduVHhJVDZmbG4wR3AzZDhvSV9NVWo1ZTVGU1B5VHVPUUtxaDRIYnRDSFJzZU53Z2ZzeFpEVGYwZjZiZnhWZENfa0FrcDFYVi1GTlFSaHRXQ2N6X3V5YmRVRVhzYTNvWmxnalBiRHhfbER3ejFiSUY5c3Y3dHQtek14UDdtTHBTVzF6ZjJwNlEyM1J5RU0?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwi5jm3k0",
+   "auto": true,
+   "added": "2026-11-15T18:12:29.216Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-13",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO launches six-month amnesty scheme for exempted provident fund trusts",
+   "summary": "Reported by DD News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWhWX3NSZGhoU1JmRFlLaEhpamZ2eHZrTzIxSTctb0xBOEFoWUk0V25mMjVBRU92dTFOWWZPS1JLX2lQQ2dWWG1fb3hpVHRYazh6SWs2T0w3a1BGWHloWUlfSnoxX2JPT2dDR2pmR09UWV9wZzliSHlfQ0psd2ttY2xyUXNNOVlaM2hwNzBtZXE1bF9uZVluOWdaZGl5YzF4?oc=5",
    "official": "https://labour.gov.in"
   },
   {
@@ -75,25 +91,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -113,21 +110,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -147,6 +145,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
