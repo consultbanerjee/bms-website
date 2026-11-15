@@ -1,0 +1,39 @@
+name: Daily sync (00:00 IST)
+
+on:
+  schedule:
+    - cron: "30 18 * * *"   # 18:30 UTC = 00:00 IST every day
+  push:
+    paths: ["data/blogs/**"]   # publishing a blog file re-builds the blog index
+  workflow_dispatch: {}      # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Pull photos, press notifications and Who's Who photos
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+          GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
+          GDRIVE_FOLDER_ID: ${{ vars.GDRIVE_FOLDER_ID }}
+          FB_AUTOPOST: ${{ vars.FB_AUTOPOST }}   # set to "true" to share blogs marked share_to_facebook to the Page
+        run: node scripts/sync.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "bms-sync-bot"
+          git config user.email "bms-sync-bot@users.noreply.github.com"
+          git add -A data
+          for d in assets/gallery assets/notices; do if [ -d "$d" ]; then git add -A "$d"; fi; done
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "Daily sync $(TZ=Asia/Kolkata date +%F)"; git push; fi
