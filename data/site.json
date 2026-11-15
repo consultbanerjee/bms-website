@@ -37,19 +37,19 @@
   {
    "name": "Bhagwan Vishwakarma",
    "name_hi": "भगवान विश्वकर्मा",
-   "img": "assets/img/vishwakarma.jpg",
+   "img": "assets/img/vishwakarma.webp",
    "note": "Patron of all who work with their hands"
   },
   {
    "name": "Bharat Mata",
    "name_hi": "भारत माता",
-   "img": "assets/img/bharatmata.jpg",
-   "note": "Rashtra first — ‘Bharat Mata ki Jai’"
+   "img": "assets/img/bharatmata.webp",
+   "note": "Bharat Mata ki Jai"
   },
   {
    "name": "Dattopant Thengadi",
    "name_hi": "दत्तोपंत ठेंगड़ी",
-   "img": "assets/img/thengadi.jpg",
+   "img": "assets/img/thengadi.webp",
    "note": "Founder of Bharatiya Mazdoor Sangh"
   }
  ]
