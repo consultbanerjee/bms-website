@@ -398,38 +398,5 @@
    "urgent": false,
    "curated": true
   }
- ],
- "deadlines": [
-  {
-   "date": "2026-11-15",
-   "label": "EPFO ECR + PF remittance for October 2026 wages",
-   "jur": "Central"
-  },
-  {
-   "date": "2026-11-16",
-   "end": "2026-11-27",
-   "label": "CGIT special campaign for EPF appeals",
-   "jur": "Central"
-  },
-  {
-   "date": "2026-12-15",
-   "label": "EPFO ECR + PF remittance for November 2026 wages",
-   "jur": "Central"
-  },
-  {
-   "date": "2026-12-28",
-   "label": "EPFO VISHWAS 2026 window understood to close",
-   "jur": "Central"
-  },
-  {
-   "date": "2026-12-31",
-   "label": "West Bengal and Maharashtra minimum-wage period ends; revision due 1 Jan 2027",
-   "jur": "State"
-  },
-  {
-   "date": "2027-04-01",
-   "label": "Next central-sphere VDA revision (1 April cycle)",
-   "jur": "Central"
-  }
  ]
 }
