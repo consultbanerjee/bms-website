@@ -218,6 +218,15 @@
     }
     mark(); play();
   }
+  function lightEmbeds() {
+    $$("iframe").forEach(function (f) {
+      if (!/facebook\.com/.test(f.src || "")) return;
+      var src = f.src, box = f.parentNode, b = document.createElement("button");
+      b.type = "button"; b.className = "btn ghost dk"; b.textContent = "Load Facebook feed";
+      b.addEventListener("click", function () { var n = document.createElement("iframe"); n.title = "BMS on Facebook"; n.src = src; n.width = "100%"; n.height = "520"; n.style.border = "none"; n.loading = "lazy"; box.replaceChild(n, b); });
+      f.remove(); box.insertBefore(b, box.firstChild);
+    });
+  }
   function appShell() {
     var h = document.head, add = function (tag, at) { var e = document.createElement(tag); for (var k in at) e.setAttribute(k, at[k]); h.appendChild(e); };
     if (!document.querySelector('link[rel="manifest"]')) add("link", { rel: "manifest", href: "manifest.webmanifest" });
@@ -238,7 +247,7 @@
       var hs = press.filter(function (x) { return x.image; }).slice(0, 8); if (!hs.length) hs = press.slice(0, 8);
       if (hs.length) {
         var hc = $("#heroCard");
-        gallery(hc, hs.map(function (x) { return '<a class="gsl" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'noimg\');this.remove()">' : "") + '<span class="gcap"><small>Latest · ' + fmtDate(x.date, x.approx) + "</small><b>" + esc(x.title) + "</b></span></a>"; }), 5000, function (i) { if (hs[i].image) $("#heroBg").style.backgroundImage = "url('" + hs[i].image + "')"; });
+        gallery(hc, hs.map(function (x, k) { return '<a class="gsl" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img ' + (k ? 'loading="lazy" ' : 'fetchpriority="high" ') + 'decoding="async" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'noimg\');this.remove()">' : "") + '<span class="gcap"><small>Latest · ' + fmtDate(x.date, x.approx) + "</small><b>" + esc(x.title) + "</b></span></a>"; }), 5000);
       }
       var feds = (data.federations || {}).federations || [];
       $("#stats").innerHTML = [["1955", "Founded 23 July 1955"], ["~1 crore", "members (as stated by BMS)"], ["5,000+", "affiliated unions (as stated)"], [feds.length, "industry federations"]].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>"; }).join("");
@@ -247,7 +256,7 @@
       if (sp) {
         var ss = press.filter(function (x) { return x.image; }).slice(0, 8); if (!ss.length) ss = [sp];
         $("#spot").innerHTML = '<div class="spsl"></div><ul class="splist">' + rest.map(function (p) { return '<li><time>' + fmtDate(p.date, true) + '</time><a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a></li>"; }).join("") + "</ul>";
-        gallery($("#spot .spsl"), ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img loading="lazy" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }), 5500);
+        gallery($("#spot .spsl"), ss.map(function (x) { return '<a class="spf" href="' + esc(x.url) + '" rel="noopener">' + (x.image ? '<img loading="lazy" decoding="async" src="' + esc(x.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : "") + '<div class="spb"><time>' + fmtDate(x.date, x.approx) + "</time><h3>" + esc(x.title) + "</h3><p>" + esc(x.summary || "") + '</p></div></a>'; }), 5500);
       }
       var vi = sorted((data.videos || {}).items).slice(0, 6);
       $("#vidGrid").innerHTML = vi.map(vidCard).join(""); $("#vmHost").innerHTML = vmHtml(); wireVideos($("#vidGrid"), vi);
@@ -418,6 +427,6 @@
 
   var page = document.body.getAttribute("data-page");
   load(["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "thengadi", "notices", "downloads"]).then(function () {
-    shell(); appShell(); if (pages[page]) pages[page](); applyTranslate();
+    shell(); appShell(); lightEmbeds(); if (pages[page]) pages[page](); applyTranslate();
   });
 })();
