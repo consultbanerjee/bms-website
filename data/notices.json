@@ -1,9 +1,41 @@
 {
  "updated": "2026-11-15",
- "last_check": "2026-11-15T14:25:00Z",
- "checks": 1,
+ "last_check": "2026-11-15T17:19:09.260Z",
+ "checks": 2,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwi3mzx01",
+   "auto": true,
+   "added": "2026-11-15T17:19:07.860Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-14",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "NCPA urges EPFO to stop rejecting higher pension claims, withdraw court appeals",
+   "summary": "Reported by The Tribune. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVi1odkJ4TWVqelhTU1dTdU1WSllDM3NQRjh0WE1pdVdaSW1acEo1QW9KZFY1OXRKM092VXU4clhiMTFtZGRoWXNBdXBqQk1vekstMVFXdjdnNnBoaGtPeTFoa0JTcFpkVkhRaWJyenlsRU8wNTQzRERGdVpaUkdoaWVmT2NEMUVRdjdpNGRXMFZhdERmTU1KR2MtVzJ2WUZseGQ4VEQzbTJKdF9Pb0drX25lX1A1VXZHSjh30gG_AUFVX3lxTE8zY3pUTDJTMmJsXy1xM3pCWHl0U192Z2h0R2JpRklYdUU2WVJMWUhQcHA3UWczQzlCekdwMXg2ZXM4YU9LNHZMZEEtMWtabFQyeGhYYk96U01iNDBLTm9rV3FZWXk4NURTMk5feFluQnMyaTVVOHhWN2x4LWd2ZF9Jb0h6TG5vVWpNTTBXOTJSeTl5ekhiTzJ2WUhySnh3Q0tDRkRTS3NMZWdnZmFsUFhsMWp4YUxOUHBnNkRiX293?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwi3mzwz0",
+   "auto": true,
+   "added": "2026-11-15T17:19:07.859Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-13",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "New EPF rules: Government can temporarily cut PF contributions during pandemics and national disasters - People Matters",
+   "summary": "Reported by People Matters - HR News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPN1czTEVzZ29vSFBDVDFGMUZGbHVKaVlqbVRwanhJc1hCWEcxTjVzZDdKX3B2dXczNEtFNXB0cHZVVV9sMEJERHgtYXNGZ0x5dWtlQncwNUJxWUwzdXd1b08yTGduVHhJVDZmbG4wR3AzZDhvSV9NVWo1ZTVGU1B5VHVPUUtxaDRIYnRDSFJzZU53Z2ZzeFpEVGYwZjZiZnhWZENfa0FrcDFYVi1GTlFSaHRXQ2N6X3V5YmRVRVhzYTNvWmxnalBiRHhfbER3ejFiSUY5c3Y3dHQtek14UDdtTHBTVzF6ZjJwNlEyM1J5RU0?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "n001",
    "date": "2026-11-07",
@@ -43,6 +75,25 @@
    "curated": true
   },
   {
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "pdf": "",
+   "tags": [
+    "CGIT",
+    "EPF appeals"
+   ],
+   "urgent": true,
+   "curated": true
+  },
+  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -57,6 +108,24 @@
    "tags": [
     "EPFO",
     "Members"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
    ],
    "urgent": false,
    "curated": true
@@ -78,176 +147,6 @@
     "Deadline"
    ],
    "urgent": true,
-   "curated": true
-  },
-  {
-   "id": "n005",
-   "date": "2026-09-30",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Minimum Wages",
-   "title": "Central sphere VDA revised from 1 October 2026 (File No. 6/1/2026-VDA)",
-   "summary": "Unskilled construction/cleaning/loading wage is ₹840 a day in Area A (₹704 B, ₹565 C) after CPI-IW rose from 424.80 to 431.42. Valid till 31 Mar 2027.",
-   "source": "https://www.indianpaycalculator.in/govt-news/central-sphere-minimum-wages-840-construction-october-2026",
-   "official": "https://clc.gov.in",
-   "pdf": "",
-   "tags": [
-    "Minimum wages",
-    "VDA"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
-   "id": "n006",
-   "date": "2026-09-17",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Social Security",
-   "title": "Notification S.O. 5109(E): EPF wage ceiling raised from ₹15,000 to ₹25,000",
-   "summary": "Statutory wage ceiling for provident-fund coverage under Chapter III of the Code on Social Security, 2020 is now ₹25,000 a month.",
-   "source": "https://www.legal500.com/intelligence/india/employment-and-hr/employment-law-update-sep-oct-2026",
-   "official": "https://egazette.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Wage ceiling"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
-   "id": "n007",
-   "date": "2026-08-25",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Wages / Bonus",
-   "title": "Bonus under the Code on Wages: ₹21,000 limit (Gazette Nos. 4525 and 4526)",
-   "summary": "Statutory bonus applies to employees earning up to ₹21,000 a month, calculated on ₹7,000 or the Central minimum wage, whichever is higher.",
-   "source": "https://labourlawindia.com/bonus-under-the-code-on-wages/",
-   "official": "https://egazette.gov.in",
-   "pdf": "",
-   "tags": [
-    "Bonus",
-    "Wages Code"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
-   "id": "n008",
-   "date": "2026-06-29",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Social Security",
-   "title": "New EPF, pension and DLI schemes notified under the Code on Social Security",
-   "summary": "Ministry of Labour notified three new schemes (provident fund, pension, deposit-linked insurance) plus three special schemes to clear legacy problems.",
-   "source": "https://www.incorpx.io/blog/epf-scheme-2026-changes-employers",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Schemes"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
-   "id": "n009",
-   "date": "2026-05-09",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Codes & Rules",
-   "title": "Central Rules under all four Labour Codes notified (8–9 May 2026)",
-   "summary": "Wages Rules (G.S.R. 343(E)), IR Rules (G.S.R. 342(E)), Social Security Rules (G.S.R. 344(E)) and OSH Rules, plus Model Standing Orders, 2026.",
-   "source": "https://www.cyrilshroff.com/wp-content/uploads/2026/05/Client-Alert-Labour-Codes-Implementation-of-Rules.pdf",
-   "official": "https://egazette.gov.in",
-   "pdf": "https://www.cyrilshroff.com/wp-content/uploads/2026/05/Client-Alert-Labour-Codes-Implementation-of-Rules.pdf",
-   "tags": [
-    "Labour Codes",
-    "Rules"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
-   "id": "n010",
-   "date": "2025-11-21",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Codes & Rules",
-   "title": "All four Labour Codes brought into force (21 November 2025)",
-   "summary": "Gazette notifications put the Wages, Industrial Relations, Social Security and OSH Codes into force, replacing 29 central labour laws.",
-   "source": "https://www.legal500.com/intelligence/india/employment-and-hr/ministry-of-labour-and-employment-notifies-and-enforces-four-new-labour-codes",
-   "official": "https://egazette.gov.in",
-   "pdf": "",
-   "tags": [
-    "Labour Codes",
-    "Landmark"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
-   "id": "n012",
-   "date": "2026-08-31",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO VISHWAS 2026: settle old Section 14B damages at concessional rates",
-   "summary": "For defaults before 14 June 2024; flat 0.25%–1% a month if full Section 7Q interest is paid. The window is understood to close on 28 December 2026.",
-   "source": "https://www.corplawupdates.in/category/labour",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Deadline"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
-   "pdf": "",
-   "tags": [
-    "State rules"
-   ],
-   "urgent": false,
    "curated": true
   },
   {
@@ -306,6 +205,82 @@
    "curated": true
   },
   {
+   "id": "n005",
+   "date": "2026-09-30",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Minimum Wages",
+   "title": "Central sphere VDA revised from 1 October 2026 (File No. 6/1/2026-VDA)",
+   "summary": "Unskilled construction/cleaning/loading wage is ₹840 a day in Area A (₹704 B, ₹565 C) after CPI-IW rose from 424.80 to 431.42. Valid till 31 Mar 2027.",
+   "source": "https://www.indianpaycalculator.in/govt-news/central-sphere-minimum-wages-840-construction-october-2026",
+   "official": "https://clc.gov.in",
+   "pdf": "",
+   "tags": [
+    "Minimum wages",
+    "VDA"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n006",
+   "date": "2026-09-17",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Social Security",
+   "title": "Notification S.O. 5109(E): EPF wage ceiling raised from ₹15,000 to ₹25,000",
+   "summary": "Statutory wage ceiling for provident-fund coverage under Chapter III of the Code on Social Security, 2020 is now ₹25,000 a month.",
+   "source": "https://www.legal500.com/intelligence/india/employment-and-hr/employment-law-update-sep-oct-2026",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Wage ceiling"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n012",
+   "date": "2026-08-31",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO VISHWAS 2026: settle old Section 14B damages at concessional rates",
+   "summary": "For defaults before 14 June 2024; flat 0.25%–1% a month if full Section 7Q interest is paid. The window is understood to close on 28 December 2026.",
+   "source": "https://www.corplawupdates.in/category/labour",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n007",
+   "date": "2026-08-25",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Wages / Bonus",
+   "title": "Bonus under the Code on Wages: ₹21,000 limit (Gazette Nos. 4525 and 4526)",
+   "summary": "Statutory bonus applies to employees earning up to ₹21,000 a month, calculated on ₹7,000 or the Central minimum wage, whichever is higher.",
+   "source": "https://labourlawindia.com/bonus-under-the-code-on-wages/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Bonus",
+    "Wages Code"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
    "id": "n017",
    "date": "2026-08-05",
    "approx": false,
@@ -339,6 +314,25 @@
    "tags": [
     "State rules",
     "West Bengal"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n008",
+   "date": "2026-06-29",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Social Security",
+   "title": "New EPF, pension and DLI schemes notified under the Code on Social Security",
+   "summary": "Ministry of Labour notified three new schemes (provident fund, pension, deposit-linked insurance) plus three special schemes to clear legacy problems.",
+   "source": "https://www.incorpx.io/blog/epf-scheme-2026-changes-employers",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Schemes"
    ],
    "urgent": false,
    "curated": true
@@ -394,6 +388,44 @@
    "pdf": "",
    "tags": [
     "Minimum wages"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n009",
+   "date": "2026-05-09",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Codes & Rules",
+   "title": "Central Rules under all four Labour Codes notified (8–9 May 2026)",
+   "summary": "Wages Rules (G.S.R. 343(E)), IR Rules (G.S.R. 342(E)), Social Security Rules (G.S.R. 344(E)) and OSH Rules, plus Model Standing Orders, 2026.",
+   "source": "https://www.cyrilshroff.com/wp-content/uploads/2026/05/Client-Alert-Labour-Codes-Implementation-of-Rules.pdf",
+   "official": "https://egazette.gov.in",
+   "pdf": "https://www.cyrilshroff.com/wp-content/uploads/2026/05/Client-Alert-Labour-Codes-Implementation-of-Rules.pdf",
+   "tags": [
+    "Labour Codes",
+    "Rules"
+   ],
+   "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n010",
+   "date": "2025-11-21",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Codes & Rules",
+   "title": "All four Labour Codes brought into force (21 November 2025)",
+   "summary": "Gazette notifications put the Wages, Industrial Relations, Social Security and OSH Codes into force, replacing 29 central labour laws.",
+   "source": "https://www.legal500.com/intelligence/india/employment-and-hr/ministry-of-labour-and-employment-notifies-and-enforces-four-new-labour-codes",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "Labour Codes",
+    "Landmark"
    ],
    "urgent": false,
    "curated": true
