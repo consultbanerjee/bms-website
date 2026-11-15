@@ -191,9 +191,19 @@
     home: function () {
       var press = sorted((data.press || {}).items), f = press[0];
       $("#ticker").innerHTML = press.slice(0, 8).map(function (p) { return '<a href="' + esc(p.url) + '" rel="noopener">' + esc(p.title) + "</a>"; }).join("");
-      if (f) {
-        if (f.image) $("#heroBg").style.backgroundImage = "url('" + f.image + "')";
-        $("#heroCard").innerHTML = (f.image ? '<img src="' + esc(f.image) + '" alt="" onerror="this.remove()">' : "") + '<div><small>Latest · ' + fmtDate(f.date, f.approx) + '</small><a href="' + esc(f.url) + '" rel="noopener">' + esc(f.title) + "</a></div>";
+      var hs = press.filter(function (x) { return x.image; }).slice(0, 8); if (!hs.length) hs = press.slice(0, 8);
+      if (hs.length) {
+        var hc = $("#heroCard"), hi = 0, ht;
+        hc.classList.add("slider");
+        hc.innerHTML = '<div class="strk">' + hs.map(function (x) { return '<div class="sl">' + (x.image ? '<img src="' + esc(x.image) + '" alt="" onerror="this.remove()">' : "") + '<div><small>Latest · ' + fmtDate(x.date, x.approx) + '</small><a href="' + esc(x.url) + '" rel="noopener">' + esc(x.title) + "</a></div></div>"; }).join("") + '</div><div class="sdots">' + hs.map(function (x, i) { return '<button type="button" aria-label="Slide ' + (i + 1) + '" data-i="' + i + '"></button>'; }).join("") + "</div>";
+        var trk = hc.querySelector(".strk"), dots = hc.querySelectorAll(".sdots button");
+        var go = function (n) { hi = (n + hs.length) % hs.length; trk.style.transform = "translateX(-" + hi * 100 + "%)"; dots.forEach(function (d, i) { d.classList.toggle("on", i === hi); }); if (hs[hi].image) $("#heroBg").style.backgroundImage = "url('" + hs[hi].image + "')"; };
+        var play = function () { clearInterval(ht); if (hs.length > 1) ht = setInterval(function () { go(hi + 1); }, 5000); };
+        dots.forEach(function (d) { d.addEventListener("click", function () { go(+d.dataset.i); play(); }); });
+        hc.addEventListener("mouseenter", function () { clearInterval(ht); }); hc.addEventListener("mouseleave", play);
+        var tx = 0; hc.addEventListener("touchstart", function (e) { tx = e.touches[0].clientX; clearInterval(ht); }, { passive: true });
+        hc.addEventListener("touchend", function (e) { var dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 40) go(hi + (dx < 0 ? 1 : -1)); play(); });
+        go(0); play();
       }
       var feds = (data.federations || {}).federations || [];
       $("#stats").innerHTML = [["1955", "Founded 23 July 1955"], ["~1 crore", "members (as stated by BMS)"], ["5,000+", "affiliated unions (as stated)"], [feds.length, "industry federations"]].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>"; }).join("");
@@ -218,7 +228,7 @@
       if (nbl && nt) {
         var nd = Date.now(), its = sorted(nt.items);
         nbl.innerHTML = its.slice(0, 6).map(function (x) { return ntCard(x, nd, false); }).join("");
-        $("#nbDates").innerHTML = ntDeadlines(nt, nd) + '<p class="chk">Checked daily at 00:00 IST · next check ' + ntNext() + ' IST</p><a class="btn sm" href="notices.html">All notices →</a>';
+        $("#nbDates").innerHTML = '<p class="chk">Checked daily at 00:00 IST · next check ' + ntNext() + ' IST</p><a class="btn sm" href="notices.html">All notices →</a>';
       }
       var ib = $("#insp");
       if (ib) ib.innerHTML = ((data.site || {}).inspirations || []).map(function (p, i) { return '<figure class="ins"><div class="frame"><img src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="lazy" onerror="this.remove()"><span class="fb" aria-hidden="true">' + ["🔨", "🇮🇳", "<img src=assets/brand/bms-emblem.svg alt=>"][i % 3] + '</span></div><figcaption><b class="notranslate" translate="no">' + esc(p.name_hi) + "</b><span>" + esc(p.name) + "</span><small>" + esc(p.note) + "</small></figcaption></figure>"; }).join("");
