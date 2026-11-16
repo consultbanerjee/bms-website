@@ -6,10 +6,10 @@
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 
   var I18N = {
-    en: { home: "Home", about: "About", whos: "Who's Who", kk: "Karya Karini", fed: "Federations", press: "Press", blog: "Blog", videos: "Videos", gallery: "Gallery", dl: "Downloads", contact: "Contact",
+    en: { media: "Media", home: "Home", about: "About", whos: "Who's Who", kk: "Karya Karini", fed: "Federations", press: "Press", blog: "Blog", videos: "Videos", gallery: "Gallery", dl: "Downloads", contact: "Contact",
       heroEyebrow: "India's largest trade union", heroH: "Industrialise the Nation. Labourise the Industry. Nationalise the Labour.", heroP: "Bharatiya Mazdoor Sangh — the organised voice of Indian workers since 1955, with federations in every major industry and affiliated unions across the country.",
       ctaA: "Latest Press Notifications", ctaB: "Know Our Leadership", latest: "Latest Press Notifications", all: "View all →", whosH: "Who's Who — National Office Bearers", kkH: "National Karya Karini — Structure", fedH: "Federations", galH: "From Our Gallery", minH: "With Union Ministers", contactH: "Contact Us", aboutH: "About BMS", blogH: "From the Blog", vidH: "Videos & Reels", quickH: "Quick Links", dirH: "Directories", connH: "Connect with BMS", newsH: "News & Spotlight", search: "Search BMS…" },
-    hi: { home: "मुख्य पृष्ठ", about: "परिचय", whos: "हू'ज़ हू", kk: "राष्ट्रीय कार्यकारिणी", fed: "महासंघ", press: "प्रेस", blog: "ब्लॉग", videos: "वीडियो", gallery: "गैलरी", dl: "डाउनलोड", contact: "संपर्क",
+    hi: { media: "मीडिया", home: "मुख्य पृष्ठ", about: "परिचय", whos: "हू'ज़ हू", kk: "राष्ट्रीय कार्यकारिणी", fed: "महासंघ", press: "प्रेस", blog: "ब्लॉग", videos: "वीडियो", gallery: "गैलरी", dl: "डाउनलोड", contact: "संपर्क",
       heroEyebrow: "भारत का सबसे बड़ा श्रमिक संगठन", heroH: "राष्ट्र का औद्योगीकरण। उद्योगों का श्रमिकीकरण। श्रमिकों का राष्ट्रीयकरण।", heroP: "भारतीय मज़दूर संघ — 1955 से भारतीय श्रमिकों की संगठित आवाज़; प्रत्येक प्रमुख उद्योग में महासंघ और देशभर में सम्बद्ध यूनियनें।",
       ctaA: "ताज़ा प्रेस विज्ञप्तियाँ", ctaB: "हमारा नेतृत्व", latest: "ताज़ा प्रेस विज्ञप्तियाँ", all: "सभी देखें →", whosH: "हू'ज़ हू — राष्ट्रीय पदाधिकारी", kkH: "राष्ट्रीय कार्यकारिणी — संरचना", fedH: "महासंघ", galH: "हमारी गैलरी", minH: "केंद्रीय मंत्रियों के साथ", contactH: "संपर्क करें", aboutH: "भारतीय मज़दूर संघ के बारे में", blogH: "ब्लॉग से", vidH: "वीडियो एवं रील्स", quickH: "त्वरित लिंक", dirH: "निर्देशिकाएँ", connH: "हमसे जुड़ें", newsH: "समाचार एवं विशेष", search: "खोजें…" }
   };
@@ -50,7 +50,7 @@
   }
 
   /* ---------- shell ---------- */
-  var NAV = [["index.html", "home"], ["whos-who.html", "whos", [["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"]]], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"], ["index.html#contact", "contact"]];
+  var NAV = [["index.html", "home"], ["whos-who.html", "whos", [["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"]]], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "media", [["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"]]], ["index.html#contact", "contact"]];
   function shell() {
     var cur = (location.pathname.split("/").pop() || "index.html");
     var site = data.site || {};
