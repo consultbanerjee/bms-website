@@ -1,7 +1,7 @@
 {
  "updated": "2026-11-16",
- "last_check": "2026-11-16T05:10:41.604Z",
- "checks": 8,
+ "last_check": "2026-11-16T05:11:09.238Z",
+ "checks": 9,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
   {
@@ -171,25 +171,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -209,21 +190,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -243,6 +225,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
