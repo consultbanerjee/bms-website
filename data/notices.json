@@ -1,7 +1,7 @@
 {
  "updated": "2026-11-16",
- "last_check": "2026-11-16T05:13:15.522Z",
- "checks": 13,
+ "last_check": "2026-11-16T07:25:01.326Z",
+ "checks": 14,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
   {
@@ -34,6 +34,22 @@
    "title": "Union Minister Dr. Mansukh Mandaviya Inaugurates EPFO Lounge and ESIC Pavilion at IITF 2026",
    "summary": "Reported by www.pib.gov.in. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVDM2NVAycG56Rk9tbmx1eDlvTFV1OFd6M05kaW96aTdSSHdhM3lQVlp5aDZsQkxWMUZzVFRMQ2pYT0lTMndLR01IU0Y5QjZvcUZYYWdtQzdRUHViakhYa0o5WXlEMXdGc3Q5d21aa01Pbnl2MFVhTTZSOFpQX3h2VEhlU0tKNFE?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwixus6d0",
+   "auto": true,
+   "added": "2026-11-16T07:24:59.557Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-15",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Charge Structure Applicable to PoPs for All Schemes under NPS and NPS Lite - Modification: PFRDA Circular",
+   "summary": "Reported by Staff News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRlZ6eDVZSGc3NjV3RUJoUGswTDdNZzJsY0lPNjRLeTdPaDQweHhUMDJTQXl1T2hhRE5nQ18yMVdUdGo4TUZ4UUhuYndlWmdpM295M2d2T3RWdks5MUUtT1A4WHZ4YVFHY00xbENPTjZoNXpjVkJlWXNtZ0ZsR1RocmtndWtER1RBS183UDRFdUo1dm5MUlZVUlJSc3FLRzdFWTZOTXJn?oc=5",
    "official": "https://labour.gov.in"
   },
   {
@@ -171,25 +187,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -209,22 +206,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -243,6 +240,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {
