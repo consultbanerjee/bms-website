@@ -1,4 +1,4 @@
-const V="bms-v6",SHELL=["./","index.html","assets/css/style.css","assets/js/app.js","assets/brand/bms-logo.webp","assets/brand/emblem-96.webp"];
+const V="bms-v7",SHELL=["./","index.html","assets/css/style.css","assets/js/app.js","assets/brand/bms-logo.webp","assets/brand/emblem-96.webp"];
 self.addEventListener("install",e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 // stale-while-revalidate: instant from cache, refreshed in background
