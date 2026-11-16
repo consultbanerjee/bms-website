@@ -8,25 +8,32 @@
   },
   {
    "level": 2,
-   "title": "General Secretaries",
-   "count": 8,
-   "desc": "Share the national responsibilities of the organisation."
+   "title": "Vice Presidents",
+   "count": 7,
+   "desc": "Vice Presidents share the national responsibilities of the organisation."
+  },
+  {
+   "level": 2,
+   "title": "General Secretary",
+   "count": 1,
+   "desc": "The chief executive office-bearer of the organisation."
   },
   {
    "level": 3,
    "title": "Secretaries",
-   "count": 7,
+   "count": 6,
    "desc": "National secretaries assisting the General Secretaries."
   },
   {
    "level": 4,
    "title": "National Office Posts",
-   "count": 4,
+   "count": 5,
    "items": [
     "Organising Secretary",
     "Deputy Organising Secretary",
     "Finance Secretary",
-    "Central Office Secretary"
+    "Office Secretary",
+    "Karyalay Pramukh"
    ],
    "desc": "Organisation, finance and head-office administration."
   },

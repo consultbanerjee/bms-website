@@ -2,155 +2,423 @@
  "federations": [
   {
    "no": 1,
-   "name": "Akhil Bharatiya Anganwadi Karamchari Mahasangh"
+   "name": "Akhil Bharatiya Anganwadi Karamchari Mahasangh",
+   "sector": "Scheme workers - Women & Child Development (ICDS)",
+   "about": "Federation of Anganwadi workers and helpers, who deliver nutrition, pre-school education and health services to children under six and to pregnant and nursing women under the ICDS.",
+   "issues": [
+    "Recognition as workers, not volunteers",
+    "Higher honorarium and timely payment",
+    "Pension and gratuity on retirement",
+    "Relief from heavy digital reporting"
+   ]
   },
   {
    "no": 2,
-   "name": "Akhil Bharatiya Bidi Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Bidi Mazdoor Mahasangh",
+   "sector": "Unorganised sector - Beedi",
+   "about": "Federation of beedi workers, mostly home-based women, covered by the Beedi and Cigar Workers Act and the Beedi Workers Welfare Fund.",
+   "issues": [
+    "Minimum wage per thousand beedis",
+    "Identity cards and welfare fund benefits",
+    "Alternative livelihoods as demand declines"
+   ]
   },
   {
    "no": 3,
-   "name": "Akhil Bharatiya Cement Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Cement Mazdoor Mahasangh",
+   "sector": "Industry - Cement",
+   "about": "Federation of workers in the cement industry, including a large contract workforce in plants and mines.",
+   "issues": [
+    "Bipartite wage agreements",
+    "Regularisation of contract workers",
+    "Dust-related occupational health"
+   ]
   },
   {
    "no": 4,
-   "name": "Akhil Bharatiya Construction Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Construction Mazdoor Mahasangh",
+   "sector": "Unorganised sector - Construction",
+   "about": "Federation of construction workers, who are served by State welfare boards funded from the construction cess.",
+   "issues": [
+    "Registration and renewal of welfare board cards",
+    "Full use of the cess for workers",
+    "Safety at construction sites"
+   ]
   },
   {
    "no": 5,
-   "name": "Akhil Bharatiya Ispat Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Ispat Mazdoor Mahasangh",
+   "sector": "Industry - Steel",
+   "about": "Federation of workers in the steel industry, including public sector steel plants.",
+   "issues": [
+    "Wage settlements",
+    "Regularisation of contract workers",
+    "Opposition to disinvestment of strategic plants"
+   ]
   },
   {
    "no": 6,
-   "name": "Akhil Bharatiya Khadan (ABKMS) Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Khadan (ABKMS) Mazdoor Mahasangh",
+   "sector": "Industry - Mining (coal and other mines)",
+   "about": "Federation of mine workers, whose work is covered by mining safety law and sector wage agreements.",
+   "issues": [
+    "Safety and compensation for accidents",
+    "Contract workers' wages and benefits",
+    "Rehabilitation of those displaced by mining"
+   ]
   },
   {
    "no": 7,
-   "name": "Akhil Bharatiya Khanij Dhatu Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Khanij Dhatu Mazdoor Mahasangh",
+   "sector": "Industry - Metals and minerals",
+   "about": "Federation of workers in metal and mineral mining and processing.",
+   "issues": [
+    "Safety standards",
+    "Contract labour",
+    "Fair wage agreements"
+   ]
   },
   {
    "no": 8,
-   "name": "Akhil Bharatiya Krishi & Gramin Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Krishi & Gramin Mazdoor Mahasangh",
+   "sector": "Unorganised sector - Agriculture and rural labour",
+   "about": "Federation of agricultural and rural labourers, whose employment depends on the season and on MGNREGA.",
+   "issues": [
+    "Minimum wages and timely MGNREGA wages",
+    "Social security and insurance",
+    "Protection of migrating workers"
+   ]
   },
   {
    "no": 9,
-   "name": "Akhil Bharatiya Mathsya Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Mathsya Mazdoor Mahasangh",
+   "sector": "Unorganised sector - Fisheries",
+   "about": "Federation of traditional and mechanised fishers and fisheries workers.",
+   "issues": [
+    "Social security and insurance for fishers",
+    "Cyclone and weather safety",
+    "Livelihood during fishing bans"
+   ]
   },
   {
    "no": 10,
-   "name": "Akhil Bharatiya Sugar & Distillery Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Sugar & Distillery Mazdoor Mahasangh",
+   "sector": "Industry - Sugar and distillery",
+   "about": "Federation of workers in sugar mills and distilleries, including seasonal and cane-cutting workers.",
+   "issues": [
+    "Wage agreements",
+    "Safety in mills and distilleries",
+    "Closure of sick mills"
+   ]
   },
   {
    "no": 11,
-   "name": "Akhil Bharatiya Vanawasi Gramin Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Vanawasi Gramin Mazdoor Mahasangh",
+   "sector": "Unorganised sector - Forest and rural workers",
+   "about": "Federation of forest-dwelling and rural workers who depend on forest produce and forest labour.",
+   "issues": [
+    "Recognition of forest rights claims",
+    "Fair price for minor forest produce",
+    "Protection against displacement"
+   ]
   },
   {
    "no": 12,
-   "name": "Bharatiya Currency and Coins Karamchari Mahasangh"
+   "name": "Bharatiya Currency and Coins Karamchari Mahasangh",
+   "sector": "Public sector - Mints and currency presses",
+   "about": "Federation of employees of the mints and currency presses that produce the nation's coins and notes.",
+   "issues": [
+    "Wage structure and promotions",
+    "Safety at work",
+    "Service conditions"
+   ]
   },
   {
    "no": 13,
-   "name": "Bharatiya Engineering & Metal Mazdoor Mahasangh"
+   "name": "Bharatiya Engineering & Metal Mazdoor Mahasangh",
+   "sector": "Industry - Engineering and metal",
+   "about": "Federation of workers in engineering and metal factories, from large public sector firms to small units.",
+   "issues": [
+    "Wages and job security",
+    "Skill upgrading as technology changes",
+    "Safety at work"
+   ]
   },
   {
    "no": 14,
-   "name": "Bharatiya Jute Mazdoor Mahasangh"
+   "name": "Bharatiya Jute Mazdoor Mahasangh",
+   "sector": "Industry - Jute",
+   "about": "Federation of jute mill workers, concentrated in West Bengal.",
+   "issues": [
+    "Wage agreements",
+    "Closure and reopening of mills",
+    "Regularisation of contract workers"
+   ]
   },
   {
    "no": 15,
-   "name": "Bharatiya Kagaz Udyog Karamchari Mahasangh"
+   "name": "Bharatiya Kagaz Udyog Karamchari Mahasangh",
+   "sector": "Industry - Paper",
+   "about": "Federation of employees in paper mills.",
+   "issues": [
+    "Closure of older mills",
+    "Raw material and import pressures",
+    "Wage settlements"
+   ]
   },
   {
    "no": 16,
-   "name": "Akhil Bharatiya Vidyut Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Vidyut Mazdoor Mahasangh",
+   "sector": "Public sector - Electricity",
+   "about": "Federation of electricity employees.",
+   "issues": [
+    "Opposition to privatisation of distribution",
+    "Pension and service conditions",
+    "Safety of linemen"
+   ]
   },
   {
    "no": 17,
-   "name": "Bharatiya Medical & Sales Representatives' Mahasangh"
+   "name": "Bharatiya Medical & Sales Representatives' Mahasangh",
+   "sector": "Sales promotion and medical representatives",
+   "about": "Federation of medical and sales representatives in pharmaceutical and consumer goods companies, covered by the Sales Promotion Employees Act.",
+   "issues": [
+    "Pressure of targets",
+    "Termination and retrenchment",
+    "Social security for contract staff"
+   ]
   },
   {
    "no": 18,
-   "name": "Bharatiya Parivahan Mazdoor Mahasangh"
+   "name": "Bharatiya Parivahan Mazdoor Mahasangh",
+   "sector": "Transport - Road transport undertakings",
+   "about": "Federation of workers in State road transport undertakings: drivers, conductors, mechanics and staff.",
+   "issues": [
+    "Pension and wage revision",
+    "Fleet shortages",
+    "Entry of private operators"
+   ]
   },
   {
    "no": 19,
-   "name": "Bharatiya Plantation Mazdoor Mahasangh"
+   "name": "Bharatiya Plantation Mazdoor Mahasangh",
+   "sector": "Industry - Plantations",
+   "about": "Federation of plantation workers in tea, coffee, rubber and spice estates, covered by the Plantations Labour Act provisions now within the OSH Code.",
+   "issues": [
+    "Wages",
+    "Housing quality",
+    "Sick gardens and closures"
+   ]
   },
   {
    "no": 20,
-   "name": "Bharatiya Port & Dock Mazdoor Mahasangh"
+   "name": "Bharatiya Port & Dock Mazdoor Mahasangh",
+   "sector": "Transport - Ports and docks",
+   "about": "Federation of port and dock workers.",
+   "issues": [
+    "Status of dock labour boards",
+    "Effect of mechanisation and privatisation",
+    "Wage and safety"
+   ]
   },
   {
    "no": 21,
-   "name": "Bharatiya Postal Employees Federation"
+   "name": "Bharatiya Postal Employees Federation",
+   "sector": "Government - Posts",
+   "about": "Federation of postal employees, including postmen and Gramin Dak Sevaks.",
+   "issues": [
+    "Status of Gramin Dak Sevaks",
+    "Pay commission matters",
+    "Vacancies"
+   ]
   },
   {
    "no": 22,
-   "name": "Bharatiya Pratiraksha Mazdoor Mahasangh"
+   "name": "Bharatiya Pratiraksha Mazdoor Mahasangh",
+   "sector": "Defence - Civilian employees",
+   "about": "Federation of defence civilian employees, including those of ordnance factories and defence production units.",
+   "issues": [
+    "Service conditions after corporatisation",
+    "Pension",
+    "Indigenisation of defence production"
+   ]
   },
   {
    "no": 23,
-   "name": "Bharatiya Private Transport Mazdoor Mahasangh"
+   "name": "Bharatiya Private Transport Mazdoor Mahasangh",
+   "sector": "Transport - Private transport",
+   "about": "Federation of workers of private bus, truck and taxi operators, who are mostly in the unorganised sector.",
+   "issues": [
+    "Fixed duty hours and overtime",
+    "Insurance and medical care",
+    "Safe working conditions"
+   ]
   },
   {
    "no": 24,
-   "name": "Bharatiya Railway Mazdoor Mahasangh"
+   "name": "Bharatiya Railway Mazdoor Mahasangh",
+   "sector": "Railways",
+   "about": "Federation of railway employees, working in track maintenance, running, signalling, workshops, stations and offices.",
+   "issues": [
+    "Pension",
+    "Filling vacancies in safety categories",
+    "Running staff duty hours",
+    "Opposition to privatisation of production units"
+   ]
   },
   {
    "no": 25,
-   "name": "Bharatiya Swayattashasi Karamchari Mahasangh"
+   "name": "Bharatiya Swayattashasi Karamchari Mahasangh",
+   "sector": "Local bodies and autonomous institutions",
+   "about": "Federation of employees of local bodies and autonomous institutions.",
+   "issues": [
+    "Pension and service conditions",
+    "Regularisation of contract staff",
+    "Timely salary"
+   ]
   },
   {
    "no": 26,
-   "name": "Bharatiya Vastrodyog Karmachari Mahasangh"
+   "name": "Bharatiya Vastrodyog Karmachari Mahasangh",
+   "sector": "Industry - Textiles",
+   "about": "Federation of textile mill and related workers.",
+   "issues": [
+    "Closure of mills",
+    "Powerloom wages",
+    "Modernisation without job loss"
+   ]
   },
   {
    "no": 27,
-   "name": "Kendriya Karamchari Mahasangh"
+   "name": "Kendriya Karamchari Mahasangh",
+   "sector": "Government - Central government employees",
+   "about": "Federation of central government employees.",
+   "issues": [
+    "Pension",
+    "8th Pay Commission",
+    "Regularisation of contract staff"
+   ]
   },
   {
    "no": 28,
-   "name": "National Organisation of Bank Officers"
+   "name": "National Organisation of Bank Officers",
+   "sector": "Banking - Officers",
+   "about": "Federation of bank officers.",
+   "issues": [
+    "Wage revision",
+    "Recruitment",
+    "Opposition to privatisation of public sector banks"
+   ]
   },
   {
    "no": 29,
-   "name": "National Organisation of Bank Workers"
+   "name": "National Organisation of Bank Workers",
+   "sector": "Banking - Workers",
+   "about": "Federation of bank workers.",
+   "issues": [
+    "Wage revision",
+    "Five-day banking week",
+    "Outsourcing"
+   ]
   },
   {
    "no": 30,
-   "name": "Insurance Sector Unions"
+   "name": "Insurance Sector Unions",
+   "sector": "Insurance sector",
+   "about": "Federation of unions in the insurance sector.",
+   "issues": [
+    "Protection of employees in restructuring",
+    "Wage and service conditions",
+    "Opposition to privatisation"
+   ]
   },
   {
    "no": 31,
-   "name": "Public Sector Employees National Confederation"
+   "name": "Public Sector Employees National Confederation",
+   "sector": "Public sector undertakings",
+   "about": "Confederation of public sector employees.",
+   "issues": [
+    "Opposition to disinvestment of profit-making units",
+    "Wage settlements",
+    "Job security"
+   ]
   },
   {
    "no": 32,
-   "name": "Rashtriya Rajya Karamchari Mahasangh"
+   "name": "Rashtriya Rajya Karamchari Mahasangh",
+   "sector": "Government - State government employees",
+   "about": "Federation of State government employees.",
+   "issues": [
+    "Pension",
+    "Dearness allowance",
+    "Regularisation of contract staff"
+   ]
   },
   {
    "no": 33,
-   "name": "Sarkari Karmchari Rashtriya Parisangh"
+   "name": "Sarkari Karmchari Rashtriya Parisangh",
+   "sector": "Government - Employees",
+   "about": "Federation of government employees.",
+   "issues": [
+    "Service conditions",
+    "Pay and allowances",
+    "Pension"
+   ]
   },
   {
    "no": 34,
-   "name": "Akhil Bharatiya Theka Mazdoor Mahasangh"
+   "name": "Akhil Bharatiya Theka Mazdoor Mahasangh",
+   "sector": "Contract workers",
+   "about": "Federation of contract workers across industries.",
+   "issues": [
+    "Equal pay for equal work",
+    "Restrictions on contracting in core activities",
+    "Regularisation of long-serving contract workers"
+   ]
   },
   {
    "no": 35,
-   "name": "Indian Telecom Employees Federation"
+   "name": "Indian Telecom Employees Federation",
+   "sector": "Telecom",
+   "about": "Federation of telecom employees, including those of BSNL and MTNL.",
+   "issues": [
+    "Revival of BSNL",
+    "Pension",
+    "Contract workers' status"
+   ]
   },
   {
    "no": 36,
-   "name": "All India Shipyard Employees Federation"
+   "name": "All India Shipyard Employees Federation",
+   "sector": "Industry - Shipyards",
+   "about": "Federation of shipyard employees in public and private shipyards.",
+   "issues": [
+    "Contract workers' wages",
+    "Safety in hull work",
+    "Wage structure"
+   ]
   },
   {
    "no": 37,
-   "name": "Varisht Nagarik Parisangh"
+   "name": "Varisht Nagarik Parisangh",
+   "sector": "Senior citizens and pensioners",
+   "about": "Federation of senior citizens and pensioners.",
+   "issues": [
+    "Minimum pension",
+    "Medical benefits",
+    "Timely pension payment"
+   ]
   },
   {
    "no": 38,
-   "name": "Akhil Bharatiya Asha Karamchari Mahasangh"
+   "name": "Akhil Bharatiya Asha Karamchari Mahasangh",
+   "sector": "Scheme workers - Health (NHM)",
+   "about": "Federation of ASHA workers, who link villages to the public health system under the National Health Mission.",
+   "issues": [
+    "Fixed monthly wage, not only incentives",
+    "Social security and pension",
+    "Timely payment of incentives"
+   ]
   }
  ]
 }
