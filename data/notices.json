@@ -1,7 +1,7 @@
 {
  "updated": "2026-11-16",
- "last_check": "2026-11-16T07:25:42.211Z",
- "checks": 15,
+ "last_check": "2026-11-16T07:26:17.967Z",
+ "checks": 16,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
   {
@@ -187,25 +187,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -225,22 +206,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -259,6 +240,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {
