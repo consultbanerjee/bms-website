@@ -111,8 +111,8 @@
     var idx = [];
     ((data.press || {}).items || []).forEach(function (p) { idx.push({ t: p.title, k: "Press", u: p.url }); });
     ((data.leaders || {}).people || []).forEach(function (p) { idx.push({ t: p.name + " — " + p.role, k: "Who's Who", u: "whos-who.html" }); });
-    ((data.federations || {}).federations || []).forEach(function (f) { idx.push({ t: f.name, k: "Federation", u: "federations.html" }); });
-    ((data.blogs || {}).items || []).forEach(function (b) { idx.push({ t: b.title, k: "Blog", u: "blog.html#" + b.slug }); });
+    ((data.federations || {}).federations || []).forEach(function (f) { idx.push({ t: f.name, k: "Federation", u: "federation.html?id=" + f.no }); });
+    pubd((data.blogs || {}).items).forEach(function (b) { idx.push({ t: b.title, k: "Blog", u: "blog.html#" + b.slug }); });
     ((data.videos || {}).items || []).forEach(function (v) { idx.push({ t: v.title, k: v.type === "reel" ? "Reel" : "Video", u: "videos.html" }); });
     [["Labour Notice Board — notices, circulars, gazette", "notices.html"], ["Downloads — brand kit & programme banner", "downloads.html"], ["Dattopant Thengadi Ji — weekly story", "story.html"], ["Who's Who", "whos-who.html"], ["National Karya Karini", "karya-karini.html"], ["Federations", "federations.html"], ["Press Notifications", "press.html"], ["Gallery", "gallery.html"], ["Contact", "index.html#contact"]].forEach(function (x) { idx.push({ t: x[0], k: "Page", u: x[1] }); });
     var box = $("#sr"), inp = $("#sq");
@@ -129,7 +129,7 @@
   /* tiny safe markdown */
   function md(src) {
     var s = esc(src || "").replace(/\r/g, "");
-    var inl = function (t) { return t.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/\*([^*]+)\*/g, "<em>$1</em>").replace(/!\[([^\]]*)\]\((https?:[^)\s]+)\)/g, '<img loading="lazy" src="$2" alt="$1">').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" rel="noopener">$1</a>'); };
+    var inl = function (t) { return t.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/\*([^*]+)\*/g, "<em>$1</em>").replace(/!\[([^\]]*)\]\(((?:https?:|assets\/)[^)\s]+)\)/g, '<figure><img loading="lazy" decoding="async" src="$2" alt="$1"><figcaption>$1</figcaption></figure>').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" rel="noopener">$1</a>'); };
     var out = [], list = null;
     s.split(/\n/).forEach(function (l) {
       var m;
@@ -139,6 +139,10 @@
       else { if (list) { out.push("</ul>"); list = null; } out.push("<p>" + inl(l) + "</p>"); }
     });
     if (list) out.push("</ul>"); return out.join("");
+  }
+  function pubd(items) {
+    var n = new Date(Date.now() + 19800000), d = n.toISOString().slice(0, 10), tm = n.toISOString().slice(11, 16);
+    return (items || []).filter(function (b) { return b.date < d || (b.date === d && tm >= (b.time || "00:00")); });
   }
   function blogCard(b) {
     return '<article class="card"><a class="im" href="blog.html#' + esc(b.slug) + '">' + (b.cover ? '<img loading="lazy" src="' + esc(b.cover) + '" alt="" onerror="this.remove()">' : '<div class="ph-b">✍</div>') + '</a><div class="bd"><time>' + fmtDate(b.date, false) + (b.category ? " · " + esc(b.category) : "") + '</time><h3><a href="blog.html#' + esc(b.slug) + '">' + esc(b.title) + "</a></h3><p>" + esc(b.summary || "") + '</p><span class="src">By ' + esc(b.author || "BMS") + "</span></div></article>";
@@ -244,6 +248,149 @@
     document.body.appendChild(bar);
     if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(function () {});
   }
+  function writeInit() {
+    var f = $("#wf"), site = data.site || {}, B64 = function (str) { return btoa(unescape(encodeURIComponent(str))); };
+    function slugify(s) { return (s || "post").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60) || "post"; }
+    function obj() { var v = function (n) { return f.elements[n].value.trim(); }; var title = v("title"); var o = { slug: v("slug") || slugify(title), title: title, author: v("author") || "Editorial Desk", date: v("date") || new Date().toISOString().slice(0, 10), category: v("category"), lang: v("lang"), cover: v("cover"), summary: v("summary"), share_to_facebook: f.elements.fb.checked, body: f.elements.body.value }; if (v("time")) o.time = v("time"); return o; }
+    function upd() { var o = obj(); $("#wp").innerHTML = "<h2>" + esc(o.title) + "</h2>" + md(o.body); $("#wj").textContent = JSON.stringify(o, null, 1); }
+    function say(m, bad) { var e = $("#wmsg"); e.textContent = m; e.style.color = bad ? "#b3261e" : ""; }
+    f.addEventListener("input", upd); f.elements.date.value = new Date().toISOString().slice(0, 10); upd();
+    try { $("#wt").value = localStorage.getItem("bms-gh") || ""; } catch (e) {}
+    function api(path, opt) { var tk = $("#wt").value.trim(); if (!tk) { say("Paste the GitHub token first.", 1); return Promise.reject(); } try { localStorage.setItem("bms-gh", tk); } catch (e) {} opt = opt || {}; opt.headers = { Authorization: "Bearer " + tk, Accept: "application/vnd.github+json" }; return fetch("https://api.github.com/repos/" + site.repo + "/contents/" + path, opt); }
+    function put(path, b64, msg) {
+      return api(path).then(function (r) { return r.ok ? r.json().then(function (j) { return j.sha; }) : null; }).then(function (sha) {
+        var body = { message: msg, content: b64 }; if (sha) body.sha = sha;
+        return api(path, { method: "PUT", body: JSON.stringify(body) });
+      }).then(function (r) { if (!r.ok) return r.json().then(function (j) { throw new Error(j.message || r.status); }); return r.json(); });
+    }
+    function shrink(file) {
+      return new Promise(function (res, rej) {
+        var im = new Image(); im.onload = function () { var k = Math.min(1, 1400 / Math.max(im.width, im.height)), c = document.createElement("canvas"); c.width = Math.round(im.width * k); c.height = Math.round(im.height * k); c.getContext("2d").drawImage(im, 0, 0, c.width, c.height); c.toBlob(function (b) { var r = new FileReader(); r.onload = function () { res(String(r.result).split(",")[1]); }; r.readAsDataURL(b); }, "image/webp", 0.8); }; im.onerror = rej; im.src = URL.createObjectURL(file);
+      });
+    }
+    function sendImage(file, cb) {
+      var o = obj(), path = "assets/blog/" + o.slug + "-" + Date.now().toString(36) + ".webp"; say("Uploading photo…");
+      shrink(file).then(function (b64) { return put(path, b64, "Blog photo " + o.slug); }).then(function () { say("Photo uploaded."); cb(path); }).catch(function (e) { say("Photo upload failed: " + (e && e.message || "check the token"), 1); });
+    }
+    $("#wcf").onchange = function () { var fl = this.files[0]; if (fl) sendImage(fl, function (p) { f.elements.cover.value = p; upd(); }); };
+    $("#wif").onchange = function () { var fl = this.files[0]; if (!fl) return; var cap = prompt("Caption for this photo (e.g. BMS delegation at ILO, Geneva):", "") || ""; sendImage(fl, function (p) { var t = f.elements.body, a = t.selectionStart || t.value.length; t.value = t.value.slice(0, a) + "\n\n![" + cap + "](" + p + ")\n\n" + t.value.slice(a); upd(); }); };
+    $("#wc").onclick = function () { var t = $("#wj").textContent; (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { say("Copied."); }, function () { say("Select the text and copy it manually."); }); };
+    $("#wd").onclick = function () { var o = obj(), b = new Blob([JSON.stringify(o, null, 1)], { type: "application/json" }), a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = o.slug + ".json"; a.click(); };
+    $("#wpub").onclick = function () {
+      var o = obj(); if (!o.title || !o.body.trim()) { say("Title and article are required.", 1); return; }
+      say("Publishing…"); put("data/blogs/" + o.slug + ".json", B64(JSON.stringify(o, null, 1) + "\n"), "Blog post: " + o.title).then(function () { say("Published. The blog list updates within about 2 minutes."); }).catch(function (e) { say("Could not publish: " + (e && e.message || "check the token"), 1); });
+    };
+  }
+
+  function ea(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+  function adminInit() {
+    var site = data.site || {}, panel = $("#apanel"), cache = {}, GROUPS = ["President", "Vice Presidents", "General Secretary", "Secretaries", "Finance Secretary", "Organising Secretary", "Office Secretary", "Karyalay Pramukh"];
+    function say(m, bad) { var e = $("#amsg"); e.textContent = m; e.style.color = bad ? "#b3261e" : "#1b6e2d"; }
+    try { $("#at").value = localStorage.getItem("bms-gh") || ""; } catch (e) {}
+    function api(path, opt) { var tk = $("#at").value.trim(); if (!tk) { say("Paste the GitHub token first (top of this page).", 1); return Promise.reject(new Error("no token")); } try { localStorage.setItem("bms-gh", tk); } catch (e) {} opt = opt || {}; opt.headers = { Authorization: "Bearer " + tk, Accept: "application/vnd.github+json" }; return fetch("https://api.github.com/repos/" + site.repo + "/contents/" + path + (opt.method ? "" : "?ref=main&t=" + Date.now()), opt); }
+    function getFile(name) {
+      return api("data/" + name + ".json").then(function (r) { if (!r.ok) throw new Error("Could not read data/" + name + ".json (" + r.status + ") - check the token"); return r.json(); }).then(function (j) {
+        var txt = decodeURIComponent(escape(atob(j.content.replace(/\n/g, "")))); cache[name] = { sha: j.sha, obj: JSON.parse(txt) }; return cache[name].obj;
+      });
+    }
+    function saveFile(name, obj, msg) {
+      var c = cache[name]; var body = { message: msg || ("Admin: update " + name), content: btoa(unescape(encodeURIComponent(JSON.stringify(obj, null, 1) + "\n"))), sha: c && c.sha };
+      return api("data/" + name + ".json", { method: "PUT", body: JSON.stringify(body) }).then(function (r) { return r.json().then(function (j) { if (!r.ok) throw new Error(j.message || r.status); cache[name].sha = j.content.sha; cache[name].obj = obj; say("Saved. The live site updates in 1–2 minutes."); }); });
+    }
+    function shrink(file) { return new Promise(function (res, rej) { var im = new Image(); im.onload = function () { var k = Math.min(1, 1400 / Math.max(im.width, im.height)), c = document.createElement("canvas"); c.width = Math.round(im.width * k); c.height = Math.round(im.height * k); c.getContext("2d").drawImage(im, 0, 0, c.width, c.height); c.toBlob(function (b) { var r = new FileReader(); r.onload = function () { res(String(r.result).split(",")[1]); }; r.readAsDataURL(b); }, "image/webp", 0.8); }; im.onerror = rej; im.src = URL.createObjectURL(file); }); }
+    function fail(e) { say("Failed: " + (e && e.message || e), 1); }
+    function inp(label, k, v, extra) { return '<label>' + label + '<input data-k="' + k + '" value="' + ea(v) + '" ' + (extra || "") + '></label>'; }
+    var tabs = {
+      who: function () {
+        say("Loading…"); getFile("leaders").then(function (L) {
+          say("");
+          function row(p, i) {
+            return '<div class="box arow" data-i="' + i + '"><div class="grid g3">' + inp("Name", "name", p.name) + inp("Role / title", "role", p.role) +
+              '<label>Group<select data-k="group">' + GROUPS.map(function (g) { return '<option' + (g === p.group ? " selected" : "") + ">" + g + "</option>"; }).join("") + "</select></label>" +
+              inp("Phone", "phone", p.phone) + inp("Email", "email", p.email) + inp("Photo (path or URL)", "photo", p.photo) + '</div><button type="button" class="btn sm ghost dk adel">Remove</button></div>';
+          }
+          panel.innerHTML = '<p class="note">Edit office-bearers. The Who\'s Who page and the Home page both read this list, in the order President, Vice Presidents, General Secretary, Secretaries, Finance, Organising, Office, Karyalay Pramukh.</p><div id="rows">' + L.people.map(row).join("") + '</div><p><button class="btn sm ghost dk" id="aadd" type="button">+ Add person</button> <button class="btn" id="asave" type="button">Save Who\'s Who</button></p>';
+          $("#aadd").onclick = function () { L.people.push({ id: "p" + Date.now().toString(36), name: "", role: "", group: "Secretaries", phone: "", email: "", photo: "", photo_locked: false, aliases: [] }); collect(); tabs.who2(L); };
+          function collect() { var rs = panel.querySelectorAll(".arow"); Array.prototype.forEach.call(rs, function (r) { var p = L.people[+r.getAttribute("data-i")]; if (!p) return; Array.prototype.forEach.call(r.querySelectorAll("[data-k]"), function (el) { p[el.getAttribute("data-k")] = el.value.trim(); }); if (p.photo) p.photo_locked = true; }); }
+          panel.onclick = function (e) { if (e.target.classList.contains("adel")) { collect(); var i = +e.target.closest(".arow").getAttribute("data-i"); L.people.splice(i, 1); tabs.who2(L); } };
+          $("#asave").onclick = function () { collect(); L.people.forEach(function (p) { if (!p.id) p.id = "p" + Date.now().toString(36); }); say("Saving…"); saveFile("leaders", L, "Admin: update Who's Who").catch(fail); };
+          tabs.who2 = function (LL) { cache.leaders.obj = LL; tabs.who(); };
+        }).catch(fail);
+      },
+        fed: function () {
+        say("Loading…"); getFile("federations").then(function (F) {
+          say(""); var list = F.federations;
+          function box(f, i) {
+            var iss = (f.issues || []).join("\n");
+            return '<details class="box afed" data-i="' + i + '"><summary><b>' + f.no + ". " + esc(f.name || "(new)") + '</b></summary><div class="grid g2">' + inp("Federation name", "name", f.name) + inp("Sector", "sector", f.sector) + inp("President", "president", f.president) + inp("General Secretary", "gensec", f.gensec) + inp("Phone", "phone", f.phone) + inp("Email", "email", f.email) + inp("Website", "website", f.website) + inp("Facebook", "facebook", f.facebook) + inp("Founded (year)", "founded", f.founded) + inp("Membership", "members", f.members) + inp("Photo / logo (path or URL)", "image", f.image) + inp("Address", "address", f.address) + '</div><label>About (simple formatting allowed: **bold**, - list, [link](https://…))<textarea data-k="about" rows="6">' + esc(f.about || "") + '</textarea></label><label>Main issues (one per line)<textarea data-k="issues" rows="4">' + esc(iss) + '</textarea></label><p><a href="federation.html?id=' + f.no + '" target="_blank" rel="noopener">View public page ↗</a></p></details>';
+          }
+          panel.innerHTML = '<p class="note">Each federation has its own public page (opened by clicking its name). Change any detail here and press Save.</p><div id="rows">' + list.map(box).join("") + '</div><p><button class="btn sm ghost dk" id="aadd" type="button">+ Add federation</button> <button class="btn" id="asave" type="button">Save Federations</button></p>';
+          function collect() { Array.prototype.forEach.call(panel.querySelectorAll(".afed"), function (d) { var f = list[+d.getAttribute("data-i")]; if (!f) return; Array.prototype.forEach.call(d.querySelectorAll("[data-k]"), function (el) { var k = el.getAttribute("data-k"), v = el.value; if (k === "issues") f.issues = v.split("\n").map(function (s) { return s.trim(); }).filter(Boolean); else if (k === "about") f.about = v.trim(); else f[k] = v.trim(); }); }); }
+          $("#aadd").onclick = function () { collect(); var mx = 0; list.forEach(function (f) { mx = Math.max(mx, +f.no || 0); }); list.push({ no: mx + 1, name: "New Federation" }); tabs.fed(); };
+          $("#asave").onclick = function () { collect(); say("Saving…"); saveFile("federations", F, "Admin: update Federations").catch(fail); };
+        }).catch(fail);
+      },
+      site: function () {
+        say("Loading…"); getFile("site").then(function (S) {
+          say(""); var keys = Object.keys(S).filter(function (k) { return typeof S[k] === "string" && k.indexOf("_note") < 0; });
+          panel.innerHTML = '<p class="note">Contact details and links shown across the site (footer, Contact section).</p><div class="grid g2">' + keys.map(function (k) { return inp(k, k, S[k]); }).join("") + '</div><p><button class="btn" id="asave" type="button">Save Site details</button></p>';
+          $("#asave").onclick = function () { Array.prototype.forEach.call(panel.querySelectorAll("[data-k]"), function (el) { S[el.getAttribute("data-k")] = el.value.trim(); }); say("Saving…"); saveFile("site", S, "Admin: update site details").catch(fail); };
+        }).catch(fail);
+      },
+      min: function () {
+        say("Loading…"); Promise.all([getFile("ministers").catch(function () { cache.ministers = { sha: undefined, obj: { hide: [], items: [] } }; return cache.ministers.obj; }), fetch("data/gallery.json", { cache: "no-cache" }).then(function (r) { return r.json(); })]).then(function (r) {
+          var M = r[0]; M.hide = M.hide || []; M.items = M.items || []; say("");
+          var auto = ministerList((r[1].items || [])).filter(function (x) { return !x.manual; });
+          var allAuto = (r[1].items || []).filter(function (x) { return x.ministers; });
+          function draw() {
+            panel.innerHTML = '<p class="note">The <b>With Union Ministers</b> section on the home page fills itself from the BMS Facebook page, press releases and YouTube, and never shows the same photo twice. Here you can add your own photographs, or hide an automatic one.</p><h3>Your own entries</h3><div id="mrows">' + M.items.map(function (x, i) { return '<div class="box arow" data-i="' + i + '"><div class="grid g2">' + inp("Title", "title", x.title) + inp("Date", "date", x.date, 'type="date"') + inp("Photo (path or URL)", "image", x.image) + inp("Link (optional)", "url", x.url) + '</div><label>Upload photo<input type="file" accept="image/*" class="mup"></label>' + (x.image ? '<img src="' + ea(x.image) + '" alt="" style="max-height:110px;border-radius:8px" onerror="this.remove()">' : "") + ' <button type="button" class="btn sm ghost dk adel">Remove</button></div>'; }).join("") + '</div><p><button class="btn sm ghost dk" id="aadd" type="button">+ Add photo / news</button></p><h3>Automatic photographs (tick to hide)</h3><div class="grid g3">' + allAuto.map(function (x) { return '<label class="box" style="display:flex;gap:8px;align-items:flex-start"><input type="checkbox" class="hid" data-s="' + ea(x.src) + '"' + (M.hide.indexOf(x.src) > -1 ? " checked" : "") + ' style="width:auto"><span>' + esc((x.caption || "").slice(0, 90)) + "</span></label>"; }).join("") + '</div><p><button class="btn" id="asave" type="button">Save this section</button></p>';
+            $("#aadd").onclick = function () { collect(); M.items.unshift({ title: "", date: new Date().toISOString().slice(0, 10), image: "", url: "" }); draw(); };
+            panel.onclick = function (e) { if (e.target.classList.contains("adel")) { collect(); M.items.splice(+e.target.closest(".arow").getAttribute("data-i"), 1); draw(); } };
+            Array.prototype.forEach.call(panel.querySelectorAll(".mup"), function (el) { el.onchange = function () { var row = el.closest(".arow"), i = +row.getAttribute("data-i"), fl = el.files[0]; if (!fl) return; collect(); var path = "assets/ministers/" + Date.now().toString(36) + ".webp"; say("Uploading photo…"); shrink(fl).then(function (b64) { return api(path, { method: "PUT", body: JSON.stringify({ message: "Admin: ministers photo", content: b64 }) }); }).then(function (r) { if (!r.ok) throw new Error("upload " + r.status); M.items[i].image = path; say("Photo uploaded - now press Save."); draw(); }).catch(fail); }; });
+          }
+          function collect() { Array.prototype.forEach.call(panel.querySelectorAll(".arow"), function (row) { var x = M.items[+row.getAttribute("data-i")]; if (!x) return; Array.prototype.forEach.call(row.querySelectorAll("[data-k]"), function (el) { x[el.getAttribute("data-k")] = el.value.trim(); }); }); M.hide = Array.prototype.map.call(panel.querySelectorAll(".hid:checked"), function (c) { return c.getAttribute("data-s"); }); }
+          draw();
+          panel.addEventListener("click", function (e) { if (e.target.id === "asave") { collect(); M.items = M.items.filter(function (x) { return x.image || x.title; }); say("Saving…"); cache.ministers = cache.ministers || { obj: M }; saveFile("ministers", M, "Admin: update With Union Ministers").catch(fail); } });
+        }).catch(fail);
+      },
+      raw: function () {
+        var names = ["structure", "press", "gallery", "videos", "notices", "downloads", "thengadi", "federations", "leaders", "site"];
+        panel.innerHTML = '<p class="note">Advanced: edit any data file directly as JSON (Karya Karini structure, press, gallery, videos, notices, downloads…). The file is checked before saving.</p><label>File<select id="rf">' + names.map(function (n) { return "<option>" + n + "</option>"; }).join("") + '</select></label><textarea id="rt" rows="22" style="width:100%;font-family:monospace;font-size:13px"></textarea><p><button class="btn" id="asave" type="button">Save file</button></p>';
+        function loadSel() { say("Loading…"); getFile($("#rf").value).then(function (o) { $("#rt").value = JSON.stringify(o, null, 1); say(""); }).catch(fail); }
+        $("#rf").onchange = loadSel; loadSel();
+        $("#asave").onclick = function () { var o; try { o = JSON.parse($("#rt").value); } catch (e) { say("Not valid JSON: " + e.message, 1); return; } say("Saving…"); saveFile($("#rf").value, o, "Admin: update " + $("#rf").value).catch(fail); };
+      },
+      blog: function () { panel.innerHTML = '<p>Posts are written, photographed and published from the <a class="btn sm" href="write.html">Write a Blog</a> page. A new article is also published automatically every Sunday at 7:00 am.</p>'; }
+    };
+    var bar = $("#atabs");
+    bar.onclick = function (e) { var b = e.target.closest("button"); if (!b) return; Array.prototype.forEach.call(bar.querySelectorAll("button"), function (x) { x.classList.toggle("on", x === b); }); panel.onclick = null; say(""); tabs[b.getAttribute("data-t")](); };
+    if ($("#at").value.trim()) bar.querySelector("button").click(); else say("Paste your GitHub token above, then choose a tab.");
+  }
+
+  function uniqEvents(items, n) {
+    function grp(c) { c = String(c || "").toLowerCase(); return /demonstration|dharna|demands day|प्रदर्शन/.test(c) ? "demo" : /textile/.test(c) ? "textile" : /education|शिक्षा/.test(c) ? "education" : /labour|श्रम|mandaviya|मांडविया/.test(c) ? "labour" : "other"; }
+    function day(d) { return Date.parse(d || "") / 864e5; }
+    var pool = items.filter(function (x) { return /^assets\/gallery/.test(x.src); }).concat(items.filter(function (x) { return !/^assets\/gallery/.test(x.src); })), kept = [];
+    pool.forEach(function (x) { var g = grp(x.caption); if (!kept.some(function (k) { return k.src === x.src || (g !== "other" && grp(k.caption) === g && Math.abs(day(k.date) - day(x.date)) <= 3); })) kept.push(x); });
+    kept.sort(function (a, b) { return (b.date || "") < (a.date || "") ? -1 : 1; });
+    return kept.slice(0, n);
+  }
+  function ministerList(allg) {
+    var M = data.ministers || {}, hide = M.hide || [], out = [], kept = [];
+    function grp(c) { c = String(c || "").toLowerCase(); return /textile/.test(c) ? "textile" : /education|शिक्षा/.test(c) ? "education" : /labour|श्रम|mandaviya|मांडविया/.test(c) ? "labour" : /finance|वित्त/.test(c) ? "finance" : /health|स्वास्थ्य/.test(c) ? "health" : "other"; }
+    function day(d) { return Date.parse(d || "") / 864e5; }
+    var manual = (M.items || []).map(function (x) { return { src: x.image, caption: x.title, date: x.date, url: x.url, manual: 1, ministers: 1 }; });
+    var auto = allg.filter(function (x) { return x.ministers && !x.dup && hide.indexOf(x.src) < 0; });
+    var vids = (((data.videos || {}).items) || []).filter(function (v) { return /minister|मंत्री/i.test(v.title || "") && v.thumb; }).map(function (v) { return { src: v.thumb, caption: v.title, date: v.date, url: v.source === "youtube" || v.ref ? "https://www.youtube.com/watch?v=" + v.ref : v.url, ministers: 1, vid: 1 }; });
+    var pool = manual.concat(auto.filter(function (x) { return /^assets\/gallery/.test(x.src); }), auto.filter(function (x) { return !/^assets\/gallery/.test(x.src); }), vids);
+    pool.forEach(function (x) {
+      if (!x.src) return;
+      var g = grp(x.caption), dup = kept.some(function (k) { return k.src === x.src || (!x.manual && !k.manual && grp(k.caption) === g && g !== "other" && Math.abs(day(k.date) - day(x.date)) <= 3); });
+      if (!dup) kept.push(x);
+    });
+    kept.sort(function (a, b) { return (b.date || "") < (a.date || "") ? -1 : 1; });
+    return kept.slice(0, 12);
+  }
   var pages = {
     home: function () {
       var press = sorted((data.press || {}).items), f = press[0];
@@ -264,16 +411,17 @@
       }
       var vi = sorted((data.videos || {}).items).slice(0, 6);
       $("#vidGrid").innerHTML = vi.map(vidCard).join(""); $("#vmHost").innerHTML = vmHtml(); wireVideos($("#vidGrid"), vi);
-      var bl = ((data.blogs || {}).items || []).slice(0, 3);
+      var bl = pubd((data.blogs || {}).items).slice(0, 3);
       $("#blogGrid").innerHTML = bl.map(blogCard).join("") || '<p class="empty">No posts yet.</p>';
       var SL = ["Tyag, Tapasya aur Balidan", "Workers Unite the World", "Bharat Mata Ki Jai"], si = 0; $("#slogan").textContent = SL[0];
       setInterval(function () { si = (si + 1) % SL.length; $("#slogan").textContent = SL[si]; }, 4000);
       var people = (data.leaders || {}).people || [];
-      var top = people.filter(function (p) { return p.group === "President" || p.group === "General Secretary" || p.group === "Vice Presidents"; });
-      $("#whoGrid").innerHTML = top.slice(0, 4).map(function (p, i) { return personCard(p, i === 0); }).join("");
+      var top = [], ord = ["President", "Vice Presidents", "General Secretary"];
+      ord.forEach(function (g) { people.forEach(function (p) { if (p.group === g) top.push(p); }); });
+      $("#whoGrid").innerHTML = top.map(function (p) { return personCard(p, p.group === "President" || p.group === "General Secretary"); }).join("");
       var st = (data.structure || {}).tiers || [];
       $("#kkChips").innerHTML = st.map(function (s) { return '<span class="chip">' + esc(s.title) + ' <b>' + s.count + "</b></span>"; }).join("");
-      $("#fedChips").innerHTML = feds.slice(0, 14).map(function (f) { return '<span class="chip n">' + esc(f.name) + "</span>"; }).join("") + '<a class="chip" href="federations.html">+ ' + Math.max(0, feds.length - 14) + " more</a>";
+      $("#fedChips").innerHTML = feds.slice(0, 14).map(function (f) { return '<a class="chip n" href="federation.html?id=' + f.no + '">' + esc(f.name) + "</a>"; }).join("") + '<a class="chip" href="federations.html">+ ' + Math.max(0, feds.length - 14) + " more</a>";
       var nt = data.notices, nbl = $("#nbList");
       if (!memOn() && $("#noticeboard")) $("#noticeboard").remove();
       if (nbl && nt && memOn()) {
@@ -291,16 +439,16 @@
       }
       });
       var allg = sorted((data.gallery || {}).items);
-      var mins = allg.filter(function (x) { return x.ministers; }).slice(0, 12);
+      var mins = ministerList(allg);
       var mr = $("#minRow");
       if (mr) {
         mr.innerHTML = mins.map(function (x, i) { return '<figure role="listitem" tabindex="0" data-i="' + i + '"><img loading="lazy" src="' + esc(x.src) + '" alt="' + esc(x.caption) + '" onerror="this.parentNode.remove()"><figcaption><b>' + esc(x.caption) + "</b><small>" + (x.date ? esc(fmtDate(x.date, true)) : "") + "</small></figcaption></figure>"; }).join("") || '<p class="empty">Photographs will appear here after the next daily update.</p>';
         var lbm = $("#lb");
-        var openm = function (i) { var x = mins[i]; if (!x || !lbm) return; $("#lbImg").src = x.src; $("#lbCap").textContent = x.caption + (x.date ? " — " + fmtDate(x.date, true) : ""); lbm.classList.add("on"); };
+        var openm = function (i) { var x = mins[i]; if (x && x.vid && x.url) { window.open(x.url, "_blank", "noopener"); return; } if (!x || !lbm) return; $("#lbImg").src = x.src; $("#lbCap").textContent = x.caption + (x.date ? " — " + fmtDate(x.date, true) : ""); lbm.classList.add("on"); };
         mr.addEventListener("click", function (e) { var f = e.target.closest("figure"); if (f) openm(+f.getAttribute("data-i")); });
         mr.addEventListener("keydown", function (e) { if (e.key === "Enter") { var f = e.target.closest("figure"); if (f) openm(+f.getAttribute("data-i")); } });
       }
-      var g = ((data.gallery || {}).items || []).slice(0, 6);
+      var g = uniqEvents(((data.gallery || {}).items || []).filter(function (x) { return !x.dup; }).slice(0, 40), 6);
       $("#galStrip").innerHTML = g.map(function (x) { return '<figure><img loading="lazy" src="' + esc(x.src) + '" alt="' + esc(x.caption) + '" onerror="this.parentNode.remove()"><figcaption>' + esc(x.caption) + "</figcaption></figure>"; }).join("");
       var s = data.site || {};
       $("#contactBox").innerHTML = "<h3>Head Office, New Delhi</h3><p>" + esc(s.address) + '</p><p>☎ <a href="tel:' + esc((s.phone || "").replace(/[^0-9+]/g, "")) + '">' + esc(s.phone) + "</a> · Fax " + esc(s.fax) + '<br>✉ <a href="mailto:' + esc(s.email) + '">' + esc(s.email) + '</a></p><p><a class="btn" href="https://wa.me/91' + esc(s.whatsapp) + '" rel="noopener" aria-label="Chat on WhatsApp">' + WA + 'WhatsApp ' + esc(s.whatsapp) + "</a></p>" + mapHtml(s);
@@ -321,11 +469,24 @@
         return (i ? '<div class="link"></div>' : "") + '<div class="tier"><h3>' + esc(s.title) + '<span class="cnt">' + s.count + "</span></h3><p>" + esc(s.desc || "") + "</p>" + (chips ? '<div class="chips">' + chips + "</div>" : "") + sec + "</div>";
       }).join("");
     },
+    fedone: function () {
+      var feds = (data.federations || {}).federations || [], id = new URLSearchParams(location.search).get("id"), f = feds.filter(function (x) { return String(x.no) === String(id); })[0], box = $("#fedBox");
+      if (!f) { box.innerHTML = '<p class="empty">Federation not found. <a href="federations.html">See all federations</a>.</p>'; return; }
+      document.title = f.name + " | Bharatiya Mazdoor Sangh"; $("#fedTitle").textContent = f.name; $("#fedCrumb").textContent = f.name; $("#fedSub").textContent = f.sector ? f.sector : "Federation of Bharatiya Mazdoor Sangh";
+      function lnk(k, v) { v = String(v); if (k === "Email") return '<a href="mailto:' + ea(v) + '">' + esc(v) + "</a>"; if (k === "Phone") return '<a href="tel:' + ea(v.replace(/[^+\d]/g, "")) + '">' + esc(v) + "</a>"; if (k === "Website" || k === "Facebook") return '<a href="' + ea(/^https?:/.test(v) ? v : "https://" + v) + '" rel="noopener" target="_blank">' + esc(v.replace(/^https?:\/\//, "")) + "</a>"; return esc(v); }
+      var rows = [["President", f.president], ["General Secretary", f.gensec], ["Phone", f.phone], ["Email", f.email], ["Address", f.address], ["Website", f.website], ["Facebook", f.facebook], ["Founded", f.founded], ["Membership", f.members]].filter(function (r) { return r[1]; });
+      var info = '<aside class="box"><h3>Federation details</h3>' + (f.image ? '<img src="' + ea(f.image) + '" alt="' + ea(f.name) + '" style="max-width:100%;border-radius:12px;margin-bottom:10px" onerror="this.remove()">' : "") + (rows.length ? '<dl class="fdl">' + rows.map(function (r) { return "<dt>" + r[0] + "</dt><dd>" + lnk(r[0], r[1]) + "</dd>"; }).join("") + "</dl>" : '<p class="note">Contact details will be added soon.</p>') + '<p class="note"><a href="federations.html">← All federations</a></p></aside>';
+      var main = '<div>' + (f.about ? '<div class="md">' + md(f.about) + "</div>" : '<p class="note">The detailed profile of this federation will be added soon.</p>') + ((f.issues || []).length ? '<h2 style="margin-top:22px">Main issues</h2><ul>' + f.issues.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") + "</div>";
+      box.innerHTML = '<div class="stgrid">' + main + info + "</div>";
+    },
+    admin: function () {
+      gate($("#agate"), function () { $("#abox").hidden = false; adminInit(); });
+    },
     fed: function () {
       var feds = (data.federations || {}).federations || [];
       function draw(q) {
         var l = feds.filter(function (f) { return f.name.toLowerCase().indexOf(q.toLowerCase()) > -1; });
-        $("#fedList").innerHTML = l.map(function (f) { return '<div class="card fed"><i>' + f.no + "</i><span>" + esc(f.name) + "</span></div>"; }).join("") || '<p class="empty">No federation found.</p>';
+        $("#fedList").innerHTML = l.map(function (f) { return '<a class="card fed" href="federation.html?id=' + f.no + '"><i>' + f.no + "</i><span>" + esc(f.name) + "</span></a>"; }).join("") || '<p class="empty">No federation found.</p>';
         $("#fedCount").textContent = l.length + " of " + feds.length;
       }
       $("#q").addEventListener("input", function (e) { draw(e.target.value); }); draw("");
@@ -340,7 +501,7 @@
       draw("");
     },
     blog: function () {
-      var items = (data.blogs || {}).items || [], root = $("#blogRoot");
+      var items = pubd((data.blogs || {}).items), root = $("#blogRoot");
       function list() {
         document.title = "Blog | Bharatiya Mazdoor Sangh";
         var cats = []; items.forEach(function (b) { if (b.category && cats.indexOf(b.category) < 0) cats.push(b.category); });
@@ -366,14 +527,7 @@
       wireVideos($("#vl"), items); draw();
     },
     write: function () {
-      var f = $("#wf"), site = data.site || {};
-      function slugify(s) { return (s || "post").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60) || "post"; }
-      function obj() { var v = function (n) { return f.elements[n].value.trim(); }; var title = v("title"); return { slug: v("slug") || slugify(title), title: title, author: v("author"), date: v("date") || new Date().toISOString().slice(0, 10), category: v("category"), lang: v("lang"), cover: v("cover"), summary: v("summary"), share_to_facebook: f.elements.fb.checked, body: f.elements.body.value }; }
-      function upd() { var o = obj(); $("#wp").innerHTML = "<h2>" + esc(o.title) + "</h2>" + md(o.body); $("#wj").textContent = JSON.stringify(o, null, 1); }
-      f.addEventListener("input", upd); f.elements.date.value = new Date().toISOString().slice(0, 10); upd();
-      $("#wc").onclick = function () { var t = $("#wj").textContent; (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { $("#wmsg").textContent = "Copied."; }, function () { $("#wmsg").textContent = "Select the text and copy it manually."; }); };
-      $("#wd").onclick = function () { var o = obj(), b = new Blob([JSON.stringify(o, null, 1)], { type: "application/json" }), a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = o.slug + ".json"; a.click(); };
-      if (site.repo) { var g = $("#wg"); g.hidden = false; g.onclick = function () { var o = obj(); window.open("https://github.com/" + site.repo + "/new/main/data/blogs?filename=" + encodeURIComponent(o.slug + ".json") + "&value=" + encodeURIComponent(JSON.stringify(o, null, 1)), "_blank", "noopener"); }; }
+      gate($("#wgate"), function () { $("#wbox").hidden = false; writeInit(); });
     },
     members: function () {
       var box = $("#memArea");
@@ -431,7 +585,7 @@
   };
 
   var page = document.body.getAttribute("data-page");
-  load(page === "home" ? ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs"].concat(memOn() ? ["notices"] : []) : ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "thengadi", "notices", "downloads"]).then(function () {
+  load(page === "home" ? ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "ministers"].concat(memOn() ? ["notices"] : []) : ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "thengadi", "notices", "downloads"]).then(function () {
     shell(); appShell(); lightEmbeds(); if (pages[page]) pages[page](); applyTranslate();
   });
 })();
