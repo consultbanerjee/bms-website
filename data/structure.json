@@ -21,7 +21,7 @@
   {
    "level": 3,
    "title": "Secretaries",
-   "count": 6,
+   "count": 7,
    "desc": "National secretaries assisting the General Secretaries."
   },
   {
@@ -42,27 +42,33 @@
    "title": "Zonal Organising Secretaries",
    "count": 7,
    "items": [
-    "Northern Zone",
-    "North Central Zone",
-    "North Eastern & Eastern Zone",
+    "Southern Zone",
     "South & South Central Zone",
-    "Western, North West & Central Zone",
+    "Western, North Western & Central Zone",
+    "North Eastern & Eastern Zone",
     "East Central Zone",
-    "South Zone"
+    "North Central Zone",
+    "North Zone"
    ],
-   "desc": "One organiser for each of seven zones."
+   "desc": "One organiser for each zone; zones also coordinate with Nepal."
   },
   {
    "level": 6,
-   "title": "Assistant Organising Secretaries",
+   "title": "Deputy Zonal Organising Secretaries",
    "count": 4,
    "items": [
-    "North West Zone",
-    "West Zone",
-    "North Zone",
-    "East Zone"
+    "Western Zone",
+    "North Western Zone",
+    "North Eastern & Eastern Zone",
+    "North Zone"
    ],
-   "desc": "Support zonal organisation."
+   "desc": "Support the Zonal Organising Secretaries."
+  },
+  {
+   "level": 8,
+   "title": "State Organising Secretaries",
+   "count": 9,
+   "desc": "Full-time organisers for the states; expected at all KKS meetings."
   },
   {
    "level": 7,
@@ -127,6 +133,12 @@
      ]
     }
    ]
+  },
+  {
+   "level": 9,
+   "title": "Kendriya Karya Samithi 2026-29",
+   "count": 112,
+   "desc": "Adopted at the 21st All India Triennial Conference (6-8 Feb 2026): 20 National Office Bearers, 10 Zonal Organising Secretaries, 5 Sector In-charges, 9 State Organising Secretaries, and 44 male and 24 female members."
   }
  ]
 }

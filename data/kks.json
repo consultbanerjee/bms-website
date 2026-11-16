@@ -1,0 +1,1081 @@
+{
+ "zonal": [
+  {
+   "zone": "Southern",
+   "name": "Shri MP Rajeevan",
+   "place": "Kannur"
+  },
+  {
+   "zone": "South & South Central",
+   "name": "Shri V. Radhakrishnan",
+   "place": "Trichur"
+  },
+  {
+   "zone": "Western, North Western & Central Zone",
+   "name": "Shri CV Rajesh",
+   "place": "Bhopal"
+  },
+  {
+   "zone": "Deputy ZOS — Western",
+   "name": "Shri Mohan Ennure",
+   "place": "Mumbai"
+  },
+  {
+   "zone": "Deputy ZOS — North Western",
+   "name": "Shri Hari Mohan Sharma",
+   "place": "Jaipur"
+  },
+  {
+   "zone": "North Eastern & Eastern (special attention)",
+   "name": "Shri Ganesh Mishra",
+   "place": "Kolkata"
+  },
+  {
+   "zone": "Deputy ZOS — North Eastern & Eastern",
+   "name": "Shri Pruthvi Raj Panda",
+   "place": "Baleswar"
+  },
+  {
+   "zone": "East Central",
+   "name": "Shri Dhram Das Shukla",
+   "place": "Patna"
+  },
+  {
+   "zone": "North Central",
+   "name": "Shri Anupam",
+   "place": "Lucknow"
+  },
+  {
+   "zone": "North",
+   "name": "Shri Sohanlal Gupta",
+   "place": "Kurukshetra"
+  },
+  {
+   "zone": "Deputy ZOS — North",
+   "name": "Shri Ashok Chowdary",
+   "place": "Jammu"
+  }
+ ],
+ "sector": [
+  {
+   "sector": "Government Sector",
+   "name": "Shri MP Singh",
+   "place": "Varanasi"
+  },
+  {
+   "sector": "Private Sector",
+   "name": "Shri Ravindra Himte",
+   "place": "Nagpur"
+  },
+  {
+   "sector": "Public Sector",
+   "name": "Shri Hiranmay Pandya",
+   "place": "Vadodara"
+  },
+  {
+   "sector": "Un Organised Sector",
+   "name": "Shri Jayanth Deshpande",
+   "place": "Delhi"
+  },
+  {
+   "sector": "Social Security Sector",
+   "name": "Shri Amar Singh Sankhla",
+   "place": "Udaipur"
+  }
+ ],
+ "states": [
+  {
+   "state": "Kerala",
+   "name": "Shri Mahesh",
+   "place": "Ernakulam"
+  },
+  {
+   "state": "Andhra Pradesh",
+   "name": "Shri K. Lova Reddy",
+   "place": "Guntur"
+  },
+  {
+   "state": "Telangana",
+   "name": "Shri J. Ram Mohan",
+   "place": "Hyderabad"
+  },
+  {
+   "state": "Karnataka",
+   "name": "Shri Thangaraj",
+   "place": "Bengaluru"
+  },
+  {
+   "state": "Maharashtra",
+   "name": "Shri Balasaheb Bhujbal",
+   "place": "Pune"
+  },
+  {
+   "state": "Odisha",
+   "name": "Shri Laxman Das",
+   "place": "Bhubaneswar"
+  },
+  {
+   "state": "Assam",
+   "name": "Shri Brajesh Kumar",
+   "place": "Guwahati"
+  },
+  {
+   "state": "Uttar Pradesh",
+   "name": "Shri Ram Nivas Singh",
+   "place": "Lucknow"
+  },
+  {
+   "state": "Punjab",
+   "name": "Shri Niranjan Kumar",
+   "place": "Ludhiana"
+  }
+ ],
+ "mahila": [
+  {
+   "name": "Smt. Ashamol",
+   "state": "Kerala , Southern",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Bhulokeswari",
+   "state": "Telangana , South Central",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Sharmila Patil",
+   "state": "Maharashtra , Western",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Sharmista Joshi",
+   "state": "Gujarat , North Western",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Megha Dubey",
+   "state": "Madhya Pradesh , Central",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Suravi Swain",
+   "state": "Odisha , Eastern",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Deepa Bharali",
+   "state": "Assam , North Eastern",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Ruma Saha",
+   "state": "Tripura , North Eastern",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Debosree Kalai",
+   "state": "Tripura , North Eastern",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Archana Bist",
+   "state": "Dehradun ,North Central",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Sushma Sharma",
+   "state": "Shimla , Northern",
+   "representing": "State BMS"
+  },
+  {
+   "name": "Smt. Tahira Mulla",
+   "state": "Dharawada",
+   "representing": "Construction"
+  },
+  {
+   "name": "Smt. Samita Mishra",
+   "state": "Rourkela",
+   "representing": "Steel"
+  },
+  {
+   "name": "Smt. Trupthi Alti",
+   "state": "Pune",
+   "representing": "Banking"
+  },
+  {
+   "name": "Smt. Archana Lama",
+   "state": "Bhatgaon",
+   "representing": "Coal"
+  },
+  {
+   "name": "Smt. Sudharani",
+   "state": "Kanpur",
+   "representing": "Defense"
+  },
+  {
+   "name": "Smt. K. Lakshmi Prasanna",
+   "state": "Hyderabad",
+   "representing": "PSENC"
+  },
+  {
+   "name": "Smt. Sonia Uike",
+   "state": "Bhopal",
+   "representing": "Postal"
+  },
+  {
+   "name": "Smt. Manisha Meghwal",
+   "state": "Udaipur",
+   "representing": "Transport"
+  },
+  {
+   "name": "Smt. Urvasi Jangar",
+   "state": "Sonipat",
+   "representing": "Banking-Gramin Bank"
+  },
+  {
+   "name": "Smt. Indu Jamwal",
+   "state": "Delhi",
+   "representing": "Health Services"
+  },
+  {
+   "name": "Smt. Varsha Khanvilkar",
+   "state": "Bhopal",
+   "representing": "Vidyuth"
+  },
+  {
+   "name": "Smt. Smitha Rahul Dabre",
+   "state": "Amaravathi",
+   "representing": "Banking- Workers"
+  },
+  {
+   "name": "Smt. Shilpa Deshpande",
+   "state": "Nagpur",
+   "representing": "Karyakarta Vikas Prakost"
+  }
+ ],
+ "depts": [
+  {
+   "dept": "International Affairs",
+   "prabhari": "Shri Hiranmay Pandya",
+   "saha": "Shri CK Saji Narayanan"
+  },
+  {
+   "dept": "Social Media",
+   "prabhari": "Shri Nilesh Khedkar",
+   "saha": "Shri T. Gopal"
+  },
+  {
+   "dept": "Sarvapantha Samadar Manch",
+   "prabhari": "Shri Sukhwinder Singh Dikki",
+   "saha": "Shri Inamul Haq"
+  },
+  {
+   "dept": "Swadeshi",
+   "prabhari": "Shri Ravindra Deshpande",
+   "saha": "Shri S. Durai Raj"
+  },
+  {
+   "dept": "Karyakartha Vikas Prakosta",
+   "prabhari": "Shri Sunil Kirvai",
+   "saha": "Smt. Shilpa Deshpande"
+  },
+  {
+   "dept": "Paryavaran Manch",
+   "prabhari": "Shri Lakshman Chandra",
+   "saha": "Shri Inamul Haq"
+  },
+  {
+   "dept": "Mahila Vibagh",
+   "prabhari": "Smt. Neetha Chobe",
+   "saha": "Smt. Ashamol"
+  },
+  {
+   "dept": "Legal Cell",
+   "prabhari": "Shri Anil Dhumne",
+   "saha": "Shri Raji Reddy"
+  },
+  {
+   "dept": "Abhilekhagaar",
+   "prabhari": "Shri Devendra Kumar Pandey",
+   "saha": "Shri SV Subramanyam"
+  },
+  {
+   "dept": "Media & Public Relations",
+   "prabhari": "Shri Pawan Kumar",
+   "saha": ""
+  },
+  {
+   "dept": "Research & Intelluctual Activity",
+   "prabhari": "Shri Virjesh Upadhyay",
+   "saha": ""
+  },
+  {
+   "dept": "Internal Auditing & Trusts",
+   "prabhari": "Shri Sravan Kumar Rathod",
+   "saha": ""
+  },
+  {
+   "dept": "Vishwakarma Sanket",
+   "prabhari": "Shri Dinanath Runthla",
+   "saha": ""
+  }
+ ],
+ "kks": [
+  {
+   "name": "Shri CK Saji Narayanan",
+   "place": "Trichur",
+   "state": "Kerala"
+  },
+  {
+   "name": "Shri Virjesh Upadhyay",
+   "place": "Delhi",
+   "state": "Delhi"
+  },
+  {
+   "name": "Shri K. Lakshma Reddy",
+   "place": "Hyderabad",
+   "state": "Telangana"
+  },
+  {
+   "name": "Shri Hiranmay Pandya",
+   "place": "Vadodara",
+   "state": "Gujarat"
+  },
+  {
+   "name": "Shri Ravindra Himte",
+   "place": "Nagpur",
+   "state": "Vidarbha"
+  },
+  {
+   "name": "Shri SK Rathod",
+   "place": "Jaipur",
+   "state": "Rajasthan"
+  },
+  {
+   "name": "Shri Sunil Kirvai",
+   "place": "Bhopal",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "name": "Shri Inamul Haq",
+   "place": "Kolkata",
+   "state": "West Bengal"
+  },
+  {
+   "name": "Shri Nilesh Khedkar",
+   "place": "Pune",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri T. Gopal",
+   "place": "Delhi",
+   "state": "Delhi"
+  },
+  {
+   "name": "Shri Ravindra Deshpande",
+   "place": "Pune",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri Jitendra Singh Gurjar",
+   "place": "Bhopal",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "name": "Shri K. Lakshman Chandra",
+   "place": "Korba",
+   "state": "Chhattisgarh"
+  },
+  {
+   "name": "Shri Jay Nath Choubey",
+   "place": "Parbelia",
+   "state": "West Bengal"
+  },
+  {
+   "name": "Shri CT Patil",
+   "place": "Dharwada",
+   "state": "Karnataka"
+  },
+  {
+   "name": "Shri Girija Shankar Acharya",
+   "place": "Bilaspur",
+   "state": "Chhattisgarh"
+  },
+  {
+   "name": "Shri Sripada Kutaskar",
+   "place": "Mumbai",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri Gajanan Gatlewar",
+   "place": "Nagpur",
+   "state": "Vidarbha"
+  },
+  {
+   "name": "Shri Ravishankar Singh",
+   "place": "Burnpur",
+   "state": "West Bengal"
+  },
+  {
+   "name": "Shri Jayapraksh",
+   "place": "Kollam",
+   "state": "Kerala"
+  },
+  {
+   "name": "Shri KV Radhakrishnan",
+   "place": "Hyderabad",
+   "state": "Telangana"
+  },
+  {
+   "name": "Shri Mangesh Deshpande",
+   "place": "Dombivilli",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri Channa Keshava Rao",
+   "place": "Hyderabad",
+   "state": "Telangana"
+  },
+  {
+   "name": "Shri Raj Bihari Sharma",
+   "place": "Jaipur",
+   "state": "Rajasthan"
+  },
+  {
+   "name": "Shri Vallabh Bhai Vachani",
+   "place": "Junagad",
+   "state": "Gujarat"
+  },
+  {
+   "name": "Shri Jagadish Thakkar",
+   "place": "Vadodara",
+   "state": "Gujarat"
+  },
+  {
+   "name": "Shri Anna Dhumal",
+   "place": "Pune",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri Devendra Kumar Pandey",
+   "place": "Delhi",
+   "state": "Delhi-Thengadi Bhavan"
+  },
+  {
+   "name": "Shri Jagadeeswara Rao",
+   "place": "Visakha",
+   "state": "Andhra Pradesh"
+  },
+  {
+   "name": "Shri Somesh Biswas",
+   "place": "Silchar",
+   "state": "Assam"
+  },
+  {
+   "name": "Shri Pradeep Rai",
+   "place": "Kanpur",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "name": "Shri Ram Nath Kini",
+   "place": "Mumbai",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri SV Subramanyam",
+   "place": "Hyderabad",
+   "state": "Telangana"
+  },
+  {
+   "name": "Shri Amar Singh Sankhla",
+   "place": "Udaipur",
+   "state": "Rajasthan"
+  },
+  {
+   "name": "Shri Viraj Tikekar",
+   "place": "Pune",
+   "state": "Maharashtra"
+  },
+  {
+   "name": "Shri Raji Reddy",
+   "place": "Sanga Reddy",
+   "state": "Telangana"
+  },
+  {
+   "name": "Shri KK Vijaya Kumar",
+   "place": "Kottayam",
+   "state": "Kerala"
+  },
+  {
+   "name": "Shri Ashok Rathod",
+   "place": "Surat",
+   "state": "Gujarat"
+  },
+  {
+   "name": "Shri Himansu Sekhar Bal",
+   "place": "Rourkela",
+   "state": "Odisha"
+  },
+  {
+   "name": "Shri Dinesh Pandey",
+   "place": "Bhilai",
+   "state": "Chhattisgarh"
+  },
+  {
+   "name": "Shri Dinanath Runthla",
+   "place": "Jaipur",
+   "state": "Rajasthan"
+  },
+  {
+   "name": "Shri M. P. Singh",
+   "place": "Varanasi",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "name": "Shri Jayanta Deshpande",
+   "place": "Delhi",
+   "state": "Delhi"
+  },
+  {
+   "name": "Shri Girsh Arya",
+   "place": "NOIDA",
+   "state": "Uttar Pradesh"
+  }
+ ],
+ "audit": [
+  {
+   "name": "Shri Sravan Kumar Rathod",
+   "place": "Jaipur /Rajasthan",
+   "area": "Entire Country"
+  },
+  {
+   "name": "Shri Jaya Prakash",
+   "place": "Tiruppur / Tamil Nadu",
+   "area": "South & South Central"
+  },
+  {
+   "name": "Shri Binay Kumar Tripathi",
+   "place": "Angul / Odisha",
+   "area": "To be Decided"
+  },
+  {
+   "name": "Shri Chandra Sekhar Vyas",
+   "place": "Bhopal / Madhya Pradesh",
+   "area": "To be Decided"
+  },
+  {
+   "name": "Shri Debashish Bhattacahrya",
+   "place": "Kolkata / West Bengal",
+   "area": "North East"
+  },
+  {
+   "name": "Shri Viraj Tikekar",
+   "place": "Pune / Maharashtara",
+   "area": "To be Decided"
+  }
+ ],
+ "legal": [
+  {
+   "name": "Shri Anil Dhumane",
+   "place": "Karjat , Maharashtra",
+   "role": "Pramukh"
+  },
+  {
+   "name": "Shri Rajii Reddy",
+   "place": "Sanga Reddy , Telangana",
+   "role": "Saha Pramukh"
+  },
+  {
+   "name": "Shri M. Sravan Kumar",
+   "place": "Guntur , Andhra Pradesh",
+   "role": "Member"
+  },
+  {
+   "name": "Shri Raja Satyajeet Banarjee",
+   "place": "Kolkata , West Bengal",
+   "role": "Member"
+  },
+  {
+   "name": "Shri Raman",
+   "place": "Delhi , Delhi",
+   "role": "Member"
+  },
+  {
+   "name": "Shri Adarsha Tiwari",
+   "place": "Delhi , Delhi",
+   "role": "Member"
+  },
+  {
+   "name": "Shri Jayant Rai",
+   "place": "Patna , Bihar",
+   "role": "Member"
+  },
+  {
+   "name": "Shri T. Gopal",
+   "place": "Delhi , Delhi",
+   "role": "Member"
+  },
+  {
+   "name": "Shri N. Indresh",
+   "place": "Bengaluru , Karnatak",
+   "role": "Member"
+  }
+ ],
+ "udyog": [
+  {
+   "sector": "Unorganised Sector",
+   "area": "Scheme Workers",
+   "prabhari": {
+    "name": "Kum. Anjali Patel"
+   },
+   "saha": [
+    {
+     "name": "Shri Girija Shankar Acharya"
+    },
+    {
+     "name": "Shri Jignesh Mazmudar"
+    }
+   ]
+  },
+  {
+   "sector": "Unorganised Sector",
+   "area": "Urban UOS",
+   "prabhari": {
+    "name": "Shri C. T. Patil"
+   },
+   "saha": [
+    {
+     "name": "Smt. Sharmila Patil"
+    }
+   ]
+  },
+  {
+   "sector": "Unorganised Sector",
+   "area": "Rural UOS",
+   "prabhari": {
+    "name": "Shri Ravisankar Singh"
+   },
+   "saha": [
+    {
+     "name": "Shri P. Jayaprakash"
+    }
+   ]
+  },
+  {
+   "sector": "Unorganised Sector",
+   "area": "Migrant Labour",
+   "prabhari": {
+    "name": "Shri Sripad Kutaskar"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Unorganised Sector",
+   "area": "Gig & Platform Workers",
+   "prabhari": {
+    "name": "Shri Gajanan Gatlewar"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Unorganised Sector",
+   "area": "Contract Workers",
+   "prabhari": {
+    "name": "Shri K. V. Radhakrishnan"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Defence & Ordnance Factories",
+   "prabhari": {
+    "name": "Shri M. P. Singh"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Postal",
+   "note": "The All India General Secretary will focus on this sector for some period.",
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Railways including Metro",
+   "prabhari": {
+    "name": "Shri Ashok Kumar Shukla"
+   },
+   "saha": [
+    {
+     "name": "Shri Mangesh Deshpande"
+    }
+   ]
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Rajya Karmachari",
+   "prabhari": {
+    "name": "Shri Unnikrishnan Unnithan"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Swayattashasi",
+   "prabhari": {
+    "name": "Shri Aravind Mishra"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Central Government Establishments",
+   "prabhari": {
+    "name": "Shri M. P. Singh"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Atomic Energy Sector",
+   "prabhari": {
+    "name": "Shri Channa Kesava Rao"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "Central Secretariat",
+   "prabhari": {
+    "name": "Shri Ashok Kumar Shukla"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Government Sector",
+   "area": "State Autonomous Bodies (focus: Jal Vibhag)",
+   "prabhari": {
+    "name": "Shri Gajanan Gatlewar"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Textiles, Jute, Handloom, Hosiery, Wool, Garments, NTC Mills",
+   "prabhari": {
+    "name": "Shri Jay Nath Chobey"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Pharmaceuticals, Fertilisers & Chemicals",
+   "prabhari": {
+    "name": "Shri Anil Dhumne"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Vidyut, Educational Institutions",
+   "prabhari": {
+    "name": "Shri Radhe Shyam Jaiswal"
+   },
+   "saha": [
+    {
+     "name": "Shri Aravind Mishra"
+    }
+   ]
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Transport, Automobiles, Rubber, Tyre",
+   "prabhari": {
+    "name": "Shri Vallabh Bhai Vachani"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Cement, Engineering",
+   "prabhari": {
+    "name": "Shri Raj Bihari Sharma"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Private Security, Private Hospitals & Temples",
+   "prabhari": {
+    "name": "Shri Ravindra Himte"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Sugar, Distillery, Paper & Pulp",
+   "prabhari": {
+    "name": "Shri Sanjay Sinha"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "IT Employees",
+   "prabhari": {
+    "name": "Shri Jagadish Thakkar"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Private Sector",
+   "area": "Port & Dock",
+   "prabhari": {
+    "name": "Shri Anna Dhumal"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Coal",
+   "prabhari": {
+    "name": "Shri K. Lakshma Reddy"
+   },
+   "saha": [
+    {
+     "name": "Shri Sudhir Gurude"
+    }
+   ]
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Space, Rare Earths & Health",
+   "prabhari": {
+    "name": "Shri Devendra Kumar Pandey"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Steel & Non-Coal",
+   "prabhari": {
+    "name": "Shri M. Jagadishwar Rao"
+   },
+   "saha": [
+    {
+     "name": "Shri Himansu Shekhar Bal",
+     "label": "Steel"
+    },
+    {
+     "name": "Shri Dinesh Kumar Pandey",
+     "label": "Non-Coal"
+    }
+   ]
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Engineering",
+   "prabhari": {
+    "name": "Shri Ashok Kumar"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Power",
+   "prabhari": {
+    "name": "Shri Ram Nath Ganeshe"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Defence PSU",
+   "prabhari": {
+    "name": "Shri M. Jagadishwar Rao"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Oil Sector",
+   "prabhari": {
+    "name": "Shri Ashok Rathore"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Entire Finance Sector (Officers, Coins & Currency, Co-operative Banks)",
+   "prabhari": {
+    "name": "Shri Girish Chandra Arya"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Bank Workers",
+   "prabhari": {
+    "name": "Shri Ramnath Kini"
+   },
+   "saha": [
+    {
+     "name": "Shri Pradeep Rai"
+    }
+   ]
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Gramin Banks",
+   "prabhari": {
+    "name": "Shri Rajendra Sharma"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Insurance",
+   "prabhari": {
+    "name": "Shri Somesh Biswas"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Telecom",
+   "prabhari": {
+    "name": "Shri Ashok Kumar (NTPC)"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Public Sector",
+   "area": "Civil Aviation",
+   "prabhari": {
+    "name": "Shri Unnikrishnan Unnithan"
+   },
+   "saha": []
+  },
+  {
+   "sector": "Social Security Sector",
+   "area": "All Retiree Pensioners",
+   "prabhari": {
+    "name": "Shri Amar Singh Sankhla"
+   },
+   "saha": []
+  }
+ ],
+ "notes": {
+  "zonal": "Zonal Organising Secretaries also coordinate with Nepal along with their zone.",
+  "states": "All State Organising Secretaries are expected at KKS meetings.",
+  "counts": {
+   "NOB": 20,
+   "ZOS": 10,
+   "Sector Incharges": 5,
+   "SOS": 9,
+   "KKS Male": 44,
+   "KKS Female": 24,
+   "Total": 112
+  }
+ },
+ "meta": {
+  "title": "Kendriya Karya Samithi 2026-29",
+  "adopted": "21st All India Triennial Conference, 6-8 February 2026"
+ },
+ "fedmap": {
+  "1": [
+   0
+  ],
+  "2": [
+   15
+  ],
+  "3": [
+   19
+  ],
+  "5": [
+   26
+  ],
+  "6": [
+   24
+  ],
+  "7": [
+   26
+  ],
+  "10": [
+   21
+  ],
+  "12": [
+   31
+  ],
+  "13": [
+   19,
+   27
+  ],
+  "14": [
+   15
+  ],
+  "15": [
+   21
+  ],
+  "16": [
+   17,
+   28
+  ],
+  "18": [
+   18
+  ],
+  "20": [
+   23
+  ],
+  "21": [
+   7
+  ],
+  "22": [
+   29,
+   6
+  ],
+  "23": [
+   18
+  ],
+  "24": [
+   8
+  ],
+  "25": [
+   10
+  ],
+  "26": [
+   15
+  ],
+  "27": [
+   11,
+   13
+  ],
+  "28": [
+   31
+  ],
+  "29": [
+   32,
+   33
+  ],
+  "30": [
+   34
+  ],
+  "32": [
+   9
+  ],
+  "33": [
+   11
+  ],
+  "34": [
+   5
+  ],
+  "35": [
+   35
+  ],
+  "37": [
+   37
+  ],
+  "38": [
+   0
+  ]
+ }
+}

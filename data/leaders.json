@@ -1,74 +1,65 @@
 {
- "note": "National Office Bearers only. Source: bms.org.in/leadership (phones not published there; fill 'phone'). photo_locked=true stops the daily sync overwriting a photo.",
+ "note": "National Office Bearers, KKS 2026-29 (adopted at the 21st All India Triennial Conference, 6-8 Feb 2026). Personal mobile numbers are deliberately not published. photo_locked=true stops the daily sync overwriting a photo.",
  "people": [
   {
-   "id": "mallesam",
-   "name": "Shri S. Mallesam",
+   "id": "shri-s-mallesham",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "S. Mallesham"
+   ],
+   "name": "Shri S. Mallesham",
    "role": "President",
    "group": "President",
+   "state": "Telangana",
    "phone": "",
-   "email": "mallesham_sunkari@yahoo.com",
+   "email": "mallesham_sunkari@gmail.com"
+  },
+  {
+   "id": "shri-sukhwinder-singh-dikki",
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "S. Mallesam"
-   ]
-  },
-  {
-   "id": "shri-surendra-kumar-pandey",
-   "name": "Shri Surendra Kumar Pandey",
-   "role": "General Secretary",
-   "group": "General Secretary",
-   "phone": "",
-   "email": "surendra_abkms@yahoo.com",
-   "photo": "",
-   "photo_locked": false,
-   "aliases": [
-    "Surendra Kumar Pandey"
-   ]
-  },
-  {
-   "id": "shri-sukhminder-singh-dikky",
-   "name": "Shri Sukhminder Singh Dikky",
+    "Sukhwinder Singh Dikki"
+   ],
+   "name": "Shri Sukhwinder Singh Dikki",
    "role": "Vice President",
    "group": "Vice Presidents",
+   "state": "Punjab",
    "phone": "",
-   "email": "sukhwinderdicky59@gmail.com",
+   "email": "sukhminderdicky59@gmail.com"
+  },
+  {
+   "id": "smt-neeta-chobe",
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Sukhminder Singh Dikky"
-   ]
-  },
-  {
-   "id": "smt-neeta-chobey",
+    "Neeta Chobe"
+   ],
    "name": "Smt. Neeta Chobey",
    "role": "Vice President",
    "group": "Vice Presidents",
+   "state": "Vidarbha",
    "phone": "",
-   "email": "nvchobe@gmail.com",
+   "email": "nvchobe@gmail.com"
+  },
+  {
+   "id": "shri-ashok-shukla",
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Neeta Chobey"
-   ]
-  },
-  {
-   "id": "shri-ashok-kumar-shukla",
+    "Ashok Shukla"
+   ],
    "name": "Shri Ashok Kumar Shukla",
    "role": "Vice President",
    "group": "Vice Presidents",
+   "state": "Uttar Pradesh",
    "phone": "",
-   "email": "ashokshuklabms@gmail.com",
-   "photo": "",
-   "photo_locked": false,
-   "aliases": [
-    "Ashok Kumar Shukla"
-   ]
+   "email": "ashokshuklabms@gmail.com"
   },
   {
    "id": "shri-unnikrishnan-unnithan",
-   "name": "Shri UnniKrishnan Unnithan",
+   "name": "Shri Unnikrishnan Unnithan",
    "role": "Vice President",
    "group": "Vice Presidents",
    "phone": "",
@@ -76,8 +67,10 @@
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "UnniKrishnan Unnithan"
-   ]
+    "UnniKrishnan Unnithan",
+    "Unnikrishnan Unnithan"
+   ],
+   "state": "Kerala"
   },
   {
    "id": "shri-rajendra-sharma",
@@ -90,7 +83,8 @@
    "photo_locked": false,
    "aliases": [
     "Rajendra Sharma"
-   ]
+   ],
+   "state": "Rajasthan"
   },
   {
    "id": "shri-pawan-kumar",
@@ -103,24 +97,40 @@
    "photo_locked": false,
    "aliases": [
     "Pawan Kumar"
-   ]
+   ],
+   "state": "Delhi"
   },
   {
-   "id": "shri-jignesh-majumudar",
-   "name": "Shri Jignesh Majumudar",
-   "role": "Vice President",
-   "group": "Vice Presidents",
-   "phone": "",
-   "email": "",
+   "id": "shri-jignesh-mazmudar",
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Jignesh Majumudar"
-   ]
+    "Jignesh Mazmudar"
+   ],
+   "name": "Shri Jignesh Mazmudar",
+   "role": "Vice President",
+   "group": "Vice Presidents",
+   "state": "Gujarat",
+   "phone": "",
+   "email": ""
+  },
+  {
+   "id": "shri-surendra-kumar-pandey",
+   "name": "Shri Surendra Kumar Pandey",
+   "role": "General Secretary",
+   "group": "General Secretary",
+   "phone": "",
+   "email": "surendrabspr66@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Surendra Kumar Pandey"
+   ],
+   "state": "Chhattisgarh"
   },
   {
    "id": "shri-ram-nath-ganeshe",
-   "name": "Shri Ram Nath Ganeshe",
+   "name": "Shri Ramnath Ganeshe",
    "role": "Secretary",
    "group": "Secretaries",
    "phone": "",
@@ -128,12 +138,14 @@
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Ram Nath Ganeshe"
-   ]
+    "Ram Nath Ganeshe",
+    "Ramnath Ganeshe"
+   ],
+   "state": "Madhya Pradesh"
   },
   {
    "id": "miss-anjali-patel",
-   "name": "Miss Anjali Patel",
+   "name": "Kum. Anjali Patel",
    "role": "Secretary",
    "group": "Secretaries",
    "phone": "",
@@ -142,11 +154,12 @@
    "photo_locked": false,
    "aliases": [
     "Anjali Patel"
-   ]
+   ],
+   "state": "Odisha"
   },
   {
    "id": "shri-radheshyam-jaiswal",
-   "name": "Shri Radheshyam Jaiswal",
+   "name": "Shri Radhe Shyam Jaiswal",
    "role": "Secretary",
    "group": "Secretaries",
    "phone": "",
@@ -154,21 +167,24 @@
    "photo": "",
    "photo_locked": false,
    "aliases": [
+    "Radhe Shyam Jaiswal",
     "Radheshyam Jaiswal"
-   ]
+   ],
+   "state": "Chhattisgarh"
   },
   {
-   "id": "shri-arvind-mishra",
-   "name": "Shri Arvind Mishra",
-   "role": "Secretary",
-   "group": "Secretaries",
-   "phone": "",
-   "email": "arvindmishragwl@gmail.com",
+   "id": "shri-aravind-mishra",
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Arvind Mishra"
-   ]
+    "Aravind Mishra"
+   ],
+   "name": "Shri Aravind Mishra",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "state": "Madhya Pradesh",
+   "phone": "",
+   "email": ""
   },
   {
    "id": "shri-ashok-kumar",
@@ -180,12 +196,14 @@
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Ashok Kumar"
-   ]
+    "Ashok Kumar",
+    "Ashok Kumar (NTPC)"
+   ],
+   "state": "Haryana"
   },
   {
    "id": "shri-anil-dhumane",
-   "name": "Shri Anil Dhumane",
+   "name": "Shri Anil Dhumne",
    "role": "Secretary",
    "group": "Secretaries",
    "phone": "",
@@ -193,8 +211,38 @@
    "photo": "",
    "photo_locked": false,
    "aliases": [
-    "Anil Dhumane"
-   ]
+    "Anil Dhumane",
+    "Anil Dhumne"
+   ],
+   "state": "Maharashtra"
+  },
+  {
+   "id": "shri-sanjay-kumar-sinha",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Sanjay Kumar Sinha"
+   ],
+   "name": "Shri Sanjay Kumar Sinha",
+   "role": "Secretary",
+   "group": "Secretaries",
+   "state": "Bihar",
+   "phone": "",
+   "email": "sanjaysinhags@gmail.com"
+  },
+  {
+   "id": "shri-anish-mishra",
+   "name": "Shri Anish Mishra",
+   "role": "Finance Secretary",
+   "group": "Finance Secretary",
+   "phone": "",
+   "email": "anishbpef@gmail.com",
+   "photo": "",
+   "photo_locked": false,
+   "aliases": [
+    "Anish Mishra"
+   ],
+   "state": "Delhi"
   },
   {
    "id": "shri-b-surendran",
@@ -207,7 +255,8 @@
    "photo_locked": false,
    "aliases": [
     "B. Surendran"
-   ]
+   ],
+   "state": "Delhi"
   },
   {
    "id": "shri-ganesh-mishra",
@@ -220,33 +269,23 @@
    "photo_locked": false,
    "aliases": [
     "Ganesh Mishra"
-   ]
-  },
-  {
-   "id": "shri-anish-mishra",
-   "name": "Shri Anish Mishra",
-   "role": "Finance Secretary",
-   "group": "Finance Secretary",
-   "phone": "",
-   "email": "",
-   "photo": "",
-   "photo_locked": false,
-   "aliases": [
-    "Anish Mishra"
-   ]
+   ],
+   "state": "Kolkata"
   },
   {
    "id": "shri-valjibhai-p-parmar",
-   "name": "Shri Valjibhai P. Parmar",
+   "name": "Shri Valji Bhai Parmar",
    "role": "Office Secretary",
    "group": "Office Secretary",
    "phone": "",
-   "email": "vpp26vparmar@gmail.com",
+   "email": "vpp_vparmar@yahoo.com",
    "photo": "",
    "photo_locked": false,
    "aliases": [
+    "Valji Bhai Parmar",
     "Valjibhai P. Parmar"
-   ]
+   ],
+   "state": "Delhi"
   },
   {
    "id": "shri-d-k-pandey",
@@ -260,7 +299,8 @@
    "aliases": [
     "D. K. Pandey",
     "DK Pandey"
-   ]
+   ],
+   "state": "Delhi"
   }
  ]
 }
