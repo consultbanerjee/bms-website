@@ -170,9 +170,24 @@
   }
   function personCard(p, big) {
     var av = p.photo ? '<img class="avatar" loading="lazy" src="' + esc(p.photo) + '" alt="' + esc(p.name) + '">' : '<div class="avatar" aria-hidden="true">' + esc(initials(p.name)) + "</div>";
-    var ph = p.phone ? '<a href="tel:' + esc(p.phone.replace(/[^0-9+]/g, "")) + '">☎ ' + esc(p.phone) + "</a>" : "<span>☎ —</span>";
-    var em = p.email ? '<a href="mailto:' + esc(p.email) + '">✉ ' + esc(p.email) + "</a>" : "<span>✉ —</span>";
-    return '<article class="card person' + (big ? " pres" : "") + '">' + av + '<div class="role">' + esc(p.role) + "</div><h3>" + esc(p.name) + '</h3><div class="c">' + ph + em + "</div></article>";
+    var ph = p.phone ? '<a href="tel:' + esc(p.phone.replace(/[^0-9+]/g, "")) + '">☎ ' + esc(p.phone) + "</a>" : "";
+    var em = p.email ? '<a href="mailto:' + esc(p.email) + '">✉ ' + esc(p.email) + "</a>" : "";
+    return '<article class="card person' + (big ? " pres" : "") + '">' + av + '<div class="role">' + esc(p.role) + "</div><h3>" + esc(p.name) + "</h3>" + (p.state ? '<div class="pst">' + esc(p.state) + "</div>" : "") + '<div class="c">' + ph + em + "</div></article>";
+  }
+  function kkTbl(head, rows) { return '<div class="tw"><table class="kt"><thead><tr>' + head.map(function (h) { return "<th>" + esc(h) + "</th>"; }).join("") + "</tr></thead><tbody>" + rows.map(function (r) { return "<tr>" + r.map(function (c) { return "<td>" + esc(c || "—") + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody></table></div>"; }
+  function kkSections(k) {
+    if (!k || !k.zonal) return "";
+    var h = '<p class="kknote">' + esc((k.meta || {}).title || "") + " — adopted at the " + esc((k.meta || {}).adopted || "") + ".</p>";
+    h += '<h2 class="grp">Zonal Organising Secretaries</h2>' + kkTbl(["Zone", "Name", "Headquarters"], k.zonal.map(function (x) { return [x.zone, x.name, x.place]; })) + '<p class="kknote">' + esc(k.notes.zonal) + "</p>";
+    h += '<h2 class="grp">Sector In-charges</h2>' + kkTbl(["Sector", "Name", "Place"], k.sector.map(function (x) { return [x.sector, x.name, x.place]; }));
+    h += '<h2 class="grp">State Organising Secretaries</h2>' + kkTbl(["State", "Name", "Place"], k.states.map(function (x) { return [x.state, x.name, x.place]; })) + '<p class="kknote">' + esc(k.notes.states) + "</p>";
+    h += '<h2 class="grp">Udyog Prabhari &amp; Saha Udyog Prabhari</h2>' + kkTbl(["Sector", "Industry / area", "Udyog Prabhari", "Saha Udyog Prabhari"], k.udyog.map(function (x) { return [x.sector, x.area, x.prabhari ? x.prabhari.name : "(see note)", (x.saha || []).map(function (s) { return s.name + (s.label ? " (" + s.label + ")" : ""); }).join(", ")]; }));
+    h += '<h2 class="grp">Department In-charges</h2>' + kkTbl(["Department", "Prabhari", "Saha Prabhari"], k.depts.map(function (x) { return [x.dept, x.prabhari, x.saha]; }));
+    h += '<h2 class="grp">KKS — Mahila Members</h2>' + kkTbl(["Name", "State", "Representing"], k.mahila.map(function (x) { return [x.name, x.state, x.representing]; }));
+    h += '<h2 class="grp">Kendriya Karya Samithi Members</h2>' + kkTbl(["Name", "Place", "State"], k.kks.map(function (x) { return [x.name, x.place, x.state]; }));
+    h += '<h2 class="grp">Auditing Team</h2>' + kkTbl(["Name", "Place", "Area"], k.audit.map(function (x) { return [x.name, x.place, x.area]; }));
+    h += '<h2 class="grp">Legal Cell</h2>' + kkTbl(["Name", "Place", "Role"], k.legal.map(function (x) { return [x.name, x.place, x.role]; }));
+    return h;
   }
 
   /* ---------- pages ---------- */
@@ -354,7 +369,7 @@
         }).catch(fail);
       },
       raw: function () {
-        var names = ["structure", "press", "gallery", "videos", "notices", "downloads", "thengadi", "federations", "leaders", "site"];
+        var names = ["structure", "press", "gallery", "videos", "notices", "downloads", "thengadi", "federations", "leaders", "kks", "site"];
         panel.innerHTML = '<p class="note">Advanced: edit any data file directly as JSON (Karya Karini structure, press, gallery, videos, notices, downloads…). The file is checked before saving.</p><label>File<select id="rf">' + names.map(function (n) { return "<option>" + n + "</option>"; }).join("") + '</select></label><textarea id="rt" rows="22" style="width:100%;font-family:monospace;font-size:13px"></textarea><p><button class="btn" id="asave" type="button">Save file</button></p>';
         function loadSel() { say("Loading…"); getFile($("#rf").value).then(function (o) { $("#rt").value = JSON.stringify(o, null, 1); say(""); }).catch(fail); }
         $("#rf").onchange = loadSel; loadSel();
@@ -461,6 +476,7 @@
         var l = people.filter(function (p) { return p.group === g; }); if (!l.length) return;
         h += '<h2 class="grp">' + esc(g) + '</h2><div class="grid g4 pp">' + l.map(function (p) { return personCard(p, g === "President" || g === "General Secretary"); }).join("") + "</div>";
       });
+      var k = data.kks || {}; if (k.zonal) { h += '<h2 class="grp">Zonal Organising Secretaries</h2>' + kkTbl(["Zone", "Name", "Headquarters"], k.zonal.map(function (x) { return [x.zone, x.name, x.place]; })) + '<h2 class="grp">State Organising Secretaries</h2>' + kkTbl(["State", "Name", "Place"], k.states.map(function (x) { return [x.state, x.name, x.place]; })) + '<p class="kknote"><a class="btn" href="karya-karini.html">Full KKS 2026-29 list →</a></p>'; }
       $("#people").innerHTML = h || '<p class="empty">No data.</p>';
     },
     kk: function () {
@@ -469,7 +485,7 @@
         var chips = (s.items || []).map(function (x) { return '<span class="chip">' + esc(x) + "</span>"; }).join("");
         var sec = (s.sectors || []).map(function (x) { return '<div class="sector"><b>' + esc(x.name) + '</b><div class="chips">' + x.areas.map(function (a) { return '<span class="chip n">' + esc(a) + "</span>"; }).join("") + "</div></div>"; }).join("");
         return (i ? '<div class="link"></div>' : "") + '<div class="tier"><h3>' + esc(s.title) + '<span class="cnt">' + s.count + "</span></h3><p>" + esc(s.desc || "") + "</p>" + (chips ? '<div class="chips">' + chips + "</div>" : "") + sec + "</div>";
-      }).join("");
+      }).join("") + kkSections(data.kks);
     },
     fedone: function () {
       var feds = (data.federations || {}).federations || [], id = new URLSearchParams(location.search).get("id"), f = feds.filter(function (x) { return String(x.no) === String(id); })[0], box = $("#fedBox");
@@ -479,6 +495,8 @@
       var rows = [["President", f.president], ["General Secretary", f.gensec], ["Phone", f.phone], ["Email", f.email], ["Address", f.address], ["Website", f.website], ["Facebook", f.facebook], ["Founded", f.founded], ["Membership", f.members]].filter(function (r) { return r[1]; });
       var info = '<aside class="box"><h3>Federation details</h3>' + (f.image ? '<img src="' + ea(f.image) + '" alt="' + ea(f.name) + '" style="max-width:100%;border-radius:12px;margin-bottom:10px" onerror="this.remove()">' : "") + (rows.length ? '<dl class="fdl">' + rows.map(function (r) { return "<dt>" + r[0] + "</dt><dd>" + lnk(r[0], r[1]) + "</dd>"; }).join("") + "</dl>" : '<p class="note">Contact details will be added soon.</p>') + '<p class="note"><a href="federations.html">← All federations</a></p></aside>';
       var main = '<div>' + (f.about ? '<div class="md">' + md(f.about) + "</div>" : '<p class="note">The detailed profile of this federation will be added soon.</p>') + ((f.issues || []).length ? '<h2 style="margin-top:22px">Main issues</h2><ul>' + f.issues.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : "") + "</div>";
+      var km = (data.kks || {}), ix = (km.fedmap || {})[String(f.no)] || [], pr = ix.map(function (i) { return km.udyog[i]; }).filter(Boolean);
+      if (pr.length) main += '<h2 style="margin-top:22px">Udyog Prabhari (KKS 2026-29)</h2><ul>' + pr.map(function (x) { return "<li><b>" + esc(x.area) + ":</b> " + esc(x.prabhari ? x.prabhari.name : "Convenor to be named") + ((x.saha || []).length ? " — Saha: " + esc(x.saha.map(function (s) { return s.name; }).join(", ")) : "") + "</li>"; }).join("") + "</ul>";
       box.innerHTML = '<div class="stgrid">' + main + info + "</div>";
     },
     admin: function () {
@@ -587,7 +605,7 @@
   };
 
   var page = document.body.getAttribute("data-page");
-  load(page === "home" ? ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "ministers"].concat(memOn() ? ["notices"] : []) : ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "thengadi", "notices", "downloads"]).then(function () {
+  load(page === "home" ? ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "ministers"].concat(memOn() ? ["notices"] : []) : ["site", "press", "leaders", "structure", "federations", "gallery", "videos", "blogs", "thengadi", "notices", "downloads", "kks"]).then(function () {
     shell(); appShell(); lightEmbeds(); if (pages[page]) pages[page](); applyTranslate();
   });
 })();

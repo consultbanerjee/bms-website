@@ -414,3 +414,5 @@ a.card.fed{text-decoration:none;transition:transform .15s,box-shadow .15s}a.card
 @media(max-width:700px){#galStrip.mason,body[data-page=home] #galStrip.mason{columns:auto;grid-template-columns:repeat(2,1fr);gap:8px}#galStrip figcaption{font-size:12px;padding:20px 9px 8px}}
 
 body[data-page="home"] .searchstrip{display:none}
+
+.pst{font-size:.82rem;color:var(--muted,#666);margin:-2px 0 6px}.tw{overflow-x:auto;margin:8px 0 20px}.kt{width:100%;border-collapse:collapse;font-size:.92rem}.kt th,.kt td{text-align:left;padding:8px 10px;border-bottom:1px solid rgba(0,0,0,.1)}.kt th{background:rgba(255,106,0,.1)}.kknote{font-size:.9rem;opacity:.8;margin:6px 0 14px}
