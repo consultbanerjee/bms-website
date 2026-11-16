@@ -1,9 +1,41 @@
 {
- "updated": "2026-11-15",
- "last_check": "2026-11-15T23:03:03.449Z",
- "checks": 4,
+ "updated": "2026-11-16",
+ "last_check": "2026-11-16T05:08:33.104Z",
+ "checks": 5,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwisza8q0",
+   "auto": true,
+   "added": "2026-11-16T05:08:31.514Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-15",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "Acceptance of Disability Certificate issued as per RPWD Act 2016 for Family Pension: PCDA Circular No. 684",
+   "summary": "Reported by Staff News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOUU4c2w1Z0hEUklVTnctOHlOdHpxMExpVzZXdjlRWGNBTUY1QWxRZ1lWRWVFalpER09mOGhSQWEwTkl1M21NMktmdXdvWU04c3lOWkljR2VVU0l1YzJ5X1dac0J4UXpEQnZMWHdpMGJ6N3BaMzBHWjJiQzZSRFVnSEtheWdIYXRwZzM4NlJOUGMzUjFRZE02Wno5bw?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwiszahf1",
+   "auto": true,
+   "added": "2026-11-16T05:08:31.827Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-15",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "Union Minister Dr. Mansukh Mandaviya Inaugurates EPFO Lounge and ESIC Pavilion at IITF 2026",
+   "summary": "Reported by www.pib.gov.in. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVDM2NVAycG56Rk9tbmx1eDlvTFV1OFd6M05kaW96aTdSSHdhM3lQVlp5aDZsQkxWMUZzVFRMQ2pYT0lTMndLR01IU0Y5QjZvcUZYYWdtQzdRUHViakhYa0o5WXlEMXdGc3Q5d21aa01Pbnl2MFVhTTZSOFpQX3h2VEhlU0tKNFE?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwi3mzx01",
    "auto": true,
@@ -69,6 +101,38 @@
    "official": "https://labour.gov.in"
   },
   {
+   "id": "amwiszahf2",
+   "auto": true,
+   "added": "2026-11-16T05:08:31.827Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-13",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "BETBY sets new integrity benchmark as first recipient of ESIC CPU v CPU Gold Standard",
+   "summary": "Reported by Focus Gaming News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KcG1ibE9OemhvS3plelluNnhWekF0ZnBKV1F4aEN6clhacGVrRGVMdDY1QW1wV1A1bUFtMTcycFBFZEczRGNQek04N3FCcFR1Qkg5SEduOFFValBCZWRWQ2V6S3A?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwiszahf3",
+   "auto": true,
+   "added": "2026-11-16T05:08:31.827Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-13",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "BETBY Games sets a new standard of integrity by receiving the \"CPU v CPU Gold Standard\" from ESIC",
+   "summary": "Reported by BNLData. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLURmVjlMaE1Qang2aHYwMEdnRnpZWjUwRFpzVFhPUmRFUXBBem5EVXJaWDdkcE4wTHJpRk0tY2ZkNTdZcmFlRHZaLXBzLVA5dk9OTHN3RlpzQWZwMHNVNEh3ZWpMRVl1TTJSNWRPT2I5NjFjdjZQaGtnUXpnLWkwZG9LbUhLRFJNMWxkNnY4MmIyb0RYWWhNM2VYTTk5c0w1YkFBa1dlOWkyblZYWVhNVGlSLUdXWlk2VW9sVEV3?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
    "id": "n001",
    "date": "2026-11-07",
    "approx": false,
@@ -107,25 +171,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -145,21 +190,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -179,6 +225,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {

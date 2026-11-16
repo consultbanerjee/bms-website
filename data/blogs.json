@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "items": [
   {
    "slug": "welcome-to-the-bms-blog",
@@ -10,6 +10,116 @@
    "lang": "en",
    "cover": "",
    "summary": "A space for articles, reflections and field reports from across Bharatiya Mazdoor Sangh.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-02-23",
+   "title": "The four Labour Codes: a plain-language map",
+   "author": "Editorial Desk",
+   "date": "2025-02-23",
+   "category": "Labour Law",
+   "lang": "en",
+   "cover": "",
+   "summary": "Twenty-nine central laws were folded into four Codes. Here is what each one covers.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-02-16",
+   "title": "Rashtra hit, Udyog hit, Mazdoor hit: three interests, one idea",
+   "author": "Editorial Desk",
+   "date": "2025-02-16",
+   "category": "Philosophy",
+   "lang": "en",
+   "cover": "",
+   "summary": "The interest of the nation, the industry and the worker must be protected together.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-02-09",
+   "title": "What is the ILO, and why does it matter to Indian workers?",
+   "author": "Editorial Desk",
+   "date": "2025-02-09",
+   "category": "ILO",
+   "lang": "en",
+   "cover": "",
+   "summary": "A short guide to the International Labour Organization and its unusual three-party structure.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-02-02",
+   "title": "“Workers unite the world”: how BMS answered a famous slogan",
+   "author": "Editorial Desk",
+   "date": "2025-02-02",
+   "category": "Philosophy",
+   "lang": "en",
+   "cover": "",
+   "summary": "In the 1950s the popular call was ‘Workers of the world, unite!’. BMS turned the sentence around.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-01-26",
+   "title": "Workers in the Constitution of India",
+   "author": "Editorial Desk",
+   "date": "2025-01-26",
+   "category": "Labour Law",
+   "lang": "en",
+   "cover": "",
+   "summary": "Where the Constitution speaks about freedom of association, fair wages and workers' participation.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-01-19",
+   "title": "A Deepawali birth in Arvi: the early years of Dattopant Thengadi",
+   "author": "Editorial Desk",
+   "date": "2025-01-19",
+   "category": "Thengadi",
+   "lang": "en",
+   "cover": "assets/img/thengadi.webp",
+   "summary": "From a small town in Wardha district to the leadership of a national movement.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-01-12",
+   "title": "Pre-Budget 2025: What BMS asked the Finance Minister",
+   "author": "Editorial Desk",
+   "date": "2025-01-12",
+   "category": "BMS & Government",
+   "lang": "en",
+   "cover": "",
+   "summary": "Labour codes, tax exemption, rural micro industries and scheme workers: BMS's suggestions before the Union Budget.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2025-01-05",
+   "title": "Nationalise the Labour, Labourise the Industry, Industrialise the Nation",
+   "author": "Editorial Desk",
+   "date": "2025-01-05",
+   "category": "Philosophy",
+   "lang": "en",
+   "cover": "",
+   "summary": "The three-line motto of BMS, line by line.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2024-12-29",
+   "title": "Bhopal, 23 July 1955: How the Bharatiya Mazdoor Sangh began",
+   "author": "Editorial Desk",
+   "date": "2024-12-29",
+   "category": "BMS History",
+   "lang": "en",
+   "cover": "",
+   "summary": "A small gathering in Bhopal, a birth anniversary of Lokmanya Tilak, and a union with not one registered affiliate.",
+   "share_to_facebook": false
+  },
+  {
+   "slug": "2024-12-22",
+   "title": "Welcome to the BMS Blog",
+   "author": "Editorial Desk",
+   "date": "2024-12-22",
+   "category": "Announcements",
+   "lang": "en",
+   "cover": "",
+   "summary": "What this blog is for, how often it appears, and what you will find in it.",
    "share_to_facebook": false
   }
  ]
