@@ -1,9 +1,41 @@
 {
- "updated": "2026-11-16",
- "last_check": "2026-11-16T07:28:58.161Z",
- "checks": 21,
+ "updated": "2026-11-17",
+ "last_check": "2026-11-17T01:56:31.016Z",
+ "checks": 22,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwk1k6o01",
+   "auto": true,
+   "added": "2026-11-17T01:56:29.760Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-16",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "BETBY’s esports portfolio gets ESIC integrity backing",
+   "summary": "Reported by SBC News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14TVVDM0E2SmZBSzdtMzd2SHBvbW1SRjloZGtxTzg2U01neU1sMGFiWDQxUXJYd1ZkcUhQcExFdllDekNpbEdQUm5jQkk2OWcxM3FaWTFXV1JtZGNubW1JVVZRU3UtOS1SalVFRU5SX1AyYzdGTWxza3hUbzJ6OW8?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwk1k6vd3",
+   "auto": true,
+   "added": "2026-11-17T01:56:30.025Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-16",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Labour Ministry Outlines 2027 Priorities to Finance Committee - POLITIS",
+   "summary": "Reported by POLITIS - To the point. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWkRuN0lvOERtMnNVTUMta2h3eDkySjRtRUdsWkNOcGhlODNjT1pfal90VTMycy0zdXBlbW50VmNfeXdSQW1ZeWMxMWVtLXEzYXU3ekVMbjNRbTJCcHBLcGdkbXVDbmU5MDhESHM3V2hYbDg5UHNlYU5GUEVzZkJjTkxzTFBqR1Y5MXlpMU1raGI2eXRBcVlNaTJCWlpnZERqcGw4ek1BWDNCcHdJ?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwisza8q0",
    "auto": true,
@@ -53,6 +85,22 @@
    "official": "https://labour.gov.in"
   },
   {
+   "id": "amwk1k6dy0",
+   "auto": true,
+   "added": "2026-11-17T01:56:29.398Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-15",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "Manual Life Certificates Signed by Bank Officials for SPARSH Pensioners be accepted: PCDA Circular No. 685",
+   "summary": "Reported by Staff News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUlktLUkyelBlSkZ5dWY5R3FWMTZXdnhwN1RydnZHcDd5aUFsRXd1ZHZfc3pDYzZYMzNMSUJVbF93Zml4QmIxZjBONEo1SmFKVXN0RmNoWmRZek90c3J0bmJIQnhITzI3T3FubjJNS1MzMF9jWXNyNmNMQUN6RWFYRXh4T1E1Zy10d21n?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
    "id": "amwi3mzx01",
    "auto": true,
    "added": "2026-11-15T17:19:07.860Z",
@@ -67,6 +115,22 @@
    "summary": "Reported by The Tribune. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVi1odkJ4TWVqelhTU1dTdU1WSllDM3NQRjh0WE1pdVdaSW1acEo1QW9KZFY1OXRKM092VXU4clhiMTFtZGRoWXNBdXBqQk1vekstMVFXdjdnNnBoaGtPeTFoa0JTcFpkVkhRaWJyenlsRU8wNTQzRERGdVpaUkdoaWVmT2NEMUVRdjdpNGRXMFZhdERmTU1KR2MtVzJ2WUZseGQ4VEQzbTJKdF9Pb0drX25lX1A1VXZHSjh30gG_AUFVX3lxTE8zY3pUTDJTMmJsXy1xM3pCWHl0U192Z2h0R2JpRklYdUU2WVJMWUhQcHA3UWczQzlCekdwMXg2ZXM4YU9LNHZMZEEtMWtabFQyeGhYYk96U01iNDBLTm9rV3FZWXk4NURTMk5feFluQnMyaTVVOHhWN2x4LWd2ZF9Jb0h6TG5vVWpNTTBXOTJSeTl5ekhiTzJ2WUhySnh3Q0tDRkRTS3NMZWdnZmFsUFhsMWp4YUxOUHBnNkRiX293?oc=5",
    "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwk1k6vd2",
+   "auto": true,
+   "added": "2026-11-17T01:56:30.025Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-14",
+   "jurisdiction": "State",
+   "state": "Gujarat",
+   "category": "Codes & Rules",
+   "title": "Gujarat Labour Code Rules, 2025–26: Compliance Checklist",
+   "summary": "Reported by Nasscom. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa19JZUhfaWhCN3ZqaDNxZm5ZWjlxMmxkeFdtbEZNeGxId3NXWmpIYVBfT0JmNDgzMDdwbXU5NEJuMW9fT1VlMzNySEY2NlgtNDJDT1I0dWtnYnFkM1ktbzhwY2lwLTN3cjBRUVJwZUxJbGVxdWMxOThjVEM1OWVMX2JoRm90WVowNWlXYWF0Q2FJUlgtRWkwVTlYWVk5Yi1IZmdWQmowYlNKSWZ4Nkw0?oc=5",
+   "official": "https://egazette.gov.in"
   },
   {
    "id": "amwi3mzwz0",
@@ -187,25 +251,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -225,22 +270,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -259,6 +304,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {
