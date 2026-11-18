@@ -1,9 +1,57 @@
 {
- "updated": "2026-11-17",
- "last_check": "2026-11-17T01:56:31.016Z",
- "checks": 22,
+ "updated": "2026-11-18",
+ "last_check": "2026-11-18T01:08:13.246Z",
+ "checks": 23,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwlf9w480",
+   "auto": true,
+   "added": "2026-11-18T01:08:10.328Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-17",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Kenya Gazette: Week Ended 13th November 2026",
+   "summary": "Reported by Vellum Kenya. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmaUg3T0tKeVpobnh2QzI0aTVZdFVSTG8wbWpRTkxTWDB2cVQ3UVU1M01YY1N6Qmk2SnUzaWdNanBuTmk3Z3lJcFQzUXdxa1Z5Tmh1c3RSWHFiR0l1cW5oVkZGaU1BZl9YYWFUS056dXc2TEFYcXc?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwlf9xb01",
+   "auto": true,
+   "added": "2026-11-18T01:08:11.868Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-17",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "Higher EPS pension: Pensioners' body raises key demands ahead of EPFO CBT meeting on November 19",
+   "summary": "Reported by ET Now. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaFFBemhQa2xNbzZTR3RUYUQ0THBlNFMwTDNfbnU2ZFNjNlJFRzZwR3RFbVhCbzVPU2tEZTIzWmRDcFRtZk12WE5zYXNpOF9aSWQxbTJTTnFjVWp0UDlmaElsbGNkUGxBQ3BWOUlJVlJUVk9YcVhMeVpSV2RoV1lqQy12eEJLRThYd3NvYzVEeG5MaFlGWmE2VnltWWJuTmRma2MwZUhFRTNNNmNCT0JvQnZIUkl4ODBMd0ZUek9xaFFaZjczOXVRZkE0d3ZzUmplY2JQZkxLLVZNbjhuVzZHMGxORjQ0aVlaZ0dZ0gHwAUFVX3lxTFBWdVUyLXVOS2tvZFZ4emtHeUthUVJiSW9PUExvUEsycmtQYzJUVTJaSzBaMEhpdllZSUZlTzdJTnFGZjJYNGFCTThhc1ZqVkpkY0ZXWkJqcE9XZ2RYMC1xZWFCRkZfOUtDVGhRaDRfdDktVFVlMUxMWFUwUDF3WnlNaGs3U3JhLWhjNFhSbUlHLVFlX3psM3FwNldyLXpOSjVZRlQ2Y3JYeERqMmlMbGM2MUN4Z3MyOXlrcXl5UDItVUtqWl8xMVFoNTJnc1R4LUtEcjV2bkhxaTh0WnJvTWZKSXhCLUN2cXdDSTFxNnJvMA?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwlf9xge2",
+   "auto": true,
+   "added": "2026-11-18T01:08:12.062Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-17",
+   "jurisdiction": "State",
+   "state": "Haryana",
+   "category": "EPFO / ESIC",
+   "title": "Punjab and Haryana High Court orders ESIC to refund ₹4.80 crore to Hero MotoCorp",
+   "summary": "Reported by scanx.trade. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSXhCWm9nYnpfNVR0MVpBZW1lLUM1UnZPR3Y4SUpYWC1DSWt4WW9oTWVXbUpzQXEwSlN2cWJPb1F2eENJVndFVWNmNUxUYVZ4RHV2SDBvUkh3YmJJaE9xVFRILWdyeHJBcUZWSk9nRTkwWUdlNXFzWXpCSDF1V3hxdzh0TlN6cy1yMi1WZUwyOVJEaUtIN2ZBYjU4U1pfSk5MUUszZmFScjJkTXdNRkZaakhDNk92dWpDZnoxcHI1SExvN3U5?oc=5",
+   "official": "https://egazette.gov.in"
+  },
   {
    "id": "amwk1k6o01",
    "auto": true,
@@ -251,25 +299,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -289,21 +318,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -323,6 +353,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
