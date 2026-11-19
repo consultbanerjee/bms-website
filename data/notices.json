@@ -1,9 +1,57 @@
 {
- "updated": "2026-11-18",
- "last_check": "2026-11-18T01:08:13.246Z",
- "checks": 23,
+ "updated": "2026-11-19",
+ "last_check": "2026-11-19T00:39:13.385Z",
+ "checks": 24,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwmtogcr0",
+   "auto": true,
+   "added": "2026-11-19T00:39:10.539Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-18",
+   "jurisdiction": "State",
+   "state": "Maharashtra",
+   "category": "Codes & Rules",
+   "title": "Maharashtra govt notifies new wage rules, caps working hours at 48 per week",
+   "summary": "Reported by Business Standard. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSlVtM1VwSWF6SjN3WUVpVXBGOG05SWR1ay1fZGMtYUVuVG9GZ3J2TldoSUhRWS1kdEVFemVmbk5FdHhENmN4VGhmeU1TVTM0S2NOS19fQ0RVeGZ6cGNhTmtHNlJWcWw4TkV3NGNGaDB4QmZ0ZXBOajhwU0RtN2NoR05OYUhHUjA4TXJVSlJ4UFNSRGxicjFUSTVUenBVLUo1VnV0UnIzYS12RTQ2QUhuZUF5dWVYVU9pcndqOGpST0JfQVhNenU5WlpqYW9yaXZZQkVtd09sdWt0MkpwaGNB0gHfAUFVX3lxTE1KVW0zVXBJYXpKM3dZRWlVcEY4bTlJZHVrLV9kYy1hRW5Ub0ZncnZOV2hJSFFZLWR0RUV6ZWZuTkV0eEQ2Y3hUaGZ5TVNVMzRLY05LX19DRFV4ZnpwY2FOa0c2UlZxbDhORXc0Y0ZoMHhCZnRlcE5qOHBTRG03Y2hHTk5hSEdSMDhNclVKUnhQU1JEbGJyMVRJNVR6cFUtSjVWdXRScjNhLXZFNDZBSG5lQXl1ZVhVT2lyd2o4alJPQl9BWE16dTlaWmphb3JpdllCRW13T2x1a3QySnBoY0E?oc=5",
+   "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwmtogtu1",
+   "auto": true,
+   "added": "2026-11-19T00:39:11.154Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-18",
+   "jurisdiction": "State",
+   "state": "Maharashtra",
+   "category": "Codes & Rules",
+   "title": "​Maharashtra Notifies New Wage Rules, Caps Weekly Work at 48 Hours",
+   "summary": "Reported by The 420.in. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSmFBRVJlX1NRaUVfeFpqcTlySmtvcllxV0ZtdWVLR2xFZS14WWUtN0VWMEs3cFNjdlE5SnRuZ20tdmlrT01hUjVMbHVFMmxfcl8xVWlrQ1ZzSXBnLTlCOWtPOXlaQ3BDQ2RTZFpZNTZ2SEZ6UTFZanc1aWRWMmtMZzhsRVQzSDJwSlJZ?oc=5",
+   "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwmtoh242",
+   "auto": true,
+   "added": "2026-11-19T00:39:11.452Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-18",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Codes & Rules",
+   "title": "Maha govt implements Wage Rules 2006; notifies uniform framework",
+   "summary": "Reported by tennews.in. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZGtHdWFLeGhMWW5NU202cV8wYWx4bGJxUUJpNmZ4eGlaYnU0VXdLM3M4d2taYWRXRUZFMUdkcjRuLVBqWVo2bG5NcnhDcG5oVXFDZURyeXNYOU5ab3ZjeEJwYjFBRkhrRF9Fb1BsYjIyb0hiVTl4NEtKU1oxYnVoR2FRWmlKUkxqNi1v?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwlf9w480",
    "auto": true,
@@ -299,25 +347,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -337,22 +366,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -371,6 +400,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {
