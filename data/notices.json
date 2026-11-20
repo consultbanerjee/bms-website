@@ -1,9 +1,105 @@
 {
- "updated": "2026-11-19",
- "last_check": "2026-11-19T00:39:13.385Z",
- "checks": 24,
+ "updated": "2026-11-20",
+ "last_check": "2026-11-20T00:46:33.641Z",
+ "checks": 25,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwo9dr7b0",
+   "auto": true,
+   "added": "2026-11-20T00:46:31.415Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "State",
+   "state": "Maharashtra",
+   "category": "Codes & Rules",
+   "title": "New wage rules: Maharashtra caps weekly working hours at 48, notifies unified provisions for overtime, deductions, rest",
+   "summary": "Reported by Livemint. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQYWpXSHpyTVFOVzBIOGtlNm5hXy1Gb19tbWVDWGZNejVDcEFoVHRaNTQwalh4Y2tCdGdQUnNCd1RmN1VlT2U5eEZ0QkltZ0VCRlg2SnZjWHhTQnAxVG1ySi1ueUdFMDhJeE5zeVZoZE9qMnBYZ1djSlZ0YkF6MS1zaUY4VzJkV21rWUdSanpVZUZ3cVBqcnJhaE0xV0lEUm1qZHNsS2VYRUhXcVdud19INFEwMnZTX25kMHBGSF9GZ080bVRSZ0Q1NGpFbVFaOVQya1ZuTVlZTFVXQW5KY1l0SmtQa25wMHN4NEpLRHl2V1RmQ1FsSXNISEVYVkJiM2FO0gGGAkFVX3lxTE5MTTA5T2g4dVpZNzk3MXJrdklPWG5Pcl9HdTVmTzlOb0tYSUF4MXNyNjhvcDhNU3dKTUtNREpPUWVsTFVmV0ZtY0N4N0hZcllPUmI5VmUxSm1QTUdTU2lVRDduZlNCZHI4cW15M1J2UzV3YnhtVl9KLVVubXdhcnBPT3c4VzVWc2tXcEVqVEs5R1dzUzRnSW5WNXVSbFJ6c05QWFpJa2pPMlh0UjJZQzdVSXZfRnQyeFBad3ZaVmUtODVaYldwSEYxZFRNazFNR3AzSVBlaHcySkk4NHZRdHZmU2NiRkM1WkNJSkdqSGtwWmdfSmlCbHdpVnM5OUtHTzl3YzJQS0E?oc=5",
+   "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwo9dr7b1",
+   "auto": true,
+   "added": "2026-11-20T00:46:31.415Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "The Board approves major relaxation in EPF withdrawal; Minimum PF balance requirement reduced from 25% to 10%",
+   "summary": "Reported by https://www.indiagazette.com/. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSk9PWFZhTEFJcG1MYldabTQyNG9HaHpWSy1OeUwxbGZBbGh3ejQ1OEpKRmFSRWFWeTIwdW0tdElyelFqeVEzaVdvSmVmQlhEdXNhTjl4VXUxaTcwVVIyd3ZQclk4b0ExZVFTS3RYLUZPeGpBbmFabzJwTWlSRVpGN19Qa3F0VTNZeVZNWHRKS2R0UjNWNkhRbm9iVXJiZEpZOXJlM3RWaFdSemJUbmRpOF95bTBIRmJBT1NLRTdSV2FFREJ5amJCeFBNWjcwd2RZbDdnZ0dLd3ktM2hWZ2E0YkhNWTA?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwo9drdt2",
+   "auto": true,
+   "added": "2026-11-20T00:46:31.649Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "State",
+   "state": "Maharashtra",
+   "category": "Codes & Rules",
+   "title": "New Wage Structure, Working-Hour Rules Notified in Maharashtra",
+   "summary": "Reported by The Live Nagpur. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX19tTHN0WTFDZVNJaUMzMk11WHRXalV0S3lMdGs5SV9yaHo2SXNNRENDT0FVZHhCNWdCSFVUREJHc0RBRUM5TTJLam8teWlTUVZyM2lDbTBsOWs4Q1p2OXdxbU92dXVlcGN3Y0Q5R1BvWG5vSUJMRnVjYUk5OUhHWmxMNHJtVTZyeGJTQTR5SU4ybDlaWlNiazVYRXl5NHZN?oc=5",
+   "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwo9drnb3",
+   "auto": true,
+   "added": "2026-11-20T00:46:31.991Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO big relief for EPF subscribers: 90% withdrawal allowed, job-loss waiting period cut to 2 months, SWP",
+   "summary": "Reported by The Economic Times. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNUTV2SGI4bVcxMWVZYTdJQVgtdHNxMDdWbmVwUk1GNE5idjhLNTFXWEhmQ2NHeXoyTVQ3MkhLUGFuSU9uQkZIWnZjZHFOY3d0bWVxSG9kZnEzcGJNT053TW82TWdNSEtrNmpucDNsZ25Ca3kzbW5Yc1djajdra1NqSU1Td0NRcGV3bThySkhGLWY4aUNwU29jTXpLYzY2aVVvR2lyeXJKMVZpWXEtQnpLMjlrTkRMLVNmMkNrdERIRV9oUVExSXNMS1J3WFdjTHEyamhhR2otRkp3NGFoVGY0OTdFaXRVdWlmdlFWOTdwVXRiVU4wdUFVZU5UbEQ4NVlCNmdRMGpqS1V1b0tiVElqY3FhM053Z0pUcG5BaFJGM1VIQdIBpwJBVV95cUxNdVRILWIybktzUjkwUzY5bnFNeEYxYm12d1JRS1FlaVpJSVVsc3M2QWNFVHZJMlNFV2VoOEN5R0V2ZzY1WTNsWnl3emIzRzJpaTR0STQyMDh1LUpDNF9BMWx4eGdRYm1aaWJhNTktYVdFdWN5NkpkSl94X3F3YmYtT0Z2eTlOTkcxU0dkVjdMTjlNNW0xbGpKMEZVckc3TGZIQ1Jwcmp2NlVxUGprLTI3YXd3QlozWW4yYTFNSUVkcFQzQ2xEeENsa1RUQmJ5MkVXZU1OYVl6M0hoM3FwX05wNDNabVVZUjRDSmhQZkxDSUJLcjVyR3JabU43LU1EbVV1ZXlMczNGTFQ1LWRSanpMMmI1SURfczNETHFIazRmT3piV0lPSTd3?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwo9drt24",
+   "auto": true,
+   "added": "2026-11-20T00:46:32.198Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC Patna Recruitment 2026 Notification Out for 6 Specialist Posts",
+   "summary": "Reported by KollegeApply News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWFM5Z3UwbE1GN1Nsb2FOVGNhRUwtZzVoMkJ1MHluZWpqcVJzX2h1WWxXaTVBSElfNGFrdFNhNWFPekM3THBjcGlvaGdOVHdGdGtCT3NTSTR3dXUxTk5EQlh5MjdteTd1bHhmNkN3Z0xxSXdoUGlGdDFONXlvVVJxeE5tMEVGWnVMa003X2t3?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwo9ds4y7",
+   "auto": true,
+   "added": "2026-11-20T00:46:32.626Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "State",
+   "state": "Gujarat",
+   "category": "Codes & Rules",
+   "title": "‘Shram Samvad’: District-Level Capacity-Building and Awareness Programme on Labour Codes organised at Bhavnagar, Gujarat",
+   "summary": "Reported by www.pib.gov.in. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2a2tVNm5zQjZYbTVTNlZ5SGsycWVPWXVMNHR3WG8za3M5cmtGQXNxc04yVXdaSW1CX002NzZmVTNyNVItSjE1aWhZTkx0dkZKNWYwaDBjUHNoMDlsZHhmN3l0N3VjT2lj?oc=5",
+   "official": "https://egazette.gov.in"
+  },
   {
    "id": "amwmtogcr0",
    "auto": true,
@@ -51,6 +147,38 @@
    "summary": "Reported by tennews.in. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZGtHdWFLeGhMWW5NU202cV8wYWx4bGJxUUJpNmZ4eGlaYnU0VXdLM3M4d2taYWRXRUZFMUdkcjRuLVBqWVo2bG5NcnhDcG5oVXFDZURyeXNYOU5ab3ZjeEJwYjFBRkhrRF9Fb1BsYjIyb0hiVTl4NEtKU1oxYnVoR2FRWmlKUkxqNi1v?oc=5",
    "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwo9drt25",
+   "auto": true,
+   "added": "2026-11-20T00:46:32.198Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-18",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC hospital in Panipat struggles with staff crunch, basic amenities",
+   "summary": "Reported by The Tribune. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzZvcXJWckE4SVZCdlZnbFFadnFKSm1YM0pBNE5oWlpmVU9XaVpGR3lEbGVnOFZVSWJOeUdHUUJ0WHl6WUsxZktQMzlVZ3VfNFV6V0VPa1l0UGR6ZHpBcm9pR0hWZVQ1UFdmVjRQa1N4empzaG1ud0VCZnNaM3lYcUloLU1QbDdPdEVTRnhLcV9KUS1IQXNYRVV5Y055ZVN3ZlBPczgyNl9iVElTODZQetIBtAFBVV95cUxNRXNWSjlaRVNRd2NFYldGSW9OZHJZcTBQM1pTTGZOWmNJS1Y1a2JrYXlPUDJuZWEwS0tuSWFwSnZMZUczMlZZRTlCUjN2bDgzWWNaWjZMOGxWeFE5TTRYTndQbV9PY3NOcGhpSHljM09wb2ZxbTUtUUYwd3hPZlBpV0tOR21DcXNJdHJrVjNCQ0xXX1BqZ3NUa0pOaFhkZmhxaWo4U2tSX3AtMVFoMDhwRFlqUUg?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwo9drt26",
+   "auto": true,
+   "added": "2026-11-20T00:46:32.198Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-18",
+   "jurisdiction": "State",
+   "state": "Haryana",
+   "category": "EPFO / ESIC",
+   "title": "Relief for Hero MotoCorp as Punjab & Haryana High Court Directs ESIC to Refund ₹4.80 Crore",
+   "summary": "Reported by PSU Connect. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX0dqcWZuQml2cEoxSWlnalhmR09xRFg1RVRKbjZtb3RoaVRWZ04zRS1ZWGZEMzI4OWkwaDhXbHI0a3Z4ZlpHZGN6aDY0Y1pDR3FPWDQwbndpUjM5Q0JyRE5ndXVrMEFUUmlzWmtxQXdBSl9ueHlOb1FhaERVUXpfTVplT0FuMVV1Zlo0Y0tqUHBITzFKNlN5X3lKbmpXbHA0aGtkbGtrVXQwZkVJbHkxd202NmxaZlhKWlNXVGhHRVE?oc=5",
+   "official": "https://egazette.gov.in"
   },
   {
    "id": "amwlf9w480",
@@ -347,25 +475,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -385,21 +494,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -419,6 +529,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
