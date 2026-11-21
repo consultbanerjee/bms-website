@@ -1,9 +1,57 @@
 {
- "updated": "2026-11-20",
- "last_check": "2026-11-20T00:46:33.641Z",
- "checks": 25,
+ "updated": "2026-11-21",
+ "last_check": "2026-11-21T00:06:23.786Z",
+ "checks": 26,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwpndz391",
+   "auto": true,
+   "added": "2026-11-21T00:06:22.437Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPF SWP+EPS pension: Will Rs 50 lakh EPF corpus help you get Rs 50,000 monthly pension?",
+   "summary": "Reported by The Economic Times. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUW1nNV9TNzd2bTRxREE3X2V0dUVfeERfOEQ0XzFUeFRUV2h5YXRlUHc0SFdUMFVHQjFiZDExbG84QXpTUms0cGdDMUxkSFdWWVlnbmtXYzZPLXpGUmxPSms4X0V0STJNV21NRVRoeVZhbFJscmtEdmFPUUg1RDAxeFp6UEpHZWtGeG1GMGNZYWxpWkl5Tzg1SG5IR1FqVExPRWMwVzFXN2I3LTJxbWdsOUFvMmhJM21WS1JPTjRmWHg5ZGhWU29kakhLbUltZmRRTUV0clFhczNiQS02RVNySmZjLU4xeGdEeEstMjhaeHVCMU9sU1Z5YVVrU1J0TXgwQTdDTGRn0gGLAkFVX3lxTE9EbV8td2w2cmJjbHl4a0RyZnp2R2pnaUNGYmJBNWFGZXF5ZUQ3bkpHLXNQQV9WZkFxM1psYjY2N0tLMU1veFBQdzhydU1laEFSdS13VEt2R0Q0VDRxNGRfTzYwZW4yeXNxNDNORXg1UVowWWVsVkN2X29jbVFlQlR5QmtDMHR1UnQtN09DOW8yYUVoTE1ZWk4yNHlnb3RFQmJmdjdXbjNZVG9RWTByY0FVbUlwdGl1MVVuSmxqbVBLVXdycW4xWE1YZk9iOUYyM1ZjUmppc1VvM0pqR3BBMDlpOWRjVzZXYVRsY3l1WlltMlQwNEp4clFjWFJrUEVzeEs2bHFjQUpETFdNQQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwpndz392",
+   "auto": true,
+   "added": "2026-11-21T00:06:22.437Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Tiger Shroff Firing Case: Mumbai Police Issue Lookout Circular Against Absconding Accused Abhishek Pandit",
+   "summary": "Reported by Free Press Journal. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOLXZObkQzVkZuWkVMTnZKSTlQdHFuLVI3aWxOYVlaWDFPRUN5SktkbTE5SVk0Vm1aSEtYRE5pbldNNExCSXJ0azItRkZFTmE0VUJvZGp1ZWt5T2I3dF92NnBaLXVNblFJTFo2N0R0MnBkRGx5Tk1IUjg2NGxxNFNLMndHOXI3ZkE5bmZ4YkVvWjNYdWxBY19pbXFsV21FekYzcXp4ZDlGQkh4X0hualB4TUhjV0E5TThmY3FVSVBrTEl2ZXF2eGx1b3JHLU9JbFFnWFU1anM1d2tETHprbllyTdIB4AFBVV95cUxOLXZObkQzVkZuWkVMTnZKSTlQdHFuLVI3aWxOYVlaWDFPRUN5SktkbTE5SVk0Vm1aSEtYRE5pbldNNExCSXJ0azItRkZFTmE0VUJvZGp1ZWt5T2I3dF92NnBaLXVNblFJTFo2N0R0MnBkRGx5Tk1IUjg2NGxxNFNLMndHOXI3ZkE5bmZ4YkVvWjNYdWxBY19pbXFsV21FekYzcXp4ZDlGQkh4X0hualB4TUhjV0E5TThmY3FVSVBrTEl2ZXF2eGx1b3JHLU9JbFFnWFU1anM1d2tETHprbllyTQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwpndz8g3",
+   "auto": true,
+   "added": "2026-11-21T00:06:22.624Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "State",
+   "state": "Delhi",
+   "category": "EPFO / ESIC",
+   "title": "Delhi High Court: Aadhaar Card Not Conclusive Proof of Date of Birth; ESIC Records Prevail in Superannuation Dispute",
+   "summary": "Reported by SCC Online. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeXJ2UURWcEM3QXpCYnM1dVQ4ZVk4emQ2enRGS1Q4YzhVOHBsZkdNT2VJU2ZPVzJSWXlVQ2x0bDdwQkFORHNKblVXMXMzQkZHUklCVlVLam1GbC03b3R6R3NwMkhNWTFmb3pOYXNFT1BtQXM2Y05mbGZFNWZTaFFfMk53M0JidVJsejNjbjM4RzE4c3BsaEs4ckpZbF9VZjZRYlNmQl9MWjU0Zw?oc=5",
+   "official": "https://egazette.gov.in"
+  },
   {
    "id": "amwo9dr7b0",
    "auto": true,
@@ -99,6 +147,38 @@
    "summary": "Reported by www.pib.gov.in. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2a2tVNm5zQjZYbTVTNlZ5SGsycWVPWXVMNHR3WG8za3M5cmtGQXNxc04yVXdaSW1CX002NzZmVTNyNVItSjE1aWhZTkx0dkZKNWYwaDBjUHNoMDlsZHhmN3l0N3VjT2lj?oc=5",
    "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwpndz390",
+   "auto": true,
+   "added": "2026-11-21T00:06:22.437Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "UPTET 2026 notification to be released on November 24; exam on February 26-27",
+   "summary": "Reported by The Indian Express. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObnlwRUFHVmlCTEVGYzQzcGpvYzlwblF6ZFNJNHZSb1R6dFBLQ2RtdDNrU1Y2OWRYSW9nUzZqSC1LYUtRRVdWT3VQSUQ3UzAzLXBsbGl4YmZOZnNLUm1uM0xVdTVEbUl6NS1LcWFJTUlkcGFHV1VJTElSQUFfLXZRa04yMWFaMnJSTDlnTG5yLWtvaURlQ21RUUdSYmRsMlZydmNNLWVyMXc5aVJiWXliSmN3UGFUdC01bUxhMHNIaW1CV3lCME5VQmctYWVlSHRUUVpJMEJ30gHcAUFVX3lxTE9aaExMVzZHcjg5aVNiWUloWE12czNLUjh1VGhZZHdSbDU1OERLOExmbkRaLWxaZUVLNTJkOHN6aHppaF80Q3VaRlNvMFlxQ0xKdXlVLVRLTFNkOUtZNVE2a0RaX3JNa1RVczVBT1lic3JMeEJBQk5oSjNfRTNNNlAwcEZnSW5vQkRrYmlhY1NTd1NHMGRIUkJRQTZWNWNuNmVjYWhSTXRlVU95Zk5YVVZHc0VjZ3dRdjhIenhaQXNvRjVmdHpESWhEWFVFMVZBMjRIOU5QbXdSX1VrTGs?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwpndz8g4",
+   "auto": true,
+   "added": "2026-11-21T00:06:22.624Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-19",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "Shree Siddhivinayak Greentech began ESIC payments only in 2026",
+   "summary": "Reported by Multibagg AI. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeUNERlN5ZVZMaHdLM0U2dE8xTFZTTGRnU1dKSk9ZMmlwMWtwZzJlVlVHQ0lWTGliNWpvV0RqcWdXcXRvOXFodGZWclhYS1VyQWJLaUZMbDNtNVUyQlBMc3Q4NUFxb285N0s1cnZISmhQT2RpVnRvUTR1WEE4djJ3THNXV0pYZWRZZmZFYWRyMFFJOW1FdlNsQlNnQ3l0ZkxSUm1oUXk1UnpaTWluc3ZjNXBvNjRUamI0NW9tN3dCYWtQZw?oc=5",
+   "official": "https://labour.gov.in"
   },
   {
    "id": "amwmtogcr0",
@@ -475,25 +555,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -513,22 +574,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -547,6 +608,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {
