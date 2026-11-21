@@ -1,9 +1,41 @@
 {
  "updated": "2026-11-21",
- "last_check": "2026-11-21T00:06:23.786Z",
- "checks": 26,
+ "last_check": "2026-11-21T23:30:58.006Z",
+ "checks": 27,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwr1k8pz0",
+   "auto": true,
+   "added": "2026-11-21T23:30:55.655Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-21",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Minimum Wages",
+   "title": "Minimum wage for Bangladesh leather factory workers raised to Tk 11,900",
+   "summary": "Reported by Daily Voice Of Asia. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWXBiUjhrY0REQ0VBWlRwZ3NhYWpZOEpGZDNTUllreENUSXdJaUdXVkhVemI5OTJvN1E4Sk9hT1dMdGNkTms4aFFwd2JUV1ptYTIwdXhGdkszbVFRYUVpYmFyVVdBQ09VZDZ1bFdCSk5HY1NyTDkxMy1nS3A5dml4TzBRd1BPY1VKX0xQS0NIcjZHTmJJdzJUNGVBSkE2bGZ3N2s4Q0Fodw?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwr1k8pz1",
+   "auto": true,
+   "added": "2026-11-21T23:30:55.655Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-21",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Minimum Wages",
+   "title": "Leather, footwear workers' minimum wage rises to Tk11,900",
+   "summary": "Reported by Banglanews24. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwRFV0R05GRUpURzQxaHYtbmQ2aFhqRjlEMnlFV2hkRDBLWmxrYTh5MkhHd0VDWE5VRXBfVHRzaTNwblVOUWRYN29kWDBYV0FCTmlFcm9jWk01U3hjbXZYNzJoYjVCV0ZSd0hB?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwpndz391",
    "auto": true,
@@ -51,6 +83,38 @@
    "summary": "Reported by SCC Online. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeXJ2UURWcEM3QXpCYnM1dVQ4ZVk4emQ2enRGS1Q4YzhVOHBsZkdNT2VJU2ZPVzJSWXlVQ2x0bDdwQkFORHNKblVXMXMzQkZHUklCVlVLam1GbC03b3R6R3NwMkhNWTFmb3pOYXNFT1BtQXM2Y05mbGZFNWZTaFFfMk53M0JidVJsejNjbjM4RzE4c3BsaEs4ckpZbF9VZjZRYlNmQl9MWjU0Zw?oc=5",
    "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwr1k8y02",
+   "auto": true,
+   "added": "2026-11-21T23:30:55.944Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Officials: Washington pulp mill violated safety standards before ruptured chemical tank killed 11 - Pittsburgh Post-Gazette",
+   "summary": "Reported by Pittsburgh Post-Gazette. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMklYb1UtWDlabkdaejVma2R2QURVRXlxUnJwd2xGaGhyWE5KUy1pSG8zaUItdW5fczRkT2UzMkh6QjFCME9DM0JTMVp6TTdhYlVVTi1zMXZVM2I5eVhUTmRSQzloa1ktdW5PdjJhc3lOZmVTWlMyOENRR0RHVWtBUC16WGJ0WjVfTllRbDFNQTUwQUV1M0w4V21fN1h6WXlYWnRPZklRRnVyeXUxUjBHVDdrdzg?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwr1k9sn3",
+   "auto": true,
+   "added": "2026-11-21T23:30:57.047Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Minimum Wages",
+   "title": "Implementation of Central Government Minimum Wages at SAIL-DSP to benefit 3,000 Contract Workers",
+   "summary": "Reported by www.pib.gov.in. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85S040WVh4Qmhrc3Z2WDdzMk5RZU9TbFlhbzFBdV83ckVJMVM1OWZFR0NvaFFkVlBUVG1WdF9SN1RJOWZmck80R0ZXTnRHVVJqaTRGdi14X29HMEZPc1FqT0RZUWpfVjJFbWVUTjFNX2RPeHFHVWdlVFItbw?oc=5",
+   "official": "https://labour.gov.in"
   },
   {
    "id": "amwo9dr7b0",
@@ -555,25 +619,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -593,21 +638,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -627,6 +673,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
