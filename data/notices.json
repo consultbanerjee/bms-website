@@ -1,9 +1,25 @@
 {
- "updated": "2026-11-21",
- "last_check": "2026-11-21T23:30:58.006Z",
- "checks": 27,
+ "updated": "2026-11-22",
+ "last_check": "2026-11-22T08:20:58.689Z",
+ "checks": 28,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwrkhuge0",
+   "auto": true,
+   "added": "2026-11-22T08:20:56.558Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-22",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Minimum Wages",
+   "title": "Govt raises minimum wage for leather and footwear workers by 68%",
+   "summary": "Reported by Textile Today. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUDBnZ2t2bEVuYlVuWF9VWDBfSW11c2txbE4zdmNJdHJVNS16R2FWQnUzN29mMjVtTlhkM0JJR2xQaHY2dDlOaEF3U2hwUlRnUE42QU12cjBSdGxXdUtudGhycFlWOVBnZ3dfc3c1ZHJVMEtwSTBkOFZEaTNmUElOXzh5VGZuaGp1MGExWTJMTWcxenB2NUc1M282WQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwr1k8pz0",
    "auto": true,
@@ -114,6 +130,38 @@
    "title": "Implementation of Central Government Minimum Wages at SAIL-DSP to benefit 3,000 Contract Workers",
    "summary": "Reported by www.pib.gov.in. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85S040WVh4Qmhrc3Z2WDdzMk5RZU9TbFlhbzFBdV83ckVJMVM1OWZFR0NvaFFkVlBUVG1WdF9SN1RJOWZmck80R0ZXTnRHVVJqaTRGdi14X29HMEZPc1FqT0RZUWpfVjJFbWVUTjFNX2RPeHFHVWdlVFItbw?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwrkhuz71",
+   "auto": true,
+   "added": "2026-11-22T08:20:57.235Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Tiger Shroff firing case: Mumbai police issue look out circular against Abhishek Pandit, brother of alleg",
+   "summary": "Reported by The Times of India. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQVWV1aTVxQnZFNHgtN3dXZjJ5U3RvRUZJb0ZHa3didzlwUnZLd0RJSnlRVEVCcnFFZzI1RE5vcGs3SnRjN3NfQjY2XzRod1p5LVN0dTBXSlNHM1RBNjhHdzE5akhiUU5raVY4a0dCek96VDVfN1dvSmU1c2RJdVlJQ2lxRkI0RnJSV2pBU0V4c2M1bmdsZ1hpSnlEdW5sN3g2dVFnYUQ2R3R5MmhwbkxsT2dsNjVqN2dQcTloNWJVU0VYdDdFUTNHS2xaQ3NOYzVBU0xMX3BQM0luRDJTQ25RUTBodmpRZENBWUxYeWx1SFBfM0dEeDNXOXFCNGduR0FSVGhXUENPb2x1Y25PT2g4YmxNWHdudmlyRUtvRHpBMUpNaU5fRVY1MVFR0gGvAkFVX3lxTE1JRHFFWXBVM3lfUUxfME9pT0RTbDRQV0J2YUljS2g5VnQ4M09nRDhOZDhXeXFka1hKeTExTzV1V0xEQjNVM1lKSE5QSndrcjZTQVZKU3Nna1F6Rm4wcDBBalluUG5zSDN4UFB4dHRveHZhR1MwSXRfR1VKdlZnVTg1VEc0emhsUmRvWmlFaWFTXzFsM3FCNV9WZDRkdmw0bWVWNVVwNnFERkh4eGk4R1Zhd3VNTVg4NVIyV0lkdXllcF9oNlBNX3JWcDNjcnFPdkQ4bHhOeVJRV1BWVndDMzlVODBaXzRHUTVqZmVpbTY4aWgta3hneEJZdFpQUjdVSXRjNEVPU0FXdkVOWFJqQkJmVzI3eHFTRUJnSFpzUXlURnpMSFJyXzVvNklSNHMySQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwrkhuz72",
+   "auto": true,
+   "added": "2026-11-22T08:20:57.235Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-20",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO Lets Members Withdraw Up To 90% Of PF, Cuts Job-Loss Wait To 2 Months",
+   "summary": "Reported by illustrated Daily News. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVHFqdEZvU3NCd2VvN3Fta3RIejFXUjdVZWdTT21UbEF5eHhtekxrQW1FYnk3aHNEbmoxZl84R2xFMl8taV9vM1oxNk1VRWVwSWU2c0dvdDRBa0FTbEpkSVJnQl80MUNZTy1xbGVEaFJUNUtGUlI3SlctQTd0ZTFFZUJIRklXekV1YVdEaGlna2FscGI0V0xpb1gzUTgxYk9tTktrdDViMjRSTUJjTFVzV1Q2RFVDVURLN3BzZGJaT25VS2tj0gHKAUFVX3lxTE1sWjdycW9aOUpyTnRnOF92eGpPQ25HUDIxcEVuVkVod3dxaVp3dXZNWm0xVjJxZWg4bTVwcnRJM0c4azhoZXB5U1M3MUh3V04zUC15Si1qVGJZaWtiWjBCVDhjN1R3T08yRGRxUWZ2SkJMMHplajh6R0M4QW54WjE1bkppMXY3bDBhMTNQVF9RZ1dJdUVhWjJsbktmbjNhTTdjYkR2LTRXbEY5S0VscGoybGk5UGdkSnpCUUQ2TFEyYTdSU3RaMnoxYUE?oc=5",
    "official": "https://labour.gov.in"
   },
   {
@@ -619,25 +667,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -657,22 +686,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -691,6 +720,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {
