@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-24",
- "last_check": "2026-11-24T04:01:32.590Z",
- "checks": 30,
+ "updated": "2026-11-25",
+ "last_check": "2026-11-25T02:41:44.653Z",
+ "checks": 31,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
   {
@@ -18,6 +18,54 @@
    "title": "Bengaluru: ESIC ordered to pay Rs 40 lakh for burning newborn’s nose",
    "summary": "Reported by The New Indian Express. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQldqaE9PdUp2QUJyajg3RVpfRGNWR0RMTEpLNldUbEdVM2FXSVZfeDN3Wjkwd01sNE9veUJtTmo2SVNvaWxxdUE0bzB4RU5iekNzNEZ3UzZ4clFreHVkX2NHOXgxcXZWNktZdDJkcUZJY3FUYnFxYUZNNUNUWDNOUkpzWWpHZFZielMwSF8tRGYwcy1OQ25KRnNUZTdxS0NMWjQ0MmxYWnNjY3JJTVVnMVhzQ1Z6a1RRcjhuYXNyNGk5NlNzRzhr0gHUAUFVX3lxTFBJZWNvenQzczYzOUZYcE9CbF9MQ0oybHVFb2NGdTVzYWU5R2l4SkhCV3N0cExObkkwUVlSeWlaYUlvZjZWZXZyTUFZMVFLOVBZX0xqN3QwWVl3R2F3SlJ4aHUwaGlGM1pHODRsUHBISjY5cFFtSnlQbUNKY0o3bUpMRUViNXV3MVBXTUJGVl9McGIwN3JibzRZTm00ZXFVNXZsRnRTWTYyY2lXNzlWSERQLUdFSzdPQTlSVEtNTkpwVHFjLVZqODNLYms3Q3FMZ29SMEhi?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwvip5h30",
+   "auto": true,
+   "added": "2026-11-25T02:41:42.903Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-24",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "NCP days in EPF ECR: how they change PF wages, EPS wages and pensionable service",
+   "summary": "Reported by TaxGuru. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOUVRdi1hVjl2VENoZTI1aE0wYUItNXJMdE1oUFNqVDFSY1gtSGtiMHpwQTdFRGZ2T3J6Y29KQ2xxM3NmeDBXUGJVN2dnb1Awb3phdmpLQjdWUWU4T0NLazlyblRFQ3VuOEd2WnJTejBkNXRlZ2ZfMTFnWG1TVG5UZUY0cDV2WVNPNFhHTmg3cWxILVhEaV9yM0JlNWxsa094OGc?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwvip5oz1",
+   "auto": true,
+   "added": "2026-11-25T02:41:43.187Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-24",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "Pablo Isla, president of Nestlé, becomes the first honorary doctor of ESIC University",
+   "summary": "Reported by Demócrata. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTzNQSktHN0RIb2E5cnZ0VGZpckxBSHVBcDN3V3lGbThVTW9mZUFjVElDZjRVQmZhdDRyYjF0N3l6V2h4RnZndXJlVkRwQkFSM0FPQktEZXhtYWFZY1hhTmpRUU9vVDM0VXFvck9JSENwUXlveklEd0xLa3o3VDl4YWN4emJiUkVicm8xTnVZTXVUMzNkLWg0RHc5WkdtQWEwLVQ5bjBxQnV0WGpzRTBhZy14Wm5iblRPOUQ2StIBwgFBVV95cUxQSjBoNldDdW5PVmc1WGZOclk0MmZ3RVQxOU12TTU1UnpXbU95VUtnVjZaaDZKME9ZQk8xM25aaUE3NFh3elVNM2gtTGJXYzJOVHRscnEzN0FFT1c3WXZCTlpmQi0xZVBYVUVDa3NsZWUwLVV6QjM4NXVXY1pCdXJFNXdjMDQzV2s5RXJfSldpY0lrM3QtaGozM043bnVVeDdSSzVRQ3VfYWotd2xra09EckJWWkF0a25lYno2TkFJcnV6UQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwvip5oz2",
+   "auto": true,
+   "added": "2026-11-25T02:41:43.187Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-24",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "How do new ESIC rules make sickness and maternity benefits easier to claim? | Rules set timelines for processing benefits | Inshorts",
+   "summary": "Reported by Inshorts. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMUplYUlFMG8tUUVPbkJiSmV2YlJxbGY1M3c4VUV4RlhWZWZ6S3ZLWm1QZWFibkltTXFlalc0emR6ZVF3VHIxR3dQNXFuN1lhY0NVcVprUDJxMlNWNHVfTVBqSWN2cjB6NUZab1RVeTdKMzkzdExnS0JJb0xDSTNXWVZfN181aFkwTGtHOGU5OEp5UXJGOTZwcTRlQ1RucW5rVHo1cnk4NDQzQnBVUUNzcDBFVVM5REFkVkHSAb8BQVVfeXFMTXFIekdvYnlxV3NocWRCYWpNS1F4LWxDLXFibHFXczREd1g4VkRzSC1kRmx5ckNkMlZCb0JwM2lnTHA1dVNWelM0VWRGeFVoNzc1Y3l3WXlINDRDXzhBQWxVa2dTRmRydlR3OHRYc0FHdEZHaWUtY0QwUHRaTkcwQ29zbHVNWEZxZHVvVkp6dFY1RnliRTVhbHVGc0JnQ3pHOW1ha2xTYnZJNjBUU1lxZ24xMTNCYUt6MzEwSG13TlE?oc=5",
    "official": "https://labour.gov.in"
   },
   {
@@ -146,6 +194,22 @@
    "title": "ESIC Udyogamandal Recruitment 2026 – Walkin for 40 Super Specialist, Specialist and More Posts",
    "summary": "Reported by FreeJobAlert.Com. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUczU0RYV3B4VUt1YjRiQlVYT1RjM3IxNDZxMEN5MWtYeGlYY3dEYUhsRDVmTFlZTmdoMWczRVZiaTJzMWw3dkU4eERhQjlHb002Q3pORWY5ZDJfTGdwQWkzdzQtcE5CMDd1SVptZnNMMFlaLW9SMUNOWlFLVnZhNThISTBaNTVXU045X1JKWnVhaV9ZVFRndVFtSnVSYXczcnV6bGJEd0doYVli?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwvip5oz3",
+   "auto": true,
+   "added": "2026-11-25T02:41:43.187Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-23",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC to pay sickness, maternity benefits without separate claims: Who qualifies",
+   "summary": "Reported by CNBC TV18. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSHRQY191Q3VWTURVdEFOcHBRZjB4SWowOHNtUWU4RGt4YVVUNjgwZ28xdWZqczJUV3o0Qm9KamlPcGhnNXVuRFBNaV9fZlhPQ1VvYjFLRVhpWXJ2U0NSSjhZVUFoUi16SnB3bm9uTmtmZUVvY1VrUG8xRjBIdlRXTUlXTGpuZzJvOWV4bU1sWUxYWlViYWJVYVJ2NDNSRHM1YjdBSTBueG94T1NOVVdPRTF2OGVGQlg3U1YwRUpKQnNibUFfX1VaT0pIRlliY1NjQXBBN2130gHbAUFVX3lxTFAwNFZQOFh4eFJOLU5wdEpRWVNHaTU3MDM0YkprNFM5YXdUUThwdXEyNC1wbWRmVWhRRnNpZDFKS0xwTzY0M3pFTWlKSGIxdlRtcm0zbkpZc2F4aXJCNFV6ekI0LUlrbE9mWl9ETTl0a1JEcm5NR0t2VlVtT0RBQnpUZzhvQ29FRExlOXpMaF8wTWw5T2hvdkt6ZHl3ejF3TzV1NkxvREljODVQMlRxRFU5bHhlQndLMlRnTXhSX3hMWUdULTNoNy1NUXpHek9rMjViZjAtbmc0N0hWTQ?oc=5",
    "official": "https://labour.gov.in"
   },
   {
@@ -843,25 +907,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -881,21 +926,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -915,6 +961,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
