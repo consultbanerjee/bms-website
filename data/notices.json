@@ -1,9 +1,73 @@
 {
- "updated": "2026-11-26",
- "last_check": "2026-11-26T01:53:51.026Z",
- "checks": 32,
+ "updated": "2026-11-27",
+ "last_check": "2026-11-27T01:51:20.141Z",
+ "checks": 33,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwybs1e40",
+   "auto": true,
+   "added": "2026-11-27T01:51:18.796Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-26",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "Why CJP's Abhijeet Dipke, Saurav Das, Ashutosh Ranka Are Facing Look Out Circulars",
+   "summary": "Reported by NDTV. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2J2enNITHNFNkpnSVFoMlhETXZEOV9YaDNwT21SRjR0c0gxLUo4dnBRUkxpOEw1VjhsT1huX3QzZFlqelNiWm5OdHhENGg3VXlNY2l2enhPMW5EZFNkY1hCZDU3YXNsUGNRbU5JVUpBV05FX0RNbVdqN0N4Qnc1ay1BclhaYVlfdUtqbGRZa0EzcTY5aXFvNjRqLXowWnRzTDhKLWFiTVdQVDk0QXgwXzhnUmVGRUZNdUhLNtIBxAFBVV95cUxQYXJteXZ5MzJ3Zk5PbGZIc2RzUnZhVUxSZktZX3RXX1YyaXpNWkE5N1owZXY5OW1lWnpmb3ZKcUxXS0ZEeFhyTDJTWV9JMzZNYVAwdzdORnBYN2pmYlByUjl3THJfVlkwem1jZ3ZKNW5oZGdpODF3WVdmU2h3TEl0bkMxcmc0TVFRUjJCR2NEQ2hxUTFvbUpjeXpqemJIbjFzWGN0ak5NdTF2c19WUUFZSWdabC00d1ZVZGxSNzZ5SjUzTHBH?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwybs1e41",
+   "auto": true,
+   "added": "2026-11-27T01:51:18.796Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-26",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Gazette",
+   "title": "CJP's Saurav Das Faces Look Out Circular, Centre Tells HC",
+   "summary": "Reported by News Arena India. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEJGU0xRQnctbDJzX1l3Tk1od0JyN3dPYzBNYlYtVkVFRWFrQXJxLTR0WWV4aXkweGRreEktZ0xJbjFVb0V3YmI1VG1rMkhkWUdkUEpSX25JNW1YZVpNUzg4X1diS3p4by1FVjZLNlJyOFlwZEpjM3JvUFJwT01OQnpNakpZX3ZsUnc1U3NYYnkyS2dsYWctNmIyLXA?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwybs1e42",
+   "auto": true,
+   "added": "2026-11-27T01:51:18.796Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-26",
+   "jurisdiction": "State",
+   "state": "Delhi",
+   "category": "Gazette",
+   "title": "Fresh Trouble For CJP's Saurav Das Over Passport Discrepancies? Look Out Circular Issued, Centre Tells Delhi High Court",
+   "summary": "Reported by NDTV Profit. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOVNvT2hBYkxtcl9Ja3FGTHdrWjAtOGEzdzVCV1ZjaG0yeTJqT1c2VExWQjlDeGlNWUxxRTdWV2ZkM1FZcEdNdUlnMi1oYWtpN2Nady1QMDl1cHFJdEZtNW1ySm9zUkF0SERSRldKVlFabnRtQXRSSkZHdXdBcEQydElfaEppWDJsX3V3VTkxM1M2Sno2RzhXUFY3eGx0Z3R5RG9qcnpfSC1QRjlzaHN0bVhncWxmelhTSV9OSUE2RENrS2d2Wmxjd2JjcHRKYWFOLXlUb3VXWmthTDczNVpuWjVadGZsQW1DVDRCdXctOA?oc=5",
+   "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwybs1km5",
+   "auto": true,
+   "added": "2026-11-27T01:51:19.030Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-25",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC Recruitment 2026: Walk-in for 25 Vacancies",
+   "summary": "Reported by FreeJobAlert.Com. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRF83SjdNUkJZQ213SGtzRnRRVFpYX2JGWlgxMGRKRWJwQWlMM1NVWkZrb3NKT25xYUxLN0VBbnR5N25DRjl4NF95b3V3RHJuNVhIZ1V5ZUliRHl2b0loYUgwTGM3MzZFZThPNTZvOHdfYkpUcFVIVWRraU9vYk5uODFaWDJoZDNrUXNFTjIwRXkzNFNWLVhGanJR?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwu63xdk1",
    "auto": true,
@@ -66,6 +130,38 @@
    "title": "How do new ESIC rules make sickness and maternity benefits easier to claim? | Rules set timelines for processing benefits | Inshorts",
    "summary": "Reported by Inshorts. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMUplYUlFMG8tUUVPbkJiSmV2YlJxbGY1M3c4VUV4RlhWZWZ6S3ZLWm1QZWFibkltTXFlalc0emR6ZVF3VHIxR3dQNXFuN1lhY0NVcVprUDJxMlNWNHVfTVBqSWN2cjB6NUZab1RVeTdKMzkzdExnS0JJb0xDSTNXWVZfN181aFkwTGtHOGU5OEp5UXJGOTZwcTRlQ1RucW5rVHo1cnk4NDQzQnBVUUNzcDBFVVM5REFkVkHSAb8BQVVfeXFMTXFIekdvYnlxV3NocWRCYWpNS1F4LWxDLXFibHFXczREd1g4VkRzSC1kRmx5ckNkMlZCb0JwM2lnTHA1dVNWelM0VWRGeFVoNzc1Y3l3WXlINDRDXzhBQWxVa2dTRmRydlR3OHRYc0FHdEZHaWUtY0QwUHRaTkcwQ29zbHVNWEZxZHVvVkp6dFY1RnliRTVhbHVGc0JnQ3pHOW1ha2xTYnZJNjBUU1lxZ24xMTNCYUt6MzEwSG13TlE?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwybs1km3",
+   "auto": true,
+   "added": "2026-11-27T01:51:19.030Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-24",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC benefits simplified: Check new claim rules and payment deadlines",
+   "summary": "Reported by Business Standard. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSldOZFFKSnRoWTVjbG1yNTBLLUFBTzZUUzhxQlg2MGxLbE1vSWtkc3BSUFVCTHM4dDNkU0x6czEtci1BQmVYMXgwb1hkWlJ2YmdwS2xTSE13OVRldHNFWG10ZWRWWXplbmtqdDdyeTJUWDl4cWx1Tk1wMUN5eHdlUGoxeWpGSjNhTzJDdE16QkZMbVE2YmROVkRNdU1FZjhrNkNqTERQLWtyWGIxMHcyU1BDRmduZXk3NlVjM2s3MlFJUlpzalJiMGludG12WDVhbnZ6VC1wTEFfYXhVdlBtd9IB5gFBVV95cUxNeEVBSFVvUFUwdnVGTlFBUXZFNXZnWU1mVGEtWHdEWllVTVhNYVNFbmZRQ2RQVXc5SnNFOFNTUWNwOE9uSFlNLWlfaUFWbVQwLTlaQkNaejZ1TzBjNl9lTW5yUjJFeXQzYnZvZ2Y4ZmU0NzFqNk9fVEtJZUJuY0hGUjg3RV9xdXRqSHRnR2JGcHA4aXRtaHpUX3dkVG54YlpqRGJDSXpPQ0I5cVJVNzVReXhOVzBfcWN1cEpFaEdHVWtZbHJ0M1pQSWt5d1JhZUlHLVRyelRZZGZldGRvM0tjY094bW9VUQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwybs1km4",
+   "auto": true,
+   "added": "2026-11-27T01:51:19.030Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-24",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "ESIC rules eased: No separate claims needed for sickness, maternity benefits; check payout deadlines",
+   "summary": "Reported by Livemint. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUjVvcnFqZmhQbF9NeDNxQU9QbU9GSWYwZ3FqYkV6S2tuakt3RzZqWjlUeG9vWlVLd1U2YkxuZTYwRU9FWTRjSlFoc2cwWERSNkdJRHZoNXIwWUZsLWNmZm5qMUdjOVNTZzBuY1M5elhUaFNoME5MbExQVVRBVmw2S0ltejA2RS1uVzBYSFdvV2FRc0pqRFA4MXV4ZkVENmdRLW80cm1sLUdtNnF1UDZfRklWbGNybFp6YXYzdmdGajdmZmVOUlNXRndlOGxIS2FGNmVZa2hKeWc4UVliTG9lcjZMQkdHSi1qS2V5VnlRS2VjSi1rUHpkY0RUaHplQdIB_gFBVV95cUxNUjVvcnFqZmhQbF9NeDNxQU9QbU9GSWYwZ3FqYkV6S2tuakt3RzZqWjlUeG9vWlVLd1U2YkxuZTYwRU9FWTRjSlFoc2cwWERSNkdJRHZoNXIwWUZsLWNmZm5qMUdjOVNTZzBuY1M5elhUaFNoME5MbExQVVRBVmw2S0ltejA2RS1uVzBYSFdvV2FRc0pqRFA4MXV4ZkVENmdRLW80cm1sLUdtNnF1UDZfRklWbGNybFp6YXYzdmdGajdmZmVOUlNXRndlOGxIS2FGNmVZa2hKeWc4UVliTG9lcjZMQkdHSi1qS2V5VnlRS2VjSi1rUHpkY0RUaHplQQ?oc=5",
    "official": "https://labour.gov.in"
   },
   {
@@ -907,25 +1003,6 @@
    "curated": true
   },
   {
-   "id": "n011",
-   "date": "2026-11-01",
-   "approx": true,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "Tribunal",
-   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
-   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
-   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
-   "pdf": "",
-   "tags": [
-    "CGIT",
-    "EPF appeals"
-   ],
-   "urgent": true,
-   "curated": true
-  },
-  {
    "id": "n003",
    "date": "2026-11-01",
    "approx": false,
@@ -945,21 +1022,22 @@
    "curated": true
   },
   {
-   "id": "n013",
-   "date": "2026-10-13",
-   "approx": false,
-   "jurisdiction": "State",
-   "state": "Mizoram",
-   "category": "Codes & Rules",
-   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
-   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
-   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
-   "official": "https://egazette.gov.in",
+   "id": "n011",
+   "date": "2026-11-01",
+   "approx": true,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Tribunal",
+   "title": "CGIT special campaign for EPF appeals, 16–27 November 2026",
+   "summary": "Central Government Industrial Tribunal, Chennai has preponed listed EPF appeals for a special campaign; other CGIT benches have issued campaign notices too.",
+   "source": "https://apps.labour.gov.in/cgit/notices-circulars",
+   "official": "https://apps.labour.gov.in/cgit/notices-circulars",
    "pdf": "",
    "tags": [
-    "State rules"
+    "CGIT",
+    "EPF appeals"
    ],
-   "urgent": false,
+   "urgent": true,
    "curated": true
   },
   {
@@ -979,6 +1057,24 @@
     "Deadline"
    ],
    "urgent": true,
+   "curated": true
+  },
+  {
+   "id": "n013",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "State",
+   "state": "Mizoram",
+   "category": "Codes & Rules",
+   "title": "Mizoram notifies OSH and Social Security Code Rules, 2026",
+   "summary": "Gazette notifications of 13 Oct 2026 give Mizoram its own rules under two of the four Labour Codes.",
+   "source": "https://www.comply360.in/labor-law-library/gazette-notifications/",
+   "official": "https://egazette.gov.in",
+   "pdf": "",
+   "tags": [
+    "State rules"
+   ],
+   "urgent": false,
    "curated": true
   },
   {
