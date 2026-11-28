@@ -6,10 +6,10 @@
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
 
   var I18N = {
-    en: { media: "Media", home: "Home", about: "About", whos: "Who's Who", kk: "Karya Karini", fed: "Federations", press: "Press", blog: "Blog", videos: "Videos", gallery: "Gallery", dl: "Downloads", contact: "Contact",
+    en: { media: "Media", home: "Home", about: "About", whos: "Who's Who", kk: "Karya Karini", fed: "Federations", press: "Press", blog: "Blog", videos: "Videos", gallery: "Gallery", dl: "Downloads", contact: "Contact", library: "Library", mail: "Mail", eoffice: "eOffice",
       heroEyebrow: "India's largest trade union", heroH: "Industrialise the Nation. Labourise the Industry. Nationalise the Labour.", heroP: "Bharatiya Mazdoor Sangh — the organised voice of Indian workers since 1955, with federations in every major industry and affiliated unions across the country.",
       ctaA: "Latest Press Notifications", ctaB: "Know Our Leadership", latest: "Latest Press Notifications", all: "View all →", whosH: "Who's Who — National Office Bearers", kkH: "National Karya Karini — Structure", fedH: "Federations", galH: "From Our Gallery", minH: "With Union Ministers", contactH: "Contact Us", aboutH: "About BMS", blogH: "From the Blog", vidH: "Videos & Reels", quickH: "Quick Links", dirH: "Directories", connH: "Connect with BMS", newsH: "News & Spotlight", search: "Search BMS…" },
-    hi: { media: "मीडिया", home: "मुख्य पृष्ठ", about: "परिचय", whos: "हू'ज़ हू", kk: "राष्ट्रीय कार्यकारिणी", fed: "महासंघ", press: "प्रेस", blog: "ब्लॉग", videos: "वीडियो", gallery: "गैलरी", dl: "डाउनलोड", contact: "संपर्क",
+    hi: { media: "मीडिया", home: "मुख्य पृष्ठ", about: "परिचय", whos: "हू'ज़ हू", kk: "राष्ट्रीय कार्यकारिणी", fed: "महासंघ", press: "प्रेस", blog: "ब्लॉग", videos: "वीडियो", gallery: "गैलरी", dl: "डाउनलोड", contact: "संपर्क", library: "पुस्तकालय", mail: "मेल", eoffice: "ई-ऑफिस",
       heroEyebrow: "भारत का सबसे बड़ा श्रमिक संगठन", heroH: "राष्ट्र का औद्योगीकरण। उद्योगों का श्रमिकीकरण। श्रमिकों का राष्ट्रीयकरण।", heroP: "भारतीय मज़दूर संघ — 1955 से भारतीय श्रमिकों की संगठित आवाज़; प्रत्येक प्रमुख उद्योग में महासंघ और देशभर में सम्बद्ध यूनियनें।",
       ctaA: "ताज़ा प्रेस विज्ञप्तियाँ", ctaB: "हमारा नेतृत्व", latest: "ताज़ा प्रेस विज्ञप्तियाँ", all: "सभी देखें →", whosH: "हू'ज़ हू — राष्ट्रीय पदाधिकारी", kkH: "राष्ट्रीय कार्यकारिणी — संरचना", fedH: "महासंघ", galH: "हमारी गैलरी", minH: "केंद्रीय मंत्रियों के साथ", contactH: "संपर्क करें", aboutH: "भारतीय मज़दूर संघ के बारे में", blogH: "ब्लॉग से", vidH: "वीडियो एवं रील्स", quickH: "त्वरित लिंक", dirH: "निर्देशिकाएँ", connH: "हमसे जुड़ें", newsH: "समाचार एवं विशेष", search: "खोजें…" }
   };
@@ -50,11 +50,13 @@
   }
 
   /* ---------- shell ---------- */
-  var NAV = [["index.html", "home"], ["whos-who.html", "whos", [["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"]]], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "media", [["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"]]], ["index.html#contact", "contact"]];
+  var NAV = [["index.html", "home"], ["whos-who.html", "whos", [["whos-who.html", "whos"], ["karya-karini.html", "kk"], ["federations.html", "fed"]]], ["press.html", "press"], ["blog.html", "blog"], ["videos.html", "media", [["videos.html", "videos"], ["gallery.html", "gallery"], ["downloads.html", "dl"]]], ["@library", "library"], ["@mail", "mail"], ["@eoffice", "eoffice"], ["index.html#contact", "contact"]];
   function shell() {
     var cur = (location.pathname.split("/").pop() || "index.html");
     var site = data.site || {};
+    var XL = (site.logins || {}), XM = { "@library": "digital", "@mail": "email", "@eoffice": "eoffice" };
     var nav = NAV.map(function (n) {
+      if (XM[n[0]]) { var xu = (XL[XM[n[0]]] || {}).url; return xu ? '<li><a href="' + esc(xu) + '" target="_blank" rel="noopener">' + t(n[1]) + "</a></li>" : ""; }
       var kids = n[2], on = n[0] === cur || (kids && kids.some(function (k) { return k[0] === cur; })) ? ' aria-current="page"' : "";
       if (!kids) return '<li><a href="' + n[0] + '"' + on + ">" + t(n[1]) + "</a></li>";
       return '<li class="dd"><a href="' + n[0] + '"' + on + ' aria-haspopup="true">' + t(n[1]) + ' <i class="cv" aria-hidden="true">▾</i></a><ul class="sub">' + kids.map(function (k) { return '<li><a href="' + k[0] + '"' + (k[0] === cur ? ' aria-current="page"' : "") + ">" + t(k[1]) + "</a></li>"; }).join("") + "</ul></li>";
@@ -93,8 +95,8 @@
   }
 
   function loginLinks(cls) {
-    var L = (data.site || {}).logins || {}, ic = { digital: "📚", email: "✉", admin: "🔐" };
-    return ["digital", "email", "admin"].map(function (k) {
+    var L = (data.site || {}).logins || {}, ic = { eoffice: "🏢", digital: "📚", email: "✉", admin: "🔐" };
+    return ["eoffice", "digital", "email", "admin"].map(function (k) {
       var x = L[k]; if (!x) return "";
       return x.url ? '<a class="' + cls + '" href="' + esc(x.url) + '" rel="noopener"><i>' + ic[k] + "</i><span><b>" + esc(x.label) + "</b><small>" + esc(x.title) + "</small></span></a>"
         : '<span class="' + cls + ' off" aria-disabled="true"><i>' + ic[k] + "</i><span><b>" + esc(x.label) + "</b><small>" + esc(x.title) + " · Coming soon</small></span></span>";
