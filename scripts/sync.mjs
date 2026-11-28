@@ -1,4 +1,4 @@
-// Daily sync for bharatiyamazdoorsangh.com  (Node 20+, no dependencies)
+// Daily sync for bharatiyamazdoorsangh.org  (Node 20+, no dependencies)
 // Runs at 00:00 IST via .github/workflows/daily-sync.yml
 //
 // 1. Facebook (official Graph API) — needs FB_PAGE_TOKEN: photos -> gallery, "press" posts -> press, portraits -> Who's Who
@@ -159,7 +159,7 @@ async function blogs() {
       const p = JSON.parse(await fs.readFile(path.join(dir, f), "utf8"));
       if (!p.slug) p.slug = f.replace(/\.json$/, "");
       if (process.env.FB_AUTOPOST === "true" && TOKEN && p.share_to_facebook && !p.fb_post_id) {
-        const body = new URLSearchParams({ message: `${p.title}\n\n${p.summary || ""}`, link: `https://bharatiyamazdoorsangh.com/blog.html#${p.slug}`, access_token: TOKEN });
+        const body = new URLSearchParams({ message: `${p.title}\n\n${p.summary || ""}`, link: `https://bharatiyamazdoorsangh.org/blog.html#${p.slug}`, access_token: TOKEN });
         const r = await (await fetch(`https://graph.facebook.com/${GV}/${encodeURIComponent(PAGE)}/feed`, { method: "POST", body })).json();
         if (r.id) { p.fb_post_id = r.id; await fs.writeFile(path.join(dir, f), JSON.stringify(p, null, 1) + "\n"); log("shared to facebook:", p.slug); } else log("autopost failed:", r.error && r.error.message);
       }
