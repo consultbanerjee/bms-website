@@ -1,6 +1,6 @@
 {
   "name": "Bharatiya Mazdoor Sangh",
-  "domain": "bharatiyamazdoorsangh.com",
+  "domain": "bharatiyamazdoorsangh.org",
   "address": "Dattopant Thengadi Bhawan, 27, Deendayal Upadhyay Marg, New Delhi-110002",
   "phone": "011-23222654",
   "fax": "011-23212648",
@@ -15,9 +15,9 @@
       "label": "eOffice",
       "title": "BMS eOffice Login",
       "desc": "Staff and office-bearers: communication, accounts, email and file movement.",
-      "url": "https://eoffice.bharatiyamazdoorsangh.com"
+      "url": "https://eoffice.bharatiyamazdoorsangh.org"
     },
-    "_note": "Set each url when its subdomain is ready (e.g. https://mail.bharatiyamazdoorsangh.com). Empty url shows 'Coming soon'.",
+    "_note": "Library, Mail and eOffice tabs in the top menu read these urls. Empty url hides the tab.",
     "digital": {
       "label": "Digital",
       "title": "Digital Library",
@@ -27,8 +27,8 @@
     "email": {
       "label": "Email",
       "title": "Email Login",
-      "desc": "Staff and office-bearer organisation email.",
-      "url": ""
+      "desc": "Staff and office-bearer organisation email (sign in with the full address, e.g. info@bharatiyamazdoorsangh.org).",
+      "url": "https://bh-50.webhostbox.net:2096/"
     },
     "admin": {
       "label": "Admin",
