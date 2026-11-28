@@ -7,4 +7,4 @@ Fonts    : Poppins (English), Noto Sans Devanagari (Hindi) - both free on Google
 Rules    : Do not stretch, recolour or add effects to the emblem. Keep clear space equal to the height of the gear on all sides.
            Use the white-background PNG on dark or coloured backgrounds only after placing it on a white panel.
 Address  : Dattopant Thengadi Bhawan, 27 Deendayal Upadhyay Marg, New Delhi-110002
-Website  : bharatiyamazdoorsangh.com
+Website  : bharatiyamazdoorsangh.org
