@@ -1,9 +1,73 @@
 {
- "updated": "2026-11-27",
- "last_check": "2026-11-27T01:51:20.141Z",
- "checks": 33,
+ "updated": "2026-11-28",
+ "last_check": "2026-11-28T01:34:03.080Z",
+ "checks": 34,
  "note": "Curated by Claude on 15 Nov 2026 from public sources; the daily job adds auto-detected items.",
  "items": [
+  {
+   "id": "amwzqlnbw0",
+   "auto": true,
+   "added": "2026-11-28T01:34:01.052Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-27",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO rules: Labour Ministry revises investment norms for exempted PF trusts; check equity and debt limits, key timelines",
+   "summary": "Reported by Livemint. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQLVRTTUNPNWxDZDVmMEZvSGV5MEd3eTJEWjVkUUJBYkMteFR4WnhTUHpHaFZXb2lNdGZwb1RTU1A4NmxkNGtVdFlBNmRfb0lya2FxbS1WOGdoalY3dHphMlZoV2hVV2Jsb1kyc29VRzlhV0tXTmlxZE5IR19xbkJ1a0w4ekZCcVRSTjE3dERBWU5OdTh0NGJEY1pIXzJ5ZnhwdGU1VVpHZjRIeUdNeTVUcE5PeEUyek9MeTlCMUFfNXNxZUxHX1V1N0UzOWttYXQ2ZDNiUENxVW80XzJoSzBkSVhQMkNVem9aa1dqRnhlZjFzVGQ5aUpWaFA1bllrbWVhQzE1NUVJU29jU004Sld3TTdrTdIBmAJBVV95cUxQZzdjMTZ2SGVHY0NPd282N3N1ZWlwaW5XRFJOOHJMX09nQVVwR0dmMUs4MmVSV3E1LURieXZVcXNhLV9POUZQQzBvNzItbVUyRUlJVE90cVBsb1dtWW81MzBGYkttNlJpMTloUVNqSEIxYXhSMzFmdEZKZFNVVFBNbVB5Z2hSd21yRFBJaHVLbFN4bkE0OVA4V2RvSUZPQ045U1Z1NkMwekZRclRndFpnVEJjbUxHbldnN0hxclB0M2ktcTA2Q19EUndRMHpPbnlseEl3RnJZR1h5aVU3TUZEY1k0Q0g4cEMzZm5waE01XzQ0Yy1QWV9idU5ZQll0a2liSkZKRGh3NXkzNkZoaGxJRGk1cmJHTkVD?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwzqlnbw1",
+   "auto": true,
+   "added": "2026-11-28T01:34:01.052Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-27",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "Codes & Rules",
+   "title": "Labour Ministry changes PF trust investment rules; here's what is new",
+   "summary": "Reported by CNBC TV18. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdmFoZkJEMEtKVDJlTjJ6Z3NVMGh2bDU1UFFkTWtoN1ZZZFlNSW1kNDhEUkpwVmlUR2d3TjhTVzRYX3MtNG5CZmh2LV9mSnlaMkZQWjJ1WHVXZGRZNDBfV05zTXFXUXBlVmpwTGlsUkpMYXJnTUdDdTEyZW9XcHNfcmhrRDUwbEpKX0FzNGxSbzgxdzVLd0lTd1hDTUtUWmVySkVqTnJLc0pjRDRDZ2xCYWIyUzhtcG5kUkY5MWZ30gHDAUFVX3lxTE9RekdPU1FGOEM4N2EtNTVYeGE4Tnh4alpuMkVmN2p3NmcwZGdkSV91QmlMVjRXZ2RiZDRJQjV6S29Nd2tHUlR2NlVnZUk3djNOcWhBZ1BXWU5UZUpmcDNfRWotNkhUMGVoV0UwVzV4LTYwX2tydm5ELWNEY3o3eVdxZG5oNlpzaDhvLVhISk1MLUV1aktzdnhNbm5fM2dvMjNRZ2Z0ZkhmcUhmVGJ3V1U5YWZ6aFhab1o4TzNERGdFdi1Ibw?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwzqlnt12",
+   "auto": true,
+   "added": "2026-11-28T01:34:01.669Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-27",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO Revamped ECR: Step-by-Step Guide to PF Return Filing and Payment",
+   "summary": "Reported by TaxGuru. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTGluUUFiRjE3dnZyMnI4WklIVWZaaGJ4VUx1Y21MZ1BVS0ZkN1BubjJRT3ZqOGtGMndGQlJXTk56RHV6RHgzeGdrR3U5UHNDQkN4NmpFVHFmSlJrcTFhUXRlc29MUS1EMEpJSWdVV3BMNTJUSTJFRnl3Y01oaDJSOHNfSGt0SDQ3UEFwTWNYbng4Z2dWYjhjcDYwNVc?oc=5",
+   "official": "https://labour.gov.in"
+  },
+  {
+   "id": "amwzqlnt13",
+   "auto": true,
+   "added": "2026-11-28T01:34:01.669Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-27",
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "All New Rules for EPFO 2026 Explained: UPI-Based PF Withdrawals",
+   "summary": "Reported by Utkarsh Classes. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdTFZZ2lYeDNvaDdudzBHblpGbHhwN09rUGpkc1hNS296UXg1bE42bGZhcHFoOWhET1lGbDBCRUJZWVh0a3YyUWp5VWpHWnJLc2hiUjVhQ3RpZjdoakRyOC1HRjF5UTZnaHdHN1BQeUtOYVMwSC1QN3BzT3kxc2JYdW45cVhlTmRFZDhvZTlwS1BDcWl0QzkzQWw5cXFITzZ5SFd1amFLZjVxWXJleDFrM25yRWMzYzdYY2xEMnZybmx1bjdoMmFsNmYwZS1SRkFoVUxDcEp0QnB6OGk3N0ppaW1WVVJHMXY5dHVqbUhFVFhuQ0dVVGdfd2JHSQ?oc=5",
+   "official": "https://labour.gov.in"
+  },
   {
    "id": "amwybs1e40",
    "auto": true,
@@ -50,6 +114,22 @@
    "title": "Fresh Trouble For CJP's Saurav Das Over Passport Discrepancies? Look Out Circular Issued, Centre Tells Delhi High Court",
    "summary": "Reported by NDTV Profit. Open the notice for details and confirm in the official Gazette.",
    "source": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOVNvT2hBYkxtcl9Ja3FGTHdrWjAtOGEzdzVCV1ZjaG0yeTJqT1c2VExWQjlDeGlNWUxxRTdWV2ZkM1FZcEdNdUlnMi1oYWtpN2Nady1QMDl1cHFJdEZtNW1ySm9zUkF0SERSRldKVlFabnRtQXRSSkZHdXdBcEQydElfaEppWDJsX3V3VTkxM1M2Sno2RzhXUFY3eGx0Z3R5RG9qcnpfSC1QRjlzaHN0bVhncWxmelhTSV9OSUE2RENrS2d2Wmxjd2JjcHRKYWFOLXlUb3VXWmthTDczNVpuWjVadGZsQW1DVDRCdXctOA?oc=5",
+   "official": "https://egazette.gov.in"
+  },
+  {
+   "id": "amwzqlnt14",
+   "auto": true,
+   "added": "2026-11-28T01:34:01.669Z",
+   "tags": [],
+   "pdf": "",
+   "urgent": false,
+   "date": "2026-11-26",
+   "jurisdiction": "State",
+   "state": "Maharashtra",
+   "category": "Gazette",
+   "title": "Look Out Circular Issued Against CJPs Saurav Das At Request Of Maharashtra Police, Centre Tells Delhi HC",
+   "summary": "Reported by Free Press Journal. Open the notice for details and confirm in the official Gazette.",
+   "source": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcFhCTXROWGJUYVF5UzBhNnZremNyWmFYTDB4aWVrbXlTX1VoRFdWOXp4V0FMTjE3T0J0ZDhrY1V0bzBxS1VPVUZBWnVkdWZldGRtNlJVbjlfZnBLVnV0cmxTNFhReTdlejJncjRMNThwazNzVU0zb0toVzVHU1Y1eWk1MnBNMnNpdU1kSGtkNk9VN0hrcjMzbkVjU3lySHc0cldLQVZlTkZldnQyTlRLemg2X1NOMXA2RkJaclNYcUtqU2RVeXhIVnNRenBKenYzMXRCTS12aDXSAd4BQVVfeXFMTmdVMVh2M19QMWVOVlNfN1VaVDJhVGZFbUNpcHVyY1lLZFlCU0dTUndwUlVwMm5uOUFNaXlTTUxJZzhjb01YNThlT2dCMGp4WnVQLUExVkMyOU5qdUIxVXhqSVAtdVZCU2ZwQzQyVTAyb29BZHZIdFNPeGZmREhVbGFSTVhRbFR0bER4amVzWHNWZG1BMUZVSFAwQ1A0bmNETEVBMWNsNm8yWkZPeWhWVHRfNHdRUmw5RmhQSEhBWnc0a3A0ajVKLWFBLXZ3Ry1VT2Z3NmRtSDBHaTFmbzdR?oc=5",
    "official": "https://egazette.gov.in"
   },
   {
@@ -1003,25 +1083,6 @@
    "curated": true
   },
   {
-   "id": "n003",
-   "date": "2026-11-01",
-   "approx": false,
-   "jurisdiction": "Central",
-   "state": "",
-   "category": "EPFO / ESIC",
-   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
-   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
-   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
-   "official": "https://www.epfindia.gov.in",
-   "pdf": "",
-   "tags": [
-    "EPFO",
-    "Members"
-   ],
-   "urgent": false,
-   "curated": true
-  },
-  {
    "id": "n011",
    "date": "2026-11-01",
    "approx": true,
@@ -1041,22 +1102,22 @@
    "curated": true
   },
   {
-   "id": "n004",
-   "date": "2026-10-13",
+   "id": "n003",
+   "date": "2026-11-01",
    "approx": false,
    "jurisdiction": "Central",
    "state": "",
    "category": "EPFO / ESIC",
-   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
-   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "title": "EPFO: WhatsApp services and automatic settlement of inoperative accounts",
+   "summary": "From 1 Nov 2026 members can get balance and passbook on WhatsApp; inoperative EPF accounts are settled automatically (PIB release 2331157).",
    "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
    "official": "https://www.epfindia.gov.in",
    "pdf": "",
    "tags": [
     "EPFO",
-    "Deadline"
+    "Members"
    ],
-   "urgent": true,
+   "urgent": false,
    "curated": true
   },
   {
@@ -1075,6 +1136,25 @@
     "State rules"
    ],
    "urgent": false,
+   "curated": true
+  },
+  {
+   "id": "n004",
+   "date": "2026-10-13",
+   "approx": false,
+   "jurisdiction": "Central",
+   "state": "",
+   "category": "EPFO / ESIC",
+   "title": "EPFO: ECR due date for September 2026 extended to 31 October",
+   "summary": "One-time extension from 15 October. For October 2026 wages the due date is Sunday 15 November 2026; no extension announced.",
+   "source": "https://www.corplawupdates.in/updates/epfo-ecr-filing-guide",
+   "official": "https://www.epfindia.gov.in",
+   "pdf": "",
+   "tags": [
+    "EPFO",
+    "Deadline"
+   ],
+   "urgent": true,
    "curated": true
   },
   {

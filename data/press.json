@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "items": [
   {
    "id": "bms-wp-10326",
@@ -22,16 +22,6 @@
    "source": "bms.org.in"
   },
   {
-   "id": "bms-001",
-   "date": "2026-09-01",
-   "approx": false,
-   "title": "BMS delegation meets Textile Minister, raises workers' issues",
-   "summary": "A BMS delegation met the Textile Minister to discuss worker-related problems; the minister responded positively.",
-   "url": "https://www.bms.org.in/bms-delegation-met-the-textile-minister-and-discussed-different-issues-the-minister-responded-positively/",
-   "image": "https://www.bms.org.in/wp-content/uploads/2026/09/Photo-01-memorandum-to-Textile-minister-01092026.jpg",
-   "source": "bms.org.in"
-  },
-  {
    "id": "bms-wp-10315",
    "date": "2026-09-01",
    "approx": false,
@@ -39,6 +29,16 @@
    "summary": "",
    "url": "https://www.bms.org.in/on-august-17-2026-the-bharatiya-mazdoor-sangh-bms-organized-a-nationwide-protest-and-submitted-a-memorandum-of-demands-to-the-honourable-prime-minister-honourable-labour-minister-and-honorable-f/",
    "image": "assets/gallery/2026/09/bmsorgin-10315.jpg",
+   "source": "bms.org.in"
+  },
+  {
+   "id": "bms-001",
+   "date": "2026-09-01",
+   "approx": false,
+   "title": "BMS delegation meets Textile Minister, raises workers' issues",
+   "summary": "A BMS delegation met the Textile Minister to discuss worker-related problems; the minister responded positively.",
+   "url": "https://www.bms.org.in/bms-delegation-met-the-textile-minister-and-discussed-different-issues-the-minister-responded-positively/",
+   "image": "https://www.bms.org.in/wp-content/uploads/2026/09/Photo-01-memorandum-to-Textile-minister-01092026.jpg",
    "source": "bms.org.in"
   },
   {
@@ -112,16 +112,6 @@
    "source": "bms.org.in"
   },
   {
-   "id": "bms-007",
-   "date": "2026-02-01",
-   "approx": true,
-   "title": "BMS will not participate in the 12 February 2026 general strike",
-   "summary": "BMS stated it does not support the strike, which it described as politically motivated.",
-   "url": "https://www.bms.org.in/bms-makes-it-unequivocally-clear-that-it-does-not-support-and-will-not-participate-in-the-general-strike-scheduled-for-12-february-2026-which-has-been-called-with-political-motives-by-certain-central/",
-   "image": "assets/press/970a8c4957a2.webp",
-   "source": "bms.org.in"
-  },
-  {
    "id": "bms-006",
    "date": "2026-02-01",
    "approx": true,
@@ -129,6 +119,16 @@
    "summary": "Shri S. Mallesham elected President and Shri Surendra Kumar Pandey General Secretary of the new committee.",
    "url": "https://www.bms.org.in/executive-body-was-also-declared-consecutively-in-the-conference-in-which-representation-of-women-activists-from-different-sectors-was-phenomenal/",
    "image": "assets/press/2288ef1167d0.webp",
+   "source": "bms.org.in"
+  },
+  {
+   "id": "bms-007",
+   "date": "2026-02-01",
+   "approx": true,
+   "title": "BMS will not participate in the 12 February 2026 general strike",
+   "summary": "BMS stated it does not support the strike, which it described as politically motivated.",
+   "url": "https://www.bms.org.in/bms-makes-it-unequivocally-clear-that-it-does-not-support-and-will-not-participate-in-the-general-strike-scheduled-for-12-february-2026-which-has-been-called-with-political-motives-by-certain-central/",
+   "image": "assets/press/970a8c4957a2.webp",
    "source": "bms.org.in"
   },
   {
@@ -172,16 +172,6 @@
    "source": "bms.org.in"
   },
   {
-   "id": "bms-010",
-   "date": "2025-11-08",
-   "approx": true,
-   "title": "32-member delegation of 15 federations meets Labour Minister on social security",
-   "summary": "Led by Shri Surendra Kumar Pandey; unorganised-sector social security called the government's top priority.",
-   "url": "https://www.bms.org.in/a-32-member-delegation-comprising-representatives-from-15-all-india-federations-working-in-the-unorganised-sector-and-led-by-shri-surendra-kumar-pandey-all-india-deputy-general-secretary-bms-met-t/",
-   "image": "assets/press/d83abaffd30a.webp",
-   "source": "bms.org.in"
-  },
-  {
    "id": "bms-wp-9164",
    "date": "2025-11-08",
    "approx": false,
@@ -189,6 +179,16 @@
    "summary": "In response to the demands raised by 15 Unorganised Sector Federations affiliated with the Bharatiya Mazdoor Sangh (BMS), the Union Minister for Labour and Employment,",
    "url": "https://www.bms.org.in/a-32-member-delegation-comprising-representatives-from-15-all-india-federations-working-in-the-unorganised-sector-and-led-by-shri-surendra-kumar-pandey-all-india-deputy-general-secretary-bms-met-t/",
    "image": "assets/gallery/2025/11/bmsorgin-9164.jpg",
+   "source": "bms.org.in"
+  },
+  {
+   "id": "bms-010",
+   "date": "2025-11-08",
+   "approx": true,
+   "title": "32-member delegation of 15 federations meets Labour Minister on social security",
+   "summary": "Led by Shri Surendra Kumar Pandey; unorganised-sector social security called the government's top priority.",
+   "url": "https://www.bms.org.in/a-32-member-delegation-comprising-representatives-from-15-all-india-federations-working-in-the-unorganised-sector-and-led-by-shri-surendra-kumar-pandey-all-india-deputy-general-secretary-bms-met-t/",
+   "image": "assets/press/d83abaffd30a.webp",
    "source": "bms.org.in"
   },
   {
