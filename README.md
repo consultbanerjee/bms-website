@@ -1,4 +1,4 @@
-# Bharatiya Mazdoor Sangh – bharatiyamazdoorsangh.com
+# Bharatiya Mazdoor Sangh – bharatiyamazdoorsangh.org
 
 Static, mobile-first website (no build step). Data lives in `data/*.json`; pages render from it.
 
@@ -6,7 +6,7 @@ Static, mobile-first website (no build step). Data lives in `data/*.json`; pages
 Home · Who's Who (National Office Bearers: name, phone, email, photo) · National Karya Karini (structure, no names) · Federations (38 names, no leaders) · Press Notifications · Gallery
 
 ## Go live (GitHub Pages)
-1. Create a repo, upload ALL files (this zip is under 100 files). Settings → Pages → Deploy from branch `main` / root. `CNAME` already says bharatiyamazdoorsangh.com; point the domain's DNS as GitHub Pages instructs.
+1. Create a repo, upload ALL files (this zip is under 100 files). Settings → Pages → Deploy from branch `main` / root. `CNAME` already says bharatiyamazdoorsangh.org; point the domain's DNS as GitHub Pages instructs.
 2. Settings → Actions → General → Workflow permissions → **Read and write**.
 
 ## Daily sync at 00:00 IST
